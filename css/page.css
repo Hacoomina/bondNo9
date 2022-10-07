@@ -351,7 +351,6 @@
     }
     .careersContainer div:nth-of-type(2) > ul li:hover{
         background-image: url('../images/icon_arrow_down.png');
-        margin-bottom: 35px;
     }
     .careersContainer div:nth-of-type(2) > ul li p{
         font-size: 12px; font-weight: 400; color: #6e6e6e; opacity: 0; transition-property: opacity; display: none; line-height: 16px; margin-top: 20px;
@@ -1430,16 +1429,18 @@
     .careersContainer div:nth-of-type(2) > ul li:not(:last-child){
         margin-bottom: 35px;
     }
-    .careersContainer div:nth-of-type(2) > ul li a{
-        font-size: 12px; font-weight: 400; text-decoration: none; color: black; display: inline-block; line-height: 12px;
-        background: url('../images/icon_arrow.png') right top / contain no-repeat; padding-right: 40px;
+    .careersContainer div:nth-of-type(2) > ul li{
+        font-size: 14px; font-weight: 400; text-decoration: none; color: black; display: block; line-height: 12px;
+        background: url('../images/icon_arrow.png') right top / 20px no-repeat; padding-right: 40px;
     }
-    .careersContainer div:nth-of-type(2) > ul li:hover a{
+    .careersContainer div:nth-of-type(2) > ul li:hover{
         background-image: url('../images/icon_arrow_down.png');
-        margin-bottom: 35px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li p:first-of-type{
+        margin-top: 25px;
     }
     .careersContainer div:nth-of-type(2) > ul li p{
-        font-size: 14px; font-weight: 400; color: #6e6e6e; opacity: 0; transition-property: opacity; display: none; 
+        font-size: 14px; font-weight: 400; color: #6e6e6e; opacity: 0; transition-property: opacity; display: none; line-height: 16px;
     }
     .careersContainer div:nth-of-type(2) > ul li:hover p{
         opacity: 1; display: block;
@@ -2527,16 +2528,18 @@
     .careersContainer div:nth-of-type(2) > ul li:not(:last-child){
         margin-bottom: 35px;
     }
-    .careersContainer div:nth-of-type(2) > ul li a{
-        font-size: 17px; font-weight: 400; text-decoration: none; color: black; display: inline-block; line-height: 12px;
-        background: url('../images/icon_arrow.png') right top / contain no-repeat; padding-right: 45px;
+    .careersContainer div:nth-of-type(2) > ul li{
+        font-size: 17px; font-weight: 400; text-decoration: none; color: black; display: block; line-height: 12px;
+        background: url('../images/icon_arrow.png') right top / 20px no-repeat; padding-right: 40px;
     }
-    .careersContainer div:nth-of-type(2) > ul li:hover a{
+    .careersContainer div:nth-of-type(2) > ul li:hover{
         background-image: url('../images/icon_arrow_down.png');
-        margin-bottom: 35px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li p:first-of-type{
+        margin-top: 25px;
     }
     .careersContainer div:nth-of-type(2) > ul li p{
-        font-size: 14px; font-weight: 400; color: #6e6e6e; opacity: 0; transition-property: opacity; display: none; 
+        font-size: 14px; font-weight: 400; color: #6e6e6e; opacity: 0; transition-property: opacity; display: none; line-height: 16px;
     }
     .careersContainer div:nth-of-type(2) > ul li:hover p{
         opacity: 1; display: block;
