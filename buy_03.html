@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bond No.9</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="searchArea">
+        <input type="search" placeholder="search">
+        <input type="button" value="X" class="btn_close"/>
+    </div>
+    <header>
+        <div class="poppins">
+        <input type="button" value="mui" class="muiArea" data-popName="muiArea">
+        <h1>
+            <a href="index.html">
+                <img src="images/logo.png" alt="welcome to bondno9">
+            </a>
+        </h1>
+        <nav id="muiArea">
+            <ul >
+                <li>
+                  SHOP
+                    <ol>
+                        <li>
+                            <a href="eauDeParfum.html">EAU DE PARFUM</a>
+                            <a href="byGender_01.html">BY GENDER</a>
+                            <a href="byScentType.html">BY SCENT TYPE</a>
+                        </li>
+                        <li>
+                            <a href="theDubaiCollection.html">THE DUBAI COLLECTION</a>
+                            <a href="ecoChic.html">ECO CHIC</a>
+                        </li>
+                        <li>
+                            <a href="harrods.html">HARRODS</a>
+                            <a href="saksFifthAve.html">SAKS FIFTH AVE</a>
+                        </li>
+                    </ol>
+                <li><a href="whatsNew.html">WHAT'S NEW</a></li>
+                <li><a href="bestSellers.html">BEST SELLERS</a></li>
+                <li><a href="gifts.html">GIFTS</a></li>
+                <li>
+                  ABOUT
+                  <ol>  
+                    <li><a href="philosophy.html">PHILOSOPHY</a></li>
+                    <li><a href="careers.html">	CAREERS</a></li>
+                    <li><a href="storeLocations.html">STORES</a></li>
+                  </ol>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <a href="login.html">LOG IN</a>
+            <input type="button" value="search" data-popName="searchArea" class="btn_open">
+            <a href="buy_01.html">shop</a>
+        </div>
+    </div>
+    </header>
+    <!-- header fin -->
+
+    <section class="buyContainer_03 poppins">
+        <h2 class="nanum">CHECKOUT</h2>
+        <ol class="stepper">
+            <li>
+                <span>1</span>
+                SHIPPING
+            </li>
+            <li>
+                <span>2</span>
+                PAYMENT &amp; REVIEW
+            </li>
+        </ol>
+        <div>
+            <div class="payWith">
+                <h3>PAY WITH</h3>
+                <p>Have international billing information? Check out with PayPal.</p>
+                <div>
+                    <a href="https://www.paypal.com/webscr?cmd=_express-checkout&token=EC-70884984TR204580R">
+                        <img src="images/buy_paypal.png" alt="paypal">
+                    </a>
+                    <a href="#emailAddress">
+                        <img src="images/buy_visa.png" alt="visa">
+                    </a>
+                    <a href="https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fpayments.amazon.com%2Fcheckout%2Fauth%3Fwid%3Dea6e7e1d-aaa4-43bc-89ff-26b210178299&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=amzn_pyop&openid.mode=checkid_setup&siteState=buyer_language%3Den_US%26combined_page%3Dfalse%26wid%3Dea6e7e1d-aaa4-43bc-89ff-26b210178299&marketPlaceId=AGWSWK15IEJJ7&language=en_US&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=amzn_pay_v2&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&&openid.pape.max_auth_age=0">
+                        <img src="images/buy_amazon_pay.png" alt="amazon_pay">
+                    </a>
+                </div>
+            </div>
+            <form>
+                <fieldset class="orderSummary">
+                    <legend>ORDER SUMMARY ( 1 )</legend>
+                    <div>
+                        <img src="images/product_23.png" alt="pro_23">
+                        <span>THE 1,001 NIGHTS <br> SOLO SUPERSTAR</span>
+                        <span>$ 1000.00</span>
+                        <span>Size: 100ml</span>
+                        <span>QTY: 1</span>
+                    </div>
+                    <ul>
+                        <li>
+                            <label for="subTotal_01">SUBTOTAL</label>
+                            <input type="text" id="subTotal_01" value="$ 1000.00" class="poppins" readonly>
+                        </li>
+                        <li>
+                            <label for="subTotal_02">TAX</label>
+                            <input type="text" id="subTotal_02" value="$ 0.00" class="poppins" readonly>
+                        </li>
+                        <li>
+                            <label for="subTotal_03">SHIPPING - <br> SIGNATURE REQUIRED</label>
+                            <input type="text" id="subTotal_03" value="$ 0.00" class="poppins" readonly>
+                        </li>
+                    </ul>
+                    <div>
+                        <label for="orderTotal">ORDER TOTAL</label>
+                        <input type="text" id="orderTotal" value="$ 1000.00" class="poppins" readonly>
+                    </div>
+                    <div>
+                        <input type="text" id="promoCode" placeholder="Promo Code" class="poppins">
+                        <input type="submit" value="APPLY" class="btn_small_black">
+                    </div>
+                    <div>
+                        <input type="text" id="giftCard" placeholder="Gift Card" class="poppins">
+                        <input type="submit" value="APPLY" class="btn_small_black">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>PAYMENT</legend>
+                    <ul>
+                        <li>
+                            <input type="text" id="creditCardNumber" placeholder="Credit Card Number" class="poppins" required>
+                        </li>
+                        <li>
+                            <input type="text" id="expDateMonth" placeholder="Exp Date (Month)" class="poppins" required>
+                        </li>
+                        <li>
+                            <input type="text" id="expDateYear" class="poppins" placeholder="Exp Date (Year)" required>
+                        </li>
+                        <li>
+                            <input type="text" id="cvv" placeholder="CVV" class="poppins" required>
+                            <div>
+                                <input type="button" value="What is this?" class="poppins">
+                                <img src="images/bg_26.png" alt="bg_26">
+                            </div>
+                        </li>
+                        <li>
+                            <input type="checkbox" id="addressCheck">
+                            <label for="addressCheck" class="poppins">Billing address same as shipping address</label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset>
+                    <legend>REVIEW YOUR ORDER</legend>
+                    <ul>
+                        <li>
+                            <strong>SHIPPING ADDRESS</strong>
+                            <span>na seohyeon</span>
+                            <address>200 West 70th Street</address>
+                            <span>14</span>
+                            <address>New York, NY, 10023</address>
+                            <span>US</span>
+                            <span>6502250150</span>
+                        </li>
+                        <li>
+                            <strong>BILLING ADDRESS</strong>
+                            <address>100, Convensia-daero 130beon-gil, Yeonsu-gu, Incheon, Republic of Korea</address>
+                        </li>
+                        <li>
+                            <strong>PAYMENT INFO</strong>
+                            <span>THE 1,001 NIGHTS SOLO SUPERSTAR</span>
+                            <span>$ 1000.00</span>
+                            <span>Size: 100ml</span>
+                            <span>QTY: 1</span>
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+                <div class="placeArea">
+                    <a href="index.html" class="btn_black">PLACE MY ORDER</a>
+                    <p>You will be charged after clicking the Place Order button</p>
+                </div>
+        </div>
+    </section>
+    <!-- section fin -->
+            
+    <footer>
+        <div>
+            <h2>
+                <img src="images/logo.png" alt="footer_logo">
+            </h2>
+            <p>
+                <strong>CONTACT US</strong>
+                Monday-Friday 10am-7pm ET
+                <a href="tel:+6462849009">(646) 284-9009</a>
+                <a href="mailto:contactus@bondno9.com">contactus@bondno9.com</a>
+                Text Us: 
+                <a href="tel:+8565148687">(856) 514-8687</a>      
+            </p>
+        </div>
+        <div>
+            <strong>SIGN UP FOR BOND NO.9 EMAILS</strong>
+            <form>
+                <input type="email" placeholder="Enter email address" title="Enter email address"><input type="submit" title="JOIN">
+            </form>
+        </div>
+        <ul>
+            <li><a href="orderstatus.html">ORDER STATUS</a></li>
+            <li><a href="storeLocations.html">STORE LOCATIONS</a></li>
+            <li><a href="customerService.html">CUSTOMER SERVICE</a></li>
+            <li><a href="privacyPolicy.html">PRIVACY POLICY</a></li>
+            <li><a href="siteMap.html">SITE MAP</a></li>
+        </ul>
+        <div>
+            <p>
+                <span>Copyright ⓒ 2022 Bondno.9. All rights reserved.</span>
+                BONDNO.9 and the SWAN logo are registered and trademarks of Bondno.9 AG.
+            </p>
+            <span>
+                <a href="https://www.facebook.com/BondNo9">facebook</a>
+                <a href="https://instagram.com/bondno9ny">instagram</a>
+                <a href="https://www.youtube.com/user/bond9nyc">youtube</a>
+            </span>
+        </div>
+    </footer>
+    <!-- footer fin -->
+</body>
+</html>

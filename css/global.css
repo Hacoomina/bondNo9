@@ -1,0 +1,1776 @@
+body{
+    background-color: #f0ede4;
+}
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.nanum{
+    font-family: 'NanumMyeongjo'
+}
+.btn_black{
+    font-family: 'Poppins'; font-weight: 400; text-decoration: none; text-align: center; display: inline-block; box-sizing: border-box; border: 1px solid black; font-size: 14px; padding: 0 75px; line-height: 40px; background-color: black; color: white; cursor: pointer;
+}
+.btn_black:hover{
+    font-family: 'Poppins'; color: black; background-color: transparent; border: 1px solid black; box-sizing: border-box;
+}
+.btn_white{
+    font-family: 'Poppins'; color: black; background-color: transparent; border: 1px solid black; box-sizing: border-box; text-decoration: none; text-align: center; display: inline-block; box-sizing: border-box; border: 1px solid black; font-size: 14px; padding: 0 75px; line-height: 40px; 
+}
+.btn_white:hover{
+    font-family: 'Poppins'; font-weight: 400; background-color: black; color: white;
+}
+.btn_more{
+    text-decoration: none; color: black;
+}
+.btn_small{
+    font-family: 'Poppins'; text-decoration: none; text-align: center; display: inline-block; box-sizing: border-box; border: 1px solid black; font-size: 12px; font-weight: 600; padding: 0 10px; line-height: 30px; background-color: black; color: white; cursor: pointer;
+}
+.btn_small:hover{
+    font-family: 'Poppins'; color: black; background-color: transparent; border: 1px solid black; box-sizing: border-box;
+}
+.btn_small_black{
+    font-family: 'Poppins'; font-weight: 600; text-decoration: none; text-align: center; display: inline-block; box-sizing: border-box; border: 1px solid black; font-size: 12px; padding: 0 10px; line-height: 30px; background-color: black; color: white;
+}
+.btn_small_black:hover{
+    font-family: 'Poppins'; color: black; background-color: transparent; border: 1px solid black; box-sizing: border-box; cursor: pointer;
+}
+.bx-wrapper{
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+}
+input[type="number"] {
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+}
+.customNumber{
+    display: inline-block; border: 1px solid black; line-height: 38px; padding: 10px 15px; background-color: white; margin-bottom: 50px;
+}
+.customNumber:after{
+    content: ''; display: block; clear: both;
+}
+.customNumber input{
+    float: left; width: 33.3%; display: block; box-sizing: border-box;
+    background-color: transparent; border: none; text-align: center; 
+}
+.customNumber input[type='button']{
+    font-size: 14px; 
+}
+.titleArea{
+    font-family: 'NanumMyeongjo'; font-size: 40px; font-weight: 800; color: black; text-align: center; margin-bottom: 155px;  padding-top: 220px;
+}
+
+@media screen and (max-width: 767px){
+    footer > div,
+    .lineBanner,
+    .byGender,
+    .shopNewArrivals,
+    .byScentType,
+    .flashyList,
+    .ecoChic,
+    .bestSellers > div,
+    .worldOfBondno9,
+    .detailContainer,
+    .philosophyContainer,
+    .loginContainer,
+    .loginSignUpContainer,
+    .loginMyContainer,
+    .loginMyChangeContainer,
+    .orderstatusContainer,
+    .orderstatusMyOrdersContainer,
+    .customerServiceContainer,
+    .privacyServiceContainer,
+    .wishlistsContainer,
+    .buyContainer,
+    .buyContainer_02,
+    .buyContainer_03{
+        max-width: 700px; margin: 0 auto; padding: 0 10px;
+    }
+    .loginContainer,
+    .loginMyContainer,
+    .loginSignUpContainer,
+    .loginMyChangeContainer,
+    .orderstatusContainer,
+    .customerServiceContainer,
+    .privacyServiceContainer{
+        max-width: 900px; margin: 0 auto;
+    }
+    #searchArea{
+        display: none; position:fixed; z-index: 1; border-top: 2px solid black; top: 89px; padding: 35px 13%; box-sizing: border-box; background-color: white; width: 100%;
+    }
+    #searchArea.active{
+        display: block; 
+    }
+    #searchArea input[type='search']{
+        width: 89%; box-sizing: border-box; border: none; line-height: 20px;
+    }
+    #searchArea input[type='button']{
+        border: none; background-color: transparent; font-size: 15px; float: right; cursor: pointer;
+    }
+    header{
+        background-color: white; position: fixed; width: 100%; left: 0; top: 0; z-index: 999;
+    }
+    header > div{
+        max-width: 700px; margin: 0 auto; font-size: 12px; font-weight: 400; padding: 30px 0; position: relative; box-sizing: border-box;
+    }
+    header > div h1{
+        max-width: 95px; margin: 0 auto;
+    }
+    header > div h1 a{
+        display: block;
+    }
+    header > div h1 a img{
+        width: 100%; display: block;
+    }
+    header > div .muiArea{
+        position: absolute; left: 10px; top: 40px; width: 10%;
+        border: none; background-color: transparent; text-indent: -9999px; background: url('../images/icon_mui.png') left top / contain no-repeat; width: 30px;
+    }
+    header > div .muiArea.gnb_open{
+        background-image: url('../images/icon_close.png');
+    }
+    header > div nav#muiArea{
+        display: none; z-index: 1; height: 100%; width: 100%; position: fixed; left: 0; top: 90px; line-height: 35px;
+        background-color: white;
+    }
+    header > div nav#muiArea.active{
+        display: block;
+    }
+    header > div nav#muiArea ul{
+       list-style: none;
+    }
+    header > div nav#muiArea ul li{
+        cursor: default; border-bottom: 3px solid transparent; font-size: 17px; padding: 25px 35px;
+    }
+    header > div nav#muiArea ul > li:first-of-type,
+    header > div nav#muiArea ul > li:nth-of-type(5){
+        background: url('../images/icon_arrow_down.png') right 5% center / 18px no-repeat;
+    }
+    header > div nav#muiArea ul > li:first-of-type:hover,
+    header > div nav#muiArea ul > li:nth-of-type(5):hover{
+        background-image: url('../images/icon_arrow.png');
+    }
+    header > div nav#muiArea ul > li:not(:last-of-type){
+        border-bottom: 1px solid black;
+    }
+    header > div nav#muiArea ul li a{
+        text-decoration: none; color: black; 
+    }
+    header > div nav#muiArea ul li ol{
+        display: none; position: absolute; background-color: white;
+        width: 100%; left: 0; 
+        border-bottom: 1px solid black;
+        padding: 25px 0; 
+    }
+    header > div nav#muiArea ul li ol li{
+        padding: 0 35px; line-height: 100%;
+    }
+    header > div nav#muiArea ul li ol li a{
+        display: block; line-height: 25px; text-align: left; font-size: 16px;
+    }
+    header > div nav#muiArea ul li:hover ol{
+        display: block; 
+    }
+    header > div > div{
+        right: 0; top: 30px; position: absolute; width: 30%; line-height: 40px; text-align: right; padding-right: 10px;
+        box-sizing: border-box;
+    }
+    header > div > div a{
+        text-decoration: none; display: inline-block;
+    }
+    header > div > div *{
+        line-height: 20px; width: 22px; text-indent: -9999px; text-align: left;
+    }
+    header > div > div a:first-of-type{
+        background: url('../images/icon_login.png') center / 15px 17px no-repeat;
+    }
+    header > div > div input[type='button']{
+        background: url('../images/icon_search.png') center / 18px 17px no-repeat; border: none; cursor: pointer;
+    }
+    header > div > div a:last-of-type{
+        display: inline-block; background: url('../images/icon_shop.png') center / 17px 16px no-repeat; width: 17px;
+    }
+    /* header fin */
+    .detailContainer .fitvidsBox{
+        padding-top: 120px; max-width: 720px; margin: 0 auto;
+    }
+    .detailContainer [alt*=essence]{
+        padding-top: 70px; width: 100%; max-width: 270px; margin: 0 auto; display: flex; justify-content: center; align-items: center;
+    }
+    [class$='Container'] #readreview{
+        max-width: 1040px; margin: 0 auto;
+    }
+    [class$='Container'] #readreview .starCount{
+        margin-bottom: 35px;
+    }
+    [class$='Container'] #readreview .starCount input[type='button']{
+        border: none; background: none; font-size: 20px; cursor: pointer;
+    }
+    [class$='Container'] #readreview .starCount input[type='button']{
+        color:#6e6e6e;
+    }
+    [class$='Container'] #readreview .starCount input[type='button'].on{
+        color:black;
+    }
+    [class$='Container'] .starResult:not(:last-of-type){
+        text-align: center; margin-bottom: 15px;
+    }
+    [class$='Container'] .starResult:last-of-type{
+        margin-bottom: 25px;
+    }
+    [class$='Container'] .starResult{
+       border: none; background: none; font-size: 20px; display: block;
+    }
+    [class$='Container'] .ecoChic{
+        padding-top: 70px; 
+    }
+    [class$='Container'] .ecoChic img{
+        width: 100%; max-width: 205px; display: block; margin: 0 auto;
+    }
+    [class$='Container'] .ecoChic > div{
+        display: inline-block; margin-top: 60px; text-align: center; display: block;
+    }
+    [class$='Container'] .ecoChic > div h3{
+        font-size: 24px; font-weight: 400; margin-bottom: 50px;
+    }
+    [class$='Container'] .ecoChic > div p{
+        font-size: 14px; font-weight: 400; line-height: 26px; margin-bottom: 70px;
+    }
+    /* ecoChic fin */
+    [class$='Container']{
+        padding-top: 90px;
+    }
+    [class$='Container'] > div[class^=list],
+    [class$='Container'] .sortBar > div,
+    [class$='Container'] .sortBar > div ol{
+        text-align: center;
+    }
+    [class$='Container'] .listHeader{
+        padding: 50px 0;
+    }
+    [class$='Container'] .listHeader ol{
+        text-align: center; display: inline-block;
+    }
+    [class$='Container'] .listHeader ol:after{
+        content: ''; display: block; clear: both;
+    }
+    [class$='Container'] .listHeader ol li{
+        float: left; list-style: none; margin-bottom: 40px; 
+    }
+    [class$='Container'] .listHeader ol li a{
+        color: black; text-decoration: none; font-size: 12px; font-weight: 400; 
+    }
+    [class$='Container'] .listHeader ol li:nth-of-type(1) a{
+        padding-right: 20px; border-right: 1px solid black;
+    }
+    [class$='Container'] .listHeader ol li:nth-of-type(2) a{
+        padding-left: 20px;
+    }
+    [class$='Container'] .listHeader h2{
+        font-size: 30px; font-weight: 800; color: black; margin-bottom: 35px;
+    }
+    [class$='Container'] .listHeader p{
+        font-size: 12px; font-weight: 400; color: black; line-height: 18px;
+    }
+    [class$='Container'] .sortBar{
+        background-color: white; position: relative; margin-bottom: 20px; display: block;
+    }
+    [class$='Container'] .sortBar > div form{
+        padding: 35px 0; 
+    }
+    [class$='Container'] .sortBar > div form fieldset label{
+        font-size: 14px; font-weight: 400; margin-bottom: 40px; display: block;
+    }
+    [class$='Container'] .sortBar > div form fieldset input{
+        font-size: 12px; font-weight: 400; 
+    }
+    [class$='Container'] .sortBar > div form fieldset input[type='button']{
+        font-size: 12px; background: url('../images/icon_arrow_down.png') right center / 11px no-repeat; border: none; padding-right: 25px; cursor: pointer; display: block; margin: 20px auto;
+    }
+    [class$='Container'] .sortBar > div form fieldset input[type='submit']{
+        display: block; margin: 25px auto;
+    }
+    [class$='Container'] .sortBar > div form [id$='Condition']{
+        display: none; border-top: 2px solid black; background-color: white;
+        position: absolute; width: 100%; left: 0; z-index: 0;
+    }
+    [class$='Container'] .sortBar > div form [id$='Condition'].active{
+        display: block; z-index: 1;
+    }
+    [class$='Container'] .sortBar > div ol{
+        padding: 15px 0; 
+    }
+    [class$='Container'] .sortBar > div ol li:not(:last-of-type){
+        color:#6e6e6e; align-self: center; list-style: none; font-size: 12px; font-weight: 400; text-align: left; max-width: 120px; display: block; margin: 10px auto;
+    }
+    [class$='Container'] .sortBar > div ol li input[type='button']{
+        border: none; background-color: transparent; font-size: 15px; cursor: pointer;
+    }
+    [class$='Container'] > .listpage{
+        max-width: 700px; margin: 0 auto; padding: 0 10px;
+    }
+    [class$='Container'] > .listpage span{
+        font-size: 14px; font-weight: 400; margin-bottom: 15px; display: block; text-align: left;
+    }
+    [class$='Container'] > .listpage ul{
+        background-color: white; margin-bottom: 40px; 
+    }
+    [class$='Container'] > .listpage ul li:not(.shopArea){
+        list-style: none; text-align: center; width: 100%; 
+        position: relative; min-height: 330px; 
+    }
+    [class$='Container'] > .listpage ul li:not(.shopArea){
+        padding-top: 40px;
+    }
+    [class$='Container'] > .listpage ul .shopArea{
+        padding-bottom: 5%;
+    }
+    [class$='Container'] > .listpage ul li div{
+        display: none;
+    } 
+    [class$='Container'] > .listpage ul li:hover div{
+        display: block; background-color: rgb(0,0,0,0.4); position: absolute; top: 0; color: white; width: 100%; padding: 20px 0 10px 0; min-height: 340px; 
+    }
+    [class$='Container'] > .listpage ul li:hover div p{
+        font-size: 17px; font-weight: 400; line-height: 23px; margin-bottom: 10px; padding-top: 60px;
+    }
+    [class$='Container'] > .listpage ul li:hover div dl{
+        padding-top: 25px;
+    }
+    [class$='Container'] > .listpage ul li:hover div dl dt{
+        font-size: 15px; font-weight: 600;
+    }
+    [class$='Container'] > .listpage ul li:hover div dl dd{
+        font-size: 14px; font-weight: 400; padding-top: 25px;
+    }
+    [class$='Container'] > .listpage ul li:not(.shopArea) img{
+        width: 100%; max-width: 170px;
+    }
+    [class$='Container'] > .listpage ul li h3{
+        margin-top: 50px; font-size: 14px; font-weight: 600; color: black;
+    }
+    [class$='Container'] > .listpage ul li:hover h3{
+        text-indent: -9999px;
+    }
+    [class$='Container'] .showing{
+        text-align: center; margin-bottom: 35px;
+    }
+    [class$='Container'] .showing{
+        font-size: 16px; font-weight: 400; color: black; letter-spacing: 1px;
+    }
+    [class$='Container'] .paging{
+        position: relative; clear: both; border-radius: 5px; line-height: 50px;
+        max-width: 440px; margin: 0 auto;
+    }
+    [class$='Container'] .paging > a{
+        position: absolute; top: 0; text-align: center; width: 3.4%;
+        font-size: 25px; font-weight: 400; color: #6e6e6e; text-decoration: none;
+    }
+    [class$='Container'] .paging > a:first-of-type{
+        left: 0;
+    }
+    [class$='Container'] .paging > a:last-of-type{
+        right: 0;
+    }
+    [class$='Container'] .paging ol{
+        padding: 0 2%; box-sizing: border-box; text-align: center;
+    }
+    [class$='Container'] .paging ol li{
+        display: inline-block; 
+    }
+    [class$='Container'] .paging ol li a{
+        display: block; width: 20px; line-height: 20px; 
+        font-size: 17px; color: #6e6e6e; font-weight: 400; text-decoration: none;
+    }
+    [class$='Container'] .paging ol li:not(:first-of-type){
+        margin-left: 2%;
+    }
+    [class$='Container'] .paging ol li a:hover{
+        background-color: black; color: white; 
+    }
+    /* list container fin */
+    [class$='Container'] .detailForm{
+        padding-top: 130px;
+    }
+    [class$='Container'] .detailForm{
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    [class$='Container'] .detailForm form{
+        padding-top: 100px; text-align: center;
+    }
+    [class$='Container'] .detailForm img:first-of-type{
+        width: 100%; max-width: 720px;
+    }
+    [class$='Container'] .detailForm form fieldset div:first-of-type{
+        margin-bottom: 35px;
+    }
+    [class$='Container'] .detailForm form fieldset div h2{
+        font-size: 15px; font-weight: 600; margin-bottom: 50px; 
+    }
+    [class$='Container'] .detailForm form fieldset div .favorite,
+    [class$='Container'] .detailForm form fieldset div .share{
+        text-indent: -9999px; border: none; background: none; width: 18px; display: inline-block;
+    }
+    [class$='Container'] .detailForm form fieldset div .favorite{
+        background: url('../images/icon_heart.png') left top / contain no-repeat; cursor: pointer;
+    }
+    [class$='Container'] .detailForm form fieldset div .favorite.active{
+        background-image: url('../images/icon_heart_hover.png');
+    }
+    [class$='Container'] .detailForm form fieldset div .share{ 
+        background: url('../images/icon_share.png') left top / contain no-repeat; cursor: pointer; margin-right: 20px;
+    }
+    [class$='Container'] .detailForm form fieldset div:after{
+        content: ''; display: block; clear: both;
+    }
+    [class$='Container'] .detailForm form fieldset div label{
+        margin-bottom: 25px; font-size: 14px; font-weight: 400; display: block; 
+    }
+    [class$='Container'] .detailForm form fieldset div select{
+        margin-bottom: 40px; font-family: 'Poppins'; font-size: 14px; font-weight: 400; display: block; margin: 40px auto;
+        padding: 10px 15px; border: 1px solid black;
+    }
+    [class$='Container'] .detailForm form fieldset div select{
+        padding: 10px 140px 10px 15px; -webkit-appearance: none;
+        -moz-appearance: none; background: url('../images/icon_arrow_down.png') right / 12px no-repeat; background-color: white; 
+        background-position: 95%; display: block;
+    }
+    [class$='Container'] .detailForm form fieldset input[type='submit']{
+        margin-bottom: 50px;
+    }
+    [class$='Container'] .detailForm form fieldset div:last-of-type{
+        text-align: center;
+    }
+    [class$='Container'] .detailForm form fieldset div:last-of-type a{
+        font-size: 12px; font-weight: 300; color: black; font-style: none; text-decoration: none; 
+    }
+    [class$='Container'] .detailForm form fieldset div:last-of-type a:nth-of-type(1){
+        padding-right: 20px; border-right: 1px solid black; 
+    }
+    [class$='Container'] .detailForm form fieldset div:last-of-type a:nth-of-type(2){
+        padding-left: 20px;
+    }
+    [class$='Container'] .detailDescription ul{
+        margin: 0 auto; max-width: 720px; 
+    }
+    [class$='Container'] .detailDescription ul{
+        padding-top: 100px; list-style: none; display: flex; justify-content: space-between; border-bottom: 1px solid black; margin-bottom: 40px; 
+    }
+    [class$='Container'] .detailDescription ul li{
+        font-size: 14px; font-weight: 400; padding-bottom: 20px;
+        border-bottom: 3px solid transparent; 
+    }
+    [class$='Container'] .detailDescription ul li:not(:first-of-type){
+        margin-left: 10px;
+    }
+    [class$='Container'] .detailDescription ul li:hover,
+    [class$='Container'] .detailDescription ul li.active{
+        border-color: black; cursor: pointer; 
+    }
+    [class$='Container'] .detailDescription .panel{
+        display: none; font-size: 12px; font-weight: 300; margin: 0 auto; max-width: 720px;
+    }
+    [class$='Container'] .detailDescription .panel p{
+        line-height: 20px; 
+    }
+    [class$='Container'] .detailDescription .panel.active{
+        display: block;
+    }
+    [class$='Container'] .recentlyContainer{
+        padding-top: 70px;
+    }
+    [class$='Container'] .recentlyContainer h2{
+        font-size: 24px; font-weight: 600; text-align: center; margin-bottom: 35px;
+    }
+    [class$='Container'] .recentlyContainer ul li{
+        list-style: none; text-align: center; background-color: white;
+    }
+    [class$='Container'] .recentlyContainer #alsoLike li{
+        max-width: 330px; margin: 0 auto;
+    }
+    [class$='Container'] .recentlyContainer{
+        display: block;
+    }
+    [class$='Container'] .recentlyContainer li figure{
+        padding: 35px 5%; 
+    }
+    [class$='Container'] .recentlyContainer li:not(:last-of-type) figure{
+        margin-bottom: 25px;
+  }
+    [class$='Container'] .recentlyContainer li figure img{
+        margin-bottom: 35px; width: 100%; max-width: 230px; 
+     }
+    [class$='Container'] .recentlyContainer li figure figcaption dl{
+        font-size: 12px; font-weight: 400; line-height: 16px;
+    }
+    [class$='Container'] .recentlyContainer li figure figcaption dl dt{
+        margin: 35px 0 10px 0; margin-top: 15px;
+    }
+    [class$='Container'] .btn_more:after{
+       content: url('../images/icon_arrow_small.png'); padding-left: 30px;
+    }
+    [class$='Container'] #readreview{
+        margin-top: 70px; background-color: white; padding: 50px 20px; width: 100%; max-width: 84.65%;
+    }
+    [class$='Container'] #readreview > div form input{
+        display: block; 
+    }
+    [class$='Container'] #readreview > div form input:not(:last-of-type){
+        background: none; border: none; background-color: #eeeeee; width: 100%; padding: 10px; box-sizing: border-box;
+    }
+    [class$='Container'] #readreview > div form input:not(:last-of-type)::placeholder{
+        font-size: 12px; font-weight: 300;
+    }
+    [class$='Container'] #readreview > div form input:first-of-type{
+        margin-bottom: 15px;
+    }
+    [class$='Container'] #readreview > div form input:nth-of-type(2){
+        margin-bottom: 25px; padding-bottom: 120px;
+    }
+    [class$='Container'] #readreview > div form input:nth-of-type(3){
+        padding: 0 21.5%; display: block; margin: 50px auto;
+    }
+    [class$='Container'] #readreview > div h2{
+        font-size: 30px; font-weight: 600; margin-bottom: 50px; text-align: center;
+    }
+    [class$='Container'] #readreview > div ul{
+        list-style: none;
+    }
+    [class$='Container'] #readreview > div ul li b{
+        font-size: 15px; font-weight: 600; margin-bottom: 35px; display: block;
+    }
+    [class$='Container'] #readreview > div ul li p{
+        font-size: 12px; font-weight: 300; line-height: 15px;
+    }
+    
+    /* detail fin */
+    footer{
+        background-color: white; margin-top: 100px; 
+    }
+    footer > div:first-of-type{
+        padding-top: 50px; font-size: 12px; text-align: center; max-width: 155px;
+    }
+    footer > div:first-of-type h2 img{
+        width: 100%; max-width: 196px; 
+    }
+    footer > div:first-of-type h2{
+        display: inline-block; margin-bottom: 40px;
+    }
+    footer > div:first-of-type p{
+        line-height: 26px;
+    }
+    footer > div:first-of-type p strong{
+        display: block; color: black; 
+    }
+    footer > div:first-of-type p :not(strong){
+        color: #6e6e6e;
+    }
+    footer > div:first-of-type p a{
+        text-decoration: none;
+    }
+    footer > div:nth-of-type(2){
+        padding-top: 50px; text-align: center;
+    }
+    footer > div:nth-of-type(2) strong{
+        font-size: 12px; font-weight: 600; letter-spacing: 1px; 
+    }
+    footer > div:nth-of-type(2) input{
+        margin-top: 15px;
+    }
+    footer > div:nth-of-type(2) input[type='email']{
+        width: 100%; max-width: 185px; font-size: 14px; font-weight: 600; border: 1px solid black;
+        background-color: transparent; line-height: 38px;
+        padding: 0 10px; box-sizing: border-box;
+    }
+    footer > div:nth-of-type(2) input::placeholder{
+        font-size: 15px; color: #6e6e6e; font-weight: 400;
+    }
+    footer > div:nth-of-type(2) input[type='submit']{
+        font-size: 15px; font-weight: 600; border: none; background-color: black; color: white; line-height: 38px;
+    }
+    footer > ul{
+        text-align: center; border-bottom: 1px solid #6e6e6e; list-style: none; padding-top: 70px; padding-bottom: 35px;
+    }
+    footer > ul li a{
+        text-decoration: none; color: #6e6e6e; font-size: 14px; font-weight: 300; 
+    }
+    footer > ul li:not(:last-of-type){
+        margin-bottom: 25px;
+    }
+    footer > div:last-of-type{
+        padding: 35px 0 40px 0; text-align: center; max-width: 180px;
+    }
+    footer > div:last-of-type p{
+        color: black; font-size: 12px; font-weight: 400; line-height: 20px; margin-bottom: 50px;
+    }
+    footer > div:last-of-type span{
+        display: block;
+    }
+    footer > div:last-of-type span:first-of-type{
+        margin-bottom: 15px;
+    }
+    footer > div:last-of-type span:last-of-type a{
+        width: 35px; height: 33px; text-indent: -9999px;
+        background-position: center; background-repeat: no-repeat; margin-left: 2.1%; display: inline-block; 
+    }
+    footer > div:last-of-type span:last-of-type a:not(:first-of-type){
+        margin-left: 30px;
+    }
+    footer > div:last-of-type span:last-of-type a:nth-child(1){
+        background-image: url('../images/sns_01.png');
+    }
+    footer > div:last-of-type span:last-of-type a:nth-child(2){
+        background-image: url('../images/sns_02.png');
+    }
+    footer > div:last-of-type span:last-of-type a:nth-child(3){
+        background-image: url('../images/sns_03.png');
+    }
+    /* footer fin */
+
+    .bestSellers .bx-wrapper .bx-prev {
+        left: calc(50% - 16px) !important;
+        top: -2em !important;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+      
+    .bestSellers .bx-wrapper .bx-next {
+        right: calc(50% - 16px) !important;
+        top: calc(100% + 2em) !important;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+    /* slider fin */
+}
+/* mobile */
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    footer > div,
+    .lineBanner,
+    .byGender,
+    .shopNewArrivals,
+    .byScentType,
+    .flashyList,
+    .ecoChic,
+    .bestSellers > div,
+    .worldOfBondno9,
+    .detailContainer,
+    .philosophyContainer,
+    .loginContainer,
+    .loginSignUpContainer,
+    .orderstatusContainer,
+    .customerServiceContainer,
+    .privacyServiceContainer,
+    .orderstatusMyOrdersContainer,
+    .wishlistsContainer{
+        max-width: 1000px; margin: 0 auto; padding: 0 24px;
+    }
+    .loginContainer,
+    .loginMyContainer,
+    .loginSignUpContainer,
+    .loginMyChangeContainer,
+    .orderstatusContainer,
+    .customerServiceContainer,
+    .privacyServiceContainer{
+        max-width: 900px; margin: 0 auto;
+    }
+    #searchArea{
+        display: none; position:fixed; z-index: 1; border-top: 2px solid black; top: 93px; padding: 35px 13%; box-sizing: border-box; background-color: white; width: 100%;
+    }
+    #searchArea.active{
+        display: block; 
+    }
+    #searchArea input[type='search']{
+        width: 96%; box-sizing: border-box; border: none; line-height: 20px;
+    }
+    #searchArea input[type='button']{
+        border: none; background-color: transparent; font-size: 15px; float: right; cursor: pointer;
+    }
+    header{
+        background-color: white; position: fixed; width: 100%; left: 0; top: 0; 
+        line-height: 90px; z-index: 1;
+    }
+    header .muiArea{
+        display: none;
+    }
+    header:hover{
+        position: relative; position: fixed;
+    }
+    header > div{
+        max-width: 1440px; margin: 0 auto; font-size: 12px; font-weight: 400; display: flex; justify-content: space-between; padding: 0 24px;
+    }
+    header > div > *{
+        align-self: center;
+    }
+    header > div h1{
+        max-width: 95px; flex: 1 1 0;
+    }
+    header > div h1 a{
+        display: block;
+    }
+    header > div h1 a img{
+        width: 100%; display: block;
+    }
+    header > div nav{
+        text-align: center; flex: 7 1 0;
+    }
+    header > div nav ul{
+        list-style: none; 
+    }
+    header > div nav ul li{
+        display: inline-block; cursor: default;
+        border-bottom: 3px solid transparent;
+    }
+    header > div nav ul > li:hover{
+        border-bottom: 3px solid black;
+    }
+    header > div nav ul li:not(:first-child){
+        margin-left: 4.16%;
+    }
+    header > div nav ul li a{
+        text-decoration: none; color: black; 
+    }
+    header > div nav ul li ol{
+        display: none; position: absolute; background-color: white;
+        width: 100%; left: 0; border-top: 2px solid black;
+    }
+    header > div nav ul li ol li{
+        padding: 35px 0 100px 0; vertical-align: top;
+    }
+    header > div nav ul li ol li a{
+        display: block; line-height: 25px; text-align: left; 
+    }
+    header > div nav ul li:hover ol{
+        display: block; 
+    }
+    header > div > div{
+        flex: 1 1 0;
+    }
+    header > div > div a{
+        text-decoration: none; 
+    }
+    header > div > div a:first-of-type{
+        display: inline-block; line-height: 20px; width: 15px; text-indent: -9999px; background: url('../images/icon_login.png') left top / contain no-repeat;
+    }
+    header > div > div input[type='button']{
+        padding-left: 10px; margin-left: 10px; text-indent: -9999px; line-height: 20px; background: url('../images/icon_search.png') left top / contain no-repeat; border: none; cursor: pointer;
+    }
+    header > div > div a:last-of-type{
+        padding-top: 3px; display: inline-block; margin-left: 10px; line-height: 20px; width: 18px; text-indent: -9999px; background: url('../images/icon_shop.png') left top / contain no-repeat;
+    }
+    /* header fin */
+    .detailContainer .fitvidsBox{
+        padding-top: 155px; max-width: 720px; margin: 0 auto;
+    }
+    .detailContainer [alt*=essence]{
+        padding-top: 70px; width: 100%; max-width: 270px; margin: 0 auto; display: flex; justify-content: center; align-items: center;
+    }
+    [class$='Container'] #readreview{
+        max-width: 1040px; margin: 0 auto;
+    }
+    [class$='Container'] #readreview .starCount{
+        margin-bottom: 35px;
+    }
+    [class$='Container'] #readreview .starCount input[type='button']{
+        border: none; background: none; font-size: 20px; cursor: pointer;
+    }
+    [class$='Container'] #readreview .starCount input[type='button']{
+        color:#6e6e6e;
+    }
+    [class$='Container'] #readreview .starCount input[type='button'].on{
+        color:black;
+    }
+    [class$='Container'] .starResult:not(:last-of-type){
+        text-align: center; margin-bottom: 15px;
+    }
+    [class$='Container'] .starResult:last-of-type{
+        margin-bottom: 25px;
+    }
+    [class$='Container'] .starResult{
+       border: none; background: none; font-size: 20px; display: block;
+    }
+    [class$='Container'] .ecoChic{
+        padding-top: 70px; 
+    }
+    [class$='Container'] .ecoChic img{
+        width: 100%; max-width: 205px; display: block; margin: 0 auto;
+    }
+    [class$='Container'] .ecoChic > div{
+        display: inline-block; margin-top: 60px; text-align: center; display: block;
+    }
+    [class$='Container'] .ecoChic > div h3{
+        font-size: 24px; font-weight: 400; margin-bottom: 50px;
+    }
+    [class$='Container'] .ecoChic > div p{
+        font-size: 17px; font-weight: 400; line-height: 26px; margin-bottom: 70px;
+    }
+    /* ecoChic fin */
+    [class$='Container']{
+        padding-top: 90px;
+    }
+    [class$='Container'] > div[class^=list],
+    [class$='Container'] .sortBar > div,
+    [class$='Container'] .sortBar > div ol{
+        max-width: 640px; margin: 0 auto;
+    }
+    [class$='Container'] .listHeader{
+        padding: 50px 0;
+    }
+    [class$='Container'] .listHeader ol:after{
+        content: ''; display: block; clear: both;
+    }
+    [class$='Container'] .listHeader ol li{
+        float: left; list-style: none; margin-bottom: 40px;
+    }
+    [class$='Container'] .listHeader ol li a{
+        color: black; text-decoration: none; font-size: 12px; font-weight: 400; 
+    }
+    [class$='Container'] .listHeader ol li:nth-of-type(1) a{
+        padding-right: 20px; border-right: 1px solid black;
+    }
+    [class$='Container'] .listHeader ol li:nth-of-type(2) a{
+        padding-left: 20px;
+    }
+    [class$='Container'] .listHeader h2{
+        font-size: 30px; font-weight: 800; color: black; margin-bottom: 35px;
+    }
+    [class$='Container'] .listHeader p{
+        font-size: 14px; font-weight: 400; color: black; line-height: 18px;
+    }
+    [class$='Container'] .sortBar{
+        background-color: white; position: relative; margin-bottom: 20px;
+    }
+    [class$='Container'] .sortBar > div form fieldset{
+        display: flex; justify-content: space-between; flex-flow: row nowrap; align-content: center; padding: 35px 0;
+    }
+    [class$='Container'] .sortBar > div form fieldset label{
+        align-self: center; 
+    }
+    [class$='Container'] .sortBar > div form fieldset input[type='button']{
+        font-size: 12px; background: url('../images/icon_arrow_down.png') right center / 11px no-repeat; border: none; padding-right: 25px; cursor: pointer;
+    }
+    [class$='Container'] .sortBar > div form [id$='Condition']{
+        display: none; border-top: 2px solid black; background-color: white;
+        position: absolute; width: 100%; left: 0; z-index: 0;
+    }
+    [class$='Container'] .sortBar > div form [id$='Condition'].active{
+        display: block;
+    }
+    [class$='Container'] .sortBar > div ol{
+        display: flex; justify-content: space-between; padding: 15px 0;
+    }
+    [class$='Container'] .sortBar > div ol li{
+        color:#6e6e6e; align-self: center; list-style: none; font-size: 12px; font-weight: 400;
+    }
+    [class$='Container'] .sortBar > div ol li input[type='button']{
+        border: none; background-color: transparent; font-size: 15px; cursor: pointer;
+    }
+    [class$='Container'] > .listpage span{
+        font-size: 14px; font-weight: 400; margin-bottom: 15px; display: block;
+    }
+    [class$='Container'] > .listpage ul{
+        background-color: white; margin-bottom: 40px;
+    }
+    [class$='Container'] > .listpage ul:after{
+        content: ''; display: block; clear: both;
+    }
+    [class$='Container'] > .listpage ul li{
+        list-style: none; float: left; text-align: center; width: 49.9%; 
+        position: relative; min-height: 330px; 
+    }
+    [class$='Container'] > .listpage ul li:not(.shopArea){
+        padding-top: 40px;
+    }
+    [class$='Container'] > .listpage ul li div{
+        display: none;
+    } 
+    [class$='Container'] > .listpage ul li:hover div{
+        display: block; background-color: rgb(0,0,0,0.4); position: absolute; top: 0; color: white; width: 100%; padding: 20px 0 10px 0; min-height: 340px; 
+    }
+    [class$='Container'] > .listpage ul li:hover div p{
+        font-size: 17px; font-weight: 400; line-height: 23px; margin-bottom: 10px; padding-top: 60px;
+    }
+    [class$='Container'] > .listpage ul li:hover div dl{
+        padding-top: 25px;
+    }
+    [class$='Container'] > .listpage ul li:hover div dl dt{
+        font-size: 15px; font-weight: 600;
+    }
+    [class$='Container'] > .listpage ul li:hover div dl dd{
+        font-size: 14px; font-weight: 400; padding-top: 25px;
+    }
+    [class$='Container'] > .listpage ul li:not(.shopArea) img{
+        width: 100%; max-width: 170px;
+    }
+    [class$='Container'] > .listpage ul li h3{
+        margin-top: 50px; font-size: 14px; font-weight: 600; color: black;
+    }
+    [class$='Container'] > .listpage ul li:hover h3{
+        text-indent: -9999px;
+    }
+    [class$='Container'] .showing{
+        text-align: center; margin-bottom: 35px;
+    }
+    [class$='Container'] .showing{
+        font-size: 16px; font-weight: 400; color: black; letter-spacing: 1px;
+    }
+    [class$='Container'] .paging{
+        position: relative; clear: both; border-radius: 5px; line-height: 50px;
+        max-width: 440px; margin: 0 auto;
+    }
+    [class$='Container'] .paging > a{
+        position: absolute; top: 0; text-align: center; width: 3.4%;
+        font-size: 50px; font-weight: 400; color: #6e6e6e; text-decoration: none;
+    }
+    [class$='Container'] .paging > a:first-of-type{
+        left: 0;
+    }
+    [class$='Container'] .paging > a:last-of-type{
+        right: 0;
+    }
+    [class$='Container'] .paging ol{
+        padding: 0 3.4%; box-sizing: border-box; text-align: center;
+    }
+    [class$='Container'] .paging ol li{
+        display: inline-block; 
+    }
+    [class$='Container'] .paging ol li a{
+        display: block; width: 25px; line-height: 25px; 
+        font-size: 17px; color: #6e6e6e; font-weight: 400; text-decoration: none;
+    }
+    [class$='Container'] .paging ol li:not(:first-of-type){
+        margin-left: 3.4%;
+    }
+    [class$='Container'] .paging ol li a:hover{
+        background-color: black; color: white; 
+    }
+    /* list container fin */
+    [class$='Container'] .detailForm{
+        padding-top: 130px;
+    }
+    [class$='Container'] .detailForm{
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    [class$='Container'] .detailForm form{
+        padding-top: 100px; text-align: center;
+    }
+    [class$='Container'] .detailForm form fieldset{
+        margin-left: 45px; 
+    }
+    [class$='Container'] .detailForm img:first-of-type{
+        width: 100%; max-width: 720px;
+    }
+    [class$='Container'] .detailForm form fieldset div{
+        margin-bottom: 35px;
+    }
+    [class$='Container'] .detailForm form fieldset div h2{
+        font-size: 15px; font-weight: 600; margin-bottom: 50px; 
+    }
+    [class$='Container'] .detailForm form fieldset div .favorite,
+    [class$='Container'] .detailForm form fieldset div .share{
+        text-indent: -9999px; border: none; background: none; width: 18px; display: inline-block;
+    }
+    [class$='Container'] .detailForm form fieldset div .favorite{
+        background: url('../images/icon_heart.png') left top / contain no-repeat; cursor: pointer; 
+    }
+    [class$='Container'] .detailForm form fieldset div .favorite.active{
+        background-image: url('../images/icon_heart_hover.png');
+    }
+    [class$='Container'] .detailForm form fieldset div .share{ 
+        background: url('../images/icon_share.png') left top / contain no-repeat; cursor: pointer; margin-right: 20px;
+    }
+    [class$='Container'] .detailForm form fieldset div:after{
+        content: ''; display: block; clear: both;
+    }
+    [class$='Container'] .detailForm form fieldset div label{
+        margin-bottom: 25px; font-size: 14px; font-weight: 400; display: block; 
+    }
+    [class$='Container'] .detailForm form fieldset div select{
+        margin-bottom: 40px; font-family: 'Poppins'; font-size: 14px; font-weight: 400; display: block; margin: 40px auto;
+        padding: 10px 15px; border: 1px solid black;
+    }
+    [class$='Container'] .detailForm form fieldset div select{
+        padding: 10px 140px 10px 15px; -webkit-appearance: none;
+        -moz-appearance: none; background: url('../images/icon_arrow_down.png') right / 12px no-repeat; background-color: white; 
+        background-position: 95%; display: block;
+    }
+    [class$='Container'] .detailForm form fieldset input[type='submit']{
+        margin-bottom: 50px;
+    }
+    [class$='Container'] .detailForm form fieldset div:last-of-type{
+        text-align: center;
+    }
+    [class$='Container'] .detailForm form fieldset div:last-of-type a{
+        font-size: 12px; font-weight: 300; color: black; font-style: none; text-decoration: none; 
+    }
+    [class$='Container'] .detailForm form fieldset div:last-of-type a:nth-of-type(1){
+        padding-right: 20px; border-right: 1px solid black; 
+    }
+    [class$='Container'] .detailForm form fieldset div:last-of-type a:nth-of-type(2){
+        padding-left: 20px;
+    }
+    [class$='Container'] .detailDescription ul{
+        margin: 0 auto; max-width: 720px; 
+    }
+    [class$='Container'] .detailDescription ul{
+        padding-top: 100px; list-style: none; display: flex; justify-content: space-between; border-bottom: 1px solid black; margin-bottom: 40px; 
+    }
+    [class$='Container'] .detailDescription ul li{
+        font-size: 14px; font-weight: 400; padding-bottom: 20px;
+        border-bottom: 3px solid transparent;
+    }
+    [class$='Container'] .detailDescription ul li:hover,
+    [class$='Container'] .detailDescription ul li.active{
+        border-color: black; cursor: pointer; 
+    }
+    [class$='Container'] .detailDescription .panel{
+        display: none; font-size: 12px; font-weight: 300; margin: 0 auto; max-width: 720px;
+    }
+    [class$='Container'] .detailDescription .panel p{
+        line-height: 20px; 
+    }
+    [class$='Container'] .detailDescription .panel.active{
+        display: block;
+    }
+    [class$='Container'] .recentlyContainer{
+        padding-top: 70px;
+    }
+    [class$='Container'] .recentlyContainer h2{
+        font-size: 30px; font-weight: 600; text-align: center; margin-bottom: 35px;
+    }
+    [class$='Container'] .recentlyContainer ul{
+        display: flex; justify-content: center; align-items: stretch;
+    }
+    [class$='Container'] .recentlyContainer ul li{
+        list-style: none; text-align: center; background-color: white;
+    }
+    [class$='Container'] .recentlyContainer ul li:not(:first-of-type){
+        margin-left: 1.1%;
+    }
+    [class$='Container'] .recentlyContainer #alsoLike li{
+        max-width: 330px; margin: 0 auto;
+    }
+    [class$='Container'] .recentlyContainer li figure{
+          padding: 35px 50px;
+    }
+    [class$='Container'] .recentlyContainer li figure img{
+        margin-bottom: 35px; width: 100%; max-width: 230px; 
+     }
+    [class$='Container'] .recentlyContainer li figure figcaption dl{
+        font-size: 12px; font-weight: 400; line-height: 16px;
+    }
+    [class$='Container'] .recentlyContainer li figure figcaption dl dt{
+        margin: 35px 0 10px 0; margin-top: 15px;
+    }
+    [class$='Container'] .btn_more:after{
+       content: url('../images/icon_arrow_small.png'); padding-left: 30px;
+    }
+    [class$='Container'] #readreview{
+        margin-top: 70px; background-color: white; padding: 50px 20px; width: 100%; max-width: 672px;
+    }
+    [class$='Container'] #readreview > div form input{
+        display: block; 
+    }
+    [class$='Container'] #readreview > div form input:not(:last-of-type){
+        background: none; border: none; background-color: #eeeeee; width: 100%; padding: 10px; box-sizing: border-box;
+    }
+    [class$='Container'] #readreview > div form:after{
+        content: ''; display: block; clear: both;
+    }
+    [class$='Container'] #readreview > div form input:last-of-type{
+        float: right;
+    }
+    [class$='Container'] #readreview > div form input:not(:last-of-type)::placeholder{
+        font-size: 12px; font-weight: 300;
+    }
+    [class$='Container'] #readreview > div form input:first-of-type{
+        margin-bottom: 15px;
+    }
+    [class$='Container'] #readreview > div form input:nth-of-type(2){
+        margin-bottom: 25px; padding-bottom: 120px;
+    }
+    [class$='Container'] #readreview > div form input:nth-of-type(3){
+        margin-bottom: 50px;
+    }
+    [class$='Container'] #readreview > div h2{
+        font-size: 30px; font-weight: 600; margin-bottom: 50px; text-align: center;
+    }
+    [class$='Container'] #readreview > div ul{
+        list-style: none;
+    }
+    [class$='Container'] #readreview > div ul li b{
+        font-size: 15px; font-weight: 600; margin-bottom: 35px; display: block;
+    }
+    [class$='Container'] #readreview > div ul li p{
+        font-size: 12px; font-weight: 300; line-height: 15px;
+    }
+    
+    /* detail fin */
+    footer{
+        background-color: white; margin-top: 100px; 
+    }
+    footer > div:first-of-type{
+        padding-top: 50px; font-size: 12px; text-align: center;
+    }
+    footer > div:first-of-type h2 img{
+        width: 100%; max-width: 196px; 
+    }
+    footer > div:first-of-type h2{
+        display: inline-block; margin-bottom: 40px;
+    }
+    footer > div:first-of-type p{
+        line-height: 26px;
+    }
+    footer > div:first-of-type p strong{
+        display: block; color: black; 
+    }
+    footer > div:first-of-type p :not(strong){
+        color: #6e6e6e;
+    }
+    footer > div:first-of-type p a{
+        text-decoration: none; 
+    }
+    footer > div:nth-of-type(2){
+        padding-top: 50px; text-align: center;
+    }
+    footer > div:nth-of-type(2) strong{
+        font-size: 12px; font-weight: 600; letter-spacing: 1px; 
+    }
+    footer > div:nth-of-type(2) input{
+        margin-top: 15px;
+    }
+    footer > div:nth-of-type(2) input[type='email']{
+        width: 100%; max-width: 290px; font-size: 14px; font-weight: 600; border: 1px solid black;
+        background-color: transparent; line-height: 38px;
+        padding: 0 10px; box-sizing: border-box;
+    }
+    footer > div:nth-of-type(2) input::placeholder{
+        font-size: 15px; color: #6e6e6e; font-weight: 400;
+    }
+    footer > div:nth-of-type(2) input[type='submit']{
+        font-size: 15px; font-weight: 600; width: 7%; border: none; background-color: black; color: white; line-height: 38px; 
+    }
+    footer > ul{
+        text-align: center; border-bottom: 1px solid #6e6e6e; list-style: none; padding-top: 70px; padding-bottom: 35px;
+    }
+    footer > ul li a{
+        text-decoration: none; color: #6e6e6e; font-size: 14px; font-weight: 300; 
+    }
+    footer > ul li:not(:last-of-type){
+        margin-bottom: 25px;
+    }
+    footer > div:last-of-type{
+        padding: 35px 0 40px 0; text-align: center; 
+    }
+    footer > div:last-of-type p{
+        color: black; font-size: 12px; font-weight: 400; line-height: 20px; margin-bottom: 50px;
+    }
+    footer > div:last-of-type span{
+        margin-right: 25px; display: block;
+    }
+    footer > div:last-of-type span:last-of-type a{
+        width: 35px; height: 33px; text-indent: -9999px;
+        background-position: center; background-repeat: no-repeat; margin-left: 2.1%; display: inline-block;
+    }
+    footer > div:last-of-type span:last-of-type a:nth-child(1){
+        background-image: url('../images/sns_01.png');
+    }
+    footer > div:last-of-type span:last-of-type a:nth-child(2){
+        background-image: url('../images/sns_02.png');
+    }
+    footer > div:last-of-type span:last-of-type a:nth-child(3){
+        background-image: url('../images/sns_03.png');
+    }
+    /* footer fin */
+
+    .bestSellers .bx-wrapper .bx-prev {
+        left: calc(50% - 16px) !important;
+        top: -2em !important;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+      
+    .bestSellers .bx-wrapper .bx-next {
+        right: calc(50% - 16px) !important;
+        top: calc(100% + 2em) !important;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+    /* slider fin */
+}
+/* tablet */
+
+@media screen and (min-width: 1280px){
+    footer > div,
+    .lineBanner,
+    .byGender,
+    .shopNewArrivals,
+    .byScentType,
+    .flashyList,
+    .ecoChic,
+    .bestSellers > div,
+    .worldOfBondno9,
+    .detailContainer,
+    .philosophyContainer{
+        max-width: 1440px; margin: 0 auto;
+    }
+    .loginContainer,
+    .loginMyContainer,
+    .loginSignUpContainer,
+    .loginMyChangeContainer,
+    .orderstatusContainer,
+    .customerServiceContainer,
+    .privacyServiceContainer{
+        max-width: 900px; margin: 0 auto;
+    }
+    #searchArea{
+        display: none; position:fixed; z-index: 1; border-top: 2px solid black; top: 93px; padding: 35px 13%; box-sizing: border-box; background-color: white; width: 100%;
+    }
+    #searchArea.active{
+        display: block; 
+    }
+    #searchArea input[type='search']{
+        width: 97%; box-sizing: border-box; border: none; line-height: 20px;
+    }
+    #searchArea input[type='button']{
+        border: none; background-color: transparent; font-size: 15px; float: right; cursor: pointer;
+    }
+    header{
+        background-color: white; position: fixed; width: 100%; left: 0; top: 0; 
+        line-height: 90px; z-index: 1;
+    }
+    header .muiArea{
+        display: none;
+    }
+    header:hover{
+        position: relative; position: fixed;
+    }
+    header > div{
+        max-width: 1440px; margin: 0 auto; font-size: 12px; font-weight: 400; display: flex; justify-content: space-between; padding: 0 40px;
+    }
+    header > div > *{
+        align-self: center;
+    }
+    header > div h1{
+        max-width: 95px; flex: 1 1 0;
+    }
+    header > div h1 a{
+        display: block;
+    }
+    header > div h1 a img{
+        width: 100%; display: block;
+    }
+    header > div nav{
+        text-align: center; flex: 7 1 0;
+    }
+    header > div nav ul{
+        list-style: none; 
+    }
+    header > div nav ul li{
+        display: inline-block; cursor: default;
+        border-bottom: 3px solid transparent;
+    }
+    header > div nav ul > li:hover{
+        border-bottom: 3px solid black;
+    }
+    header > div nav ul li:not(:first-child){
+        margin-left: 4.16%;
+    }
+    header > div nav ul li a{
+        text-decoration: none; color: black; 
+    }
+    header > div nav ul li ol{
+        display: none; position: absolute; background-color: white;
+        width: 100%; left: 0; border-top: 2px solid black;
+    }
+    header > div nav ul li ol li{
+        padding: 35px 0 100px 0; vertical-align: top;
+    }
+    header > div nav ul li ol li a{
+        display: block; line-height: 25px; text-align: left; 
+    }
+    header > div nav ul li:hover ol{
+        display: block; 
+    }
+    header > div > div{
+        flex: 1 1 0;
+    }
+    header > div > div a{
+        text-decoration: none; color: #6e6e6e;
+    }
+    header > div > div a:first-of-type{
+        padding-left: 25px; line-height: 20px; background: url('../images/icon_login.png') left top / contain no-repeat;
+    }
+    header > div > div input[type='button']{
+        padding-left: 10px; margin-left: 15px; text-indent: -9999px; line-height: 20px; background: url('../images/icon_search.png') left top / contain no-repeat; border: none; cursor: pointer;
+    }
+    header > div > div a:last-of-type{
+        padding-top: 3px; display: inline-block; margin-left: 15px; line-height: 20px; width: 20px; text-indent: -9999px; background: url('../images/icon_shop.png') left top / contain no-repeat;
+    }
+    /* header fin */
+    .detailContainer .fitvidsBox{
+        padding-top: 155px; max-width: 780px; margin: 0 auto;
+    }
+    .detailContainer [alt*=essence]{
+        padding-top: 70px; width: 100%; max-width: 270px; margin: 0 auto; display: flex; justify-content: center; align-items: center;
+    }
+    [class$='Container'] #readreview{
+        max-width: 1040px; margin: 0 auto;
+    }
+    [class$='Container'] #readreview .starCount{
+        margin-bottom: 35px;
+    }
+    [class$='Container'] #readreview .starCount input[type='button']{
+        border: none; background: none; font-size: 20px; cursor: pointer;
+    }
+    [class$='Container'] #readreview .starCount input[type='button']{
+        color:#6e6e6e;
+    }
+    [class$='Container'] #readreview .starCount input[type='button'].on{
+        color:black;
+    }
+    [class$='Container'] .starResult:not(:last-of-type){
+        text-align: center; margin-bottom: 15px;
+    }
+    [class$='Container'] .starResult:last-of-type{
+        margin-bottom: 25px;
+    }
+    [class$='Container'] .starResult{
+       border: none; background: none; font-size: 20px; display: block;
+    }
+    [class$='Container'] .ecoChic{
+        padding-top: 70px; display: flex; justify-content: center;
+    }
+    [class$='Container'] .ecoChic:after{
+        content: ''; display: block; clear: both;
+    }
+    [class$='Container'] .ecoChic > img{
+        float: left; width: 16.5%; 
+    }
+    [class$='Container'] .ecoChic > div{
+        display: inline-block; margin-left: 16%;
+    }
+    [class$='Container'] .ecoChic > div h3{
+        font-size: 24px; font-weight: 400; margin-bottom: 50px;
+    }
+    [class$='Container'] .ecoChic > div p{
+        font-size: 17px; font-weight: 400; line-height: 26px; margin-bottom: 70px;
+    }
+    /* ecoChic fin */
+    [class$='Container']{
+        padding-top: 90px;
+    }
+    [class$='Container'] > div[class^=list],
+    [class$='Container'] .sortBar > div,
+    [class$='Container'] .sortBar > div ol{
+        max-width: 1075px; margin: 0 auto;
+    }
+    [class$='Container'] .listHeader{
+        padding: 50px 0;
+    }
+    [class$='Container'] .listHeader ol:after{
+        content: ''; display: block; clear: both;
+    }
+    [class$='Container'] .listHeader ol li{
+        float: left; list-style: none; margin-bottom: 40px;
+    }
+    [class$='Container'] .listHeader ol li a{
+        color: black; text-decoration: none; font-size: 12px; font-weight: 400; 
+    }
+    [class$='Container'] .listHeader ol li:nth-of-type(1) a{
+        padding-right: 20px; border-right: 1px solid black;
+    }
+    [class$='Container'] .listHeader ol li:nth-of-type(2) a{
+        padding-left: 20px;
+    }
+    [class$='Container'] .listHeader h2{
+        font-size: 30px; font-weight: 800; color: black; margin-bottom: 35px;
+    }
+    [class$='Container'] .listHeader p{
+        font-size: 14px; font-weight: 400; color: black; line-height: 18px;
+    }
+    [class$='Container'] .sortBar{
+        background-color: white; position: relative; margin-bottom: 20px;
+    }
+    [class$='Container'] .sortBar > div form fieldset{
+        display: flex; justify-content: space-between; flex-flow: row nowrap; align-content: center; padding: 35px 0;
+    }
+    [class$='Container'] .sortBar > div form fieldset label{
+        align-self: center; 
+    }
+    [class$='Container'] .sortBar > div form fieldset input[type='button']{
+        font-size: 12px; background: url('../images/icon_arrow_down.png') right center / 11px no-repeat; border: none; padding-right: 25px; cursor: pointer;
+    }
+    [class$='Container'] .sortBar > div form [id$='Condition']{
+        display: none; border-top: 2px solid black; background-color: white;
+        position: absolute; width: 100%; left: 0; z-index: 0;
+    }
+    [class$='Container'] .sortBar > div form [id$='Condition'].active{
+        display: block;
+    }
+    [class$='Container'] .sortBar > div ol{
+        display: flex; justify-content: space-between; padding: 15px 0;
+    }
+    [class$='Container'] .sortBar > div ol li{
+        color:#6e6e6e; align-self: center; list-style: none; font-size: 12px; font-weight: 400;
+    }
+    [class$='Container'] .sortBar > div ol li input[type='button']{
+        border: none; background-color: transparent; font-size: 15px; cursor: pointer;
+    }
+    [class$='Container'] > .listpage span{
+        font-size: 14px; font-weight: 400; margin-bottom: 15px; display: block;
+    }
+    [class$='Container'] > .listpage ul{
+        background-color: white; margin-bottom: 40px;
+    }
+    [class$='Container'] > .listpage ul:after{
+        content: ''; display: block; clear: both;
+    }
+    [class$='Container'] > .listpage ul li{
+        list-style: none; float: left; text-align: center; width: 33.33%; 
+        position: relative; min-height: 370px; 
+    }
+    [class$='Container'] > .listpage ul li:not(.shopArea){
+        padding: 20px 0 10px 0;
+    }
+    [class$='Container'] > .listpage ul li div{
+        display: none;
+    } 
+    [class$='Container'] > .listpage ul li:hover div{
+        display: block; background-color: rgb(0,0,0,0.4); position: absolute; top: 0; color: white; width: 100%; padding: 20px 0 10px 0; min-height: 370px; 
+    }
+    [class$='Container'] > .listpage ul li:hover div p{
+        font-size: 17px; font-weight: 400; line-height: 23px; margin-bottom: 10px; padding-top: 90px;
+    }
+    [class$='Container'] > .listpage ul li:hover div dl{
+        padding-top: 25px;
+    }
+    [class$='Container'] > .listpage ul li:hover div dl dt{
+        font-size: 15px; font-weight: 600;
+    }
+    [class$='Container'] > .listpage ul li:hover div dl dd{
+        font-size: 14px; font-weight: 400; padding-top: 25px;
+    }
+    [class$='Container'] > .listpage ul li img{
+        width: 100%; max-width: 170px;
+    }
+    [class$='Container'] > .listpage ul li h3{
+        margin-top: 50px; font-size: 17px; font-weight: 600; color: black;
+    }
+    [class$='Container'] > .listpage ul li:hover h3{
+        text-indent: -9999px;
+    }
+    [class$='Container'] .showing{
+        text-align: center; margin-bottom: 35px;
+    }
+    [class$='Container'] .showing{
+        font-size: 16px; font-weight: 400; color: black; letter-spacing: 1px;
+    }
+    [class$='Container'] .paging{
+        position: relative; clear: both; border-radius: 5px; line-height: 50px;
+        max-width: 440px; margin: 0 auto;
+    }
+    [class$='Container'] .paging > a{
+        position: absolute; top: 0; text-align: center; width: 3.4%;
+        font-size: 50px; font-weight: 400; color: #6e6e6e; text-decoration: none;
+    }
+    [class$='Container'] .paging > a:first-of-type{
+        left: 0;
+    }
+    [class$='Container'] .paging > a:last-of-type{
+        right: 0;
+    }
+    [class$='Container'] .paging ol{
+        padding: 0 3.4%; box-sizing: border-box; text-align: center;
+    }
+    [class$='Container'] .paging ol li{
+        display: inline-block; 
+    }
+    [class$='Container'] .paging ol li a{
+        display: block; width: 25px; line-height: 25px; 
+        font-size: 17px; color: #6e6e6e; font-weight: 400; text-decoration: none;
+    }
+    [class$='Container'] .paging ol li:not(:first-of-type){
+        margin-left: 3.4%;
+    }
+    [class$='Container'] .paging ol li a:hover{
+        background-color: black; color: white; 
+    } 
+    /* list container fin */
+    [class$='Container'] .detailForm{
+        padding-top: 130px;
+    }
+    [class$='Container'] .detailForm{
+        display: flex; justify-content: space-between; max-width: 1020px;
+        margin: 0 auto;
+    }
+    [class$='Container'] .detailForm form fieldset{
+        margin-left: 45px; 
+    }
+    /* [class$='Container'] .detailForm form fieldset div:after{
+        content: ''; display: block; clear: both;
+    } */
+    [class$='Container'] .detailForm img:first-of-type{
+        width: 100%; max-width: 700px;
+    }
+    [class$='Container'] .detailForm form fieldset div:first-of-type{
+       font-size: 15px; font-weight: 600; margin-bottom: 50px; display: flex; justify-content: space-between;
+    }
+    [class$='Container'] .detailForm form fieldset div h2{
+        width: 70%;
+    }
+    [class$='Container'] .detailForm form fieldset div .favorite,
+    [class$='Container'] .detailForm form fieldset div .share{
+        text-indent: -9999px; border: none; background: none; line-height: 14px; width: 15px;
+    }
+    [class$='Container'] .detailForm form fieldset div .favorite{
+        width: 17.5px;
+    }
+    [class$='Container'] .detailForm form fieldset div .favorite{
+        background: url('../images/icon_heart.png') left top / contain no-repeat; cursor: pointer; margin-left: 25px;
+    }
+    [class$='Container'] .detailForm form fieldset div .favorite.active{
+        background-image: url('../images/icon_heart_hover.png');
+    }
+    [class$='Container'] .detailForm form fieldset div .share{ 
+        background: url('../images/icon_share.png') left top / contain no-repeat; cursor: pointer; text-indent: -9999px; display: inline-block;
+    }
+    [class$='Container'] .detailForm form fieldset div:after{
+        content: ''; display: block; clear: both;
+    }
+    [class$='Container'] .detailForm form fieldset div label{
+        margin-bottom: 25px; font-size: 14px; font-weight: 400; display: block; 
+    }
+    [class$='Container'] .detailForm form fieldset div select{
+        margin-bottom: 40px; font-family: 'Poppins'; font-size: 14px; font-weight: 400; display: block;
+        padding: 10px 15px; border: 1px solid black;
+    }
+    [class$='Container'] .detailForm form fieldset div select{
+        padding: 10px 140px 10px 15px; -webkit-appearance: none;
+        -moz-appearance: none; background: url('../images/icon_arrow_down.png') right / 12px no-repeat; background-color: white; 
+        background-position: 95%;
+    }
+    [class$='Container'] .detailForm form fieldset input[type='submit']{
+        margin-bottom: 50px;
+    }
+    [class$='Container'] .detailForm form fieldset div:last-of-type{
+        text-align: center;
+    }
+    [class$='Container'] .detailForm form fieldset div:last-of-type a{
+        font-size: 12px; font-weight: 300; color: black; font-style: none; text-decoration: none; 
+    }
+    [class$='Container'] .detailForm form fieldset div:last-of-type a:nth-of-type(1){
+        padding-right: 20px; border-right: 1px solid black; 
+    }
+    [class$='Container'] .detailForm form fieldset div:last-of-type a:nth-of-type(2){
+        padding-left: 20px;
+    }
+    [class$='Container'] .detailDescription ul{
+        margin: 0 auto; max-width: 910px; 
+    }
+    [class$='Container'] .detailDescription ul{
+        padding-top: 100px; list-style: none; display: flex; justify-content: space-between; border-bottom: 1px solid black; margin-bottom: 40px; 
+    }
+    [class$='Container'] .detailDescription ul li{
+        font-size: 14px; font-weight: 400; padding-bottom: 20px;
+        border-bottom: 3px solid transparent;
+    }
+    [class$='Container'] .detailDescription ul li:hover,
+    [class$='Container'] .detailDescription ul li.active{
+        border-color: black; cursor: pointer; 
+    }
+    [class$='Container'] .detailDescription .panel{
+        display: none; font-size: 12px; font-weight: 300; margin: 0 auto; max-width: 910px;
+    }
+    [class$='Container'] .detailDescription .panel p{
+        line-height: 20px; 
+    }
+    [class$='Container'] .detailDescription .panel.active{
+        display: block;
+    }
+    [class$='Container'] .recentlyContainer{
+        padding-top: 70px;
+    }
+    [class$='Container'] .recentlyContainer h2{
+        font-size: 30px; font-weight: 600; text-align: center; margin-bottom: 35px;
+    }
+    [class$='Container'] .recentlyContainer ul{
+        display: flex; justify-content: center;
+    }
+    [class$='Container'] .recentlyContainer ul li{
+        list-style: none; text-align: center;  
+    }
+    [class$='Container'] .recentlyContainer ul li:not(:first-of-type){
+        margin-left: 1.1%;
+    }
+    [class$='Container'] .recentlyContainer #alsoLike li{
+        max-width: 330px; 
+    }
+    [class$='Container'] .recentlyContainer li figure{
+        background-color: white; min-height: 430px; padding: 35px 50px;
+    }
+    [class$='Container'] .recentlyContainer li figure img{
+        margin-bottom: 35px; width: 100%; max-width: 230px; 
+     }
+    [class$='Container'] .recentlyContainer li figure figcaption dl{
+        font-size: 14px; font-weight: 400; 
+    }
+    [class$='Container'] .recentlyContainer li figure figcaption dl dt{
+        margin: 35px 0 10px 0; margin-top: 15px;
+    }
+    [class$='Container'] .btn_more:after{
+       content: url('../images/icon_arrow_small.png'); padding-left: 30px;
+    }
+    [class$='Container'] #readreview{
+        margin-top: 70px; background-color: white; padding: 50px; width: 100%;
+    }
+    [class$='Container'] #readreview > div form input{
+        display: block; 
+    }
+    [class$='Container'] #readreview > div form input:not(:last-of-type){
+        background: none; border: none; background-color: #eeeeee; width: 100%; padding: 10px; box-sizing: border-box;
+    }
+    [class$='Container'] #readreview > div form:after{
+        content: ''; display: block; clear: both;
+    }
+    [class$='Container'] #readreview > div form input:last-of-type{
+        float: right;
+    }
+    [class$='Container'] #readreview > div form input:not(:last-of-type)::placeholder{
+        font-size: 12px; font-weight: 300;
+    }
+    [class$='Container'] #readreview > div form input:first-of-type{
+        margin-bottom: 15px;
+    }
+    [class$='Container'] #readreview > div form input:nth-of-type(2){
+        margin-bottom: 25px; padding-bottom: 120px;
+    }
+    [class$='Container'] #readreview > div form input:nth-of-type(3){
+        margin-bottom: 50px;
+    }
+    [class$='Container'] #readreview > div h2{
+        font-size: 30px; font-weight: 600; margin-bottom: 50px; text-align: center;
+    }
+    [class$='Container'] #readreview > div ul{
+        list-style: none;
+    }
+    [class$='Container'] #readreview > div ul li b{
+        font-size: 15px; font-weight: 600; margin-bottom: 35px; display: block;
+    }
+    [class$='Container'] #readreview > div ul li p{
+        font-size: 12px; font-weight: 300; line-height: 15px;
+    }
+    
+    /* detail fin */
+
+   
+    footer{
+        background-color: white; margin-top: 100px; padding: 0 40px;
+    }
+    footer > div:first-of-type{
+        padding-top: 50px; font-size: 12px; 
+    }
+    footer > div:first-of-type h2 img{
+        width: 100%; max-width: 196px; 
+    }
+    footer > div:first-of-type h2{
+        display: inline-block;
+    }
+    footer > div:first-of-type p{
+        float: right; line-height: 26px;
+    }
+    footer > div:first-of-type p strong{
+        display: block; text-align: right; color: black; 
+    }
+    footer > div:first-of-type p :not(strong){
+        color: #6e6e6e;
+    }
+    footer > div:first-of-type p a{
+        text-decoration: none; 
+    }
+    footer > div:nth-of-type(2){
+        padding-top: 50px; text-align: center;
+    }
+    footer > div:nth-of-type(2) strong{
+        font-size: 12px; font-weight: 600; letter-spacing: 1px; 
+    }
+    footer > div:nth-of-type(2) input{
+        margin-top: 15px;
+    }
+    footer > div:nth-of-type(2) input[type='email']{
+        width: 16%; font-size: 14px; font-weight: 600; border: 1px solid black;
+        background-color: transparent; line-height: 38px;
+        padding: 0 10px; box-sizing: border-box;
+    }
+    footer > div:nth-of-type(2) input::placeholder{
+        font-size: 15px; color: #6e6e6e; font-weight: 400;
+    }
+    footer > div:nth-of-type(2) input[type='submit']{
+        font-size: 15px; font-weight: 600; width: 4%; border: none; background-color: black; color: white; line-height: 38px; 
+    }
+    footer > ul{
+        text-align: center; border-bottom: 1px solid #6e6e6e; 
+    }
+    footer > ul li{
+        padding: 70px 0 35px 0; display: inline-block; 
+    }
+    footer > ul li a{
+        text-decoration: none; color: #6e6e6e; font-size: 14px; font-weight: 300; 
+    }
+    footer > ul li:not(:first-child){
+        margin-left: 10%;
+    }
+    footer > div:last-of-type{
+        padding: 35px 0 40px 0; display: flex; justify-content: space-between;
+    }
+    footer > div:last-of-type p{
+       display: inline-block; color: black; font-size: 12px; font-weight: 400;
+    }
+    footer > div:last-of-type p span{
+        margin-right: 25px;
+    }
+    footer > div:last-of-type span:last-of-type{
+        width: 15%;
+    }
+    footer > div:last-of-type span:last-of-type a{
+        width: 35px; height: 33px; text-indent: -9999px;
+        background-position: center; background-repeat: no-repeat; display: inline-block; margin-left: 2.1%;
+    }
+    footer > div:last-of-type span:last-of-type a:not(:last-of-type){
+        margin-right: 25px;
+    }
+    footer > div:last-of-type span:last-of-type a:nth-child(1){
+        background-image: url('../images/sns_01.png');
+    }
+    footer > div:last-of-type span:last-of-type a:nth-child(2){
+        background-image: url('../images/sns_02.png');
+    }
+    footer > div:last-of-type span:last-of-type a:nth-child(3){
+        background-image: url('../images/sns_03.png');
+    }
+    /* footer fin */
+
+    .bestSellers .bx-wrapper .bx-prev {
+        left: calc(50% - 16px) !important;
+        top: -2em !important;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+      
+    .bestSellers .bx-wrapper .bx-next {
+        right: calc(50% - 16px) !important;
+        top: calc(100% + 2em) !important;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+      }
+    /* slider fin */
+/* desktop */
+}
+/* desktop */

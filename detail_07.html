@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bond No.9</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="searchArea">
+        <input type="search" placeholder="search">
+        <input type="button" value="X" class="btn_close"/>
+    </div>
+    <header>
+  <div class="poppins">
+        <input type="button" value="mui" class="muiArea" data-popName="muiArea">
+        <h1>
+            <a href="index.html">
+                <img src="images/logo.png" alt="welcome to bondno9">
+            </a>
+        </h1>
+        <nav id="muiArea">
+            <ul >
+                <li>
+                  SHOP
+                    <ol>
+                        <li>
+                            <a href="eauDeParfum.html">EAU DE PARFUM</a>
+                            <a href="byGender_01.html">BY GENDER</a>
+                            <a href="byScentType.html">BY SCENT TYPE</a>
+                        </li>
+                        <li>
+                            <a href="theDubaiCollection.html">THE DUBAI COLLECTION</a>
+                            <a href="ecoChic.html">ECO CHIC</a>
+                        </li>
+                        <li>
+                            <a href="harrods.html">HARRODS</a>
+                            <a href="saksFifthAve.html">SAKS FIFTH AVE</a>
+                        </li>
+                    </ol>
+                <li><a href="whatsNew.html">WHAT'S NEW</a></li>
+                <li><a href="bestSellers.html">BEST SELLERS</a></li>
+                <li><a href="gifts.html">GIFTS</a></li>
+                <li>
+                  ABOUT
+                  <ol>  
+                    <li><a href="philosophy.html">PHILOSOPHY</a></li>
+                    <li><a href="careers.html">	CAREERS</a></li>
+                    <li><a href="storeLocations.html">STORES</a></li>
+                  </ol>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <a href="login.html">LOG IN</a>
+            <input type="button" value="search" data-popName="searchArea" class="btn_open">
+            <a href="buy_01.html">shop</a>
+        </div>
+    </div>
+    </header>
+    <!-- header fin -->
+ 
+    <section class="detailContainer">
+        <div class="detailForm poppins">
+            <img src="images/detail_07.png" alt="detail_07">
+            <form>
+                <fieldset>
+                    <div>
+                        <h2>EAU DE NEW YORK WITH <br>
+                            SWAROVSKI® CRYSTALS</h2>
+                        <a href="https://www.facebook.com/" class="share">share</a>
+                        <input type="button" value="favorite" class="favorite">                   
+                    </div>
+                    <div>
+                        <label for="price_size">PRICE & SIZE</label>
+                        <select id="price_size">
+                            <option value="pro_size">$ 580.00  100ml</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="qty">QTY</label>
+                        <span class="customNumber">
+                            <input type="button" value="-" id="stepDown">
+                            <input type="number" value="0" min="0" max="9" id="qty">
+                            <input type="button" value="+" id="stepUp">
+                        </span>
+                    </div>
+                    <input type="submit" value="ADD TO CART" class="btn_black">
+                   <div class="starResult">
+                        <span>★</span>
+                        <span>★</span>
+                        <span>★</span>
+                        <span>★</span>
+                        <span>☆</span>
+                    </div>
+                    <div>
+                        <a href="#readreview">Read Reviews</a>
+                        <a href="#readreview">Write a Review</a>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <div class="detailDescription">
+            <ul>
+                <li data-tabName="description" class="active">Description</li>
+                <li data-tabName="returns">Shipping &amp; returns</li>
+                <li data-tabName="maintenance">Care &amp; maintenance</li>
+            </ul>
+            <div id="description" class="panel active">
+                <p>
+                    EAU DE NEW YORK WITH SWAROVSKI® CRYSTALS
+                    <br><br> 
+                    The speed-demon, get-it-done-yesterday capital of the world, in take-out form and decked out in white Swarovski crystals. <br>
+                    Fast-paced fruits, flowers, and greens whose effervescent scent molecules positively whiz through the air.
+                    <br><br>
+                    Notes: Bergamot, Mandarin, Grapefruit, Petitgrain Leaves, Green Watery Accord, Neroli, Gardenia, <br>
+                    Cyclamen, White Lily, Basil Verbena, Jasmin Petals, Vetiver, Oakmoss, Skin Musk, White Woods.
+                </p>
+            </div>
+            <div id="returns" class="panel">
+                <p>Fedex handles all deliveries to Korea. Shipments to Korea take 4 to 5 business days after processing and shipping.</p>
+                <p>Please note that your order cannot be processed by our delivery partner on public holidays in Korea and Singapore. Therefore these days do not count as working days.</p>
+                <p>How much time do returns take to be processed?
+                    Once we have your return package we will register it and you will receive
+                    an email notification once return is processed. The refund transmission will then depend
+                    on the guidelines of your financial institution and it may take up to 3-7 business days
+                    for the credit to be applied to the same payment method used to place the order.
+                    The entire return and refund process may take up to 3-4 weeks from postage date.</p>
+            </div>
+            <div id="maintenance" class="panel">
+                <p>bondno9 crystal is a delicate material thast must be handled with special care. To ensure that your bondno9 product remains in the best possible condition over an extended period of time, please observe the advice below to avoid damage:</p>
+                <p>Store your jewelry in the original packaging or a soft pouch to avoid scratches.</p>
+                <p>Polish your product carefully with a soft, lint free cloth or clean it by hand with lukewarm water. Do not soak your crystal products in water.</p>
+            </div>
+        </div>
+        <div class="recentlyContainer">
+            <h2 class="nanum">YOU MAY ALSO LIKE</h2>
+            <ul id="alsoLike">
+                <li>
+                    <figure>
+                        <img src="images/product_90.png" alt="pro_90">
+                        <figcaption>
+                            <dl>
+                                <dt>EAU DE NEW YORK</dt>
+                                <dd>$ 325.00</dd>
+                            </dl>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+        <div class="ecoChic poppins">
+            <img src="images/product_04.png" alt="eco_chic">
+            <div>
+                <h3>ECO CHIC</h3>
+                <p>TRIBECA- PACKAGE FREE <br>
+                 Eco, Chic. Everyday is Earth Day. Bond No. 9 is proud to <br>
+                 offer 15 best-selling fragrances in new sustainable packaging. <br>
+                 Bottle and Sustainable Package will ship together and will be wrapped separately.</p>
+                 <a href="ecoChic.html" class="btn_more">Read more</a>
+            </div>
+        </div>
+        <div id="readreview">
+            <div>
+                <div class="starCount">
+                    <input type="button" value="★">
+                    <input type="button" value="★">
+                    <input type="button" value="★">
+                    <input type="button" value="★">
+                    <input type="button" value="★">
+                </div>
+                <div>
+                    <form>
+                        <input type="text" id="name" placeholder="NAME">
+                        <input type="text" id="review" placeholder="REVIEW">
+                        <input type="submit" value="WRITE A REVIEW" class="btn_black">
+                    </form>
+                </div>
+            </div>
+            <div class="poppins">
+                <h2 class="nanum">REVIEWS</h2>
+                <ul>
+                    <li>
+                        <div class="starResult">
+                            <span>★</span>
+                            <span>★</span>
+                            <span>★</span>
+                            <span>★</span>
+                            <span>☆</span>
+                        </div>
+                        <b>Na Seo Hyeon</b>
+                        <p>I have been wanting this perfume for about 4 months now. Every time I went in Saks Fifth Ave I would smell it, <br> but couldn't afford it at the time. I finally had the money and I am so thankful because I looove this perfume. <br> It is my forever signature scent!</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- section fin -->
+
+    <footer>
+        <div>
+            <h2>
+                <img src="images/logo.png" alt="footer_logo">
+            </h2>
+            <p>
+                <strong>CONTACT US</strong>
+                Monday-Friday 10am-7pm ET
+                <a href="tel:+6462849009">(646) 284-9009</a>
+                <a href="mailto:contactus@bondno9.com">contactus@bondno9.com</a>
+                Text Us: 
+                <a href="tel:+8565148687">(856) 514-8687</a>      
+            </p>
+        </div>
+        <div>
+            <strong>SIGN UP FOR BOND NO.9 EMAILS</strong>
+            <form>
+                <input type="email" placeholder="Enter email address" title="Enter email address"><input type="submit" title="JOIN">
+            </form>
+        </div>
+        <ul>
+            <li><a href="orderstatus.html">ORDER STATUS</a></li>
+            <li><a href="storeLocations.html">STORE LOCATIONS</a></li>
+            <li><a href="customerService.html">CUSTOMER SERVICE</a></li>
+            <li><a href="privacyPolicy.html">PRIVACY POLICY</a></li>
+            <li><a href="siteMap.html">SITE MAP</a></li>
+        </ul>
+        <div>
+            <p>
+                <span>Copyright ⓒ 2022 Bondno.9. All rights reserved.</span>
+                BONDNO.9 and the SWAN logo are registered and trademarks of Bondno.9 AG.
+            </p>
+            <span>
+                <a href="https://www.facebook.com/BondNo9">facebook</a>
+                <a href="https://instagram.com/bondno9ny">instagram</a>
+                <a href="https://www.youtube.com/user/bond9nyc">youtube</a>
+            </span>
+        </div>
+    </footer>
+    <!-- footer fin -->
+</body>
+</html>

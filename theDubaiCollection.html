@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bond No.9</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="searchArea">
+        <input type="search" placeholder="search">
+        <input type="button" value="X" class="btn_close"/>
+    </div>
+    <header>
+  <div class="poppins">
+        <input type="button" value="mui" class="muiArea" data-popName="muiArea">
+        <h1>
+            <a href="index.html">
+                <img src="images/logo.png" alt="welcome to bondno9">
+            </a>
+        </h1>
+        <nav id="muiArea">
+            <ul >
+                <li>
+                  SHOP
+                    <ol>
+                        <li>
+                            <a href="eauDeParfum.html">EAU DE PARFUM</a>
+                            <a href="byGender_01.html">BY GENDER</a>
+                            <a href="byScentType.html">BY SCENT TYPE</a>
+                        </li>
+                        <li>
+                            <a href="theDubaiCollection.html">THE DUBAI COLLECTION</a>
+                            <a href="ecoChic.html">ECO CHIC</a>
+                        </li>
+                        <li>
+                            <a href="harrods.html">HARRODS</a>
+                            <a href="saksFifthAve.html">SAKS FIFTH AVE</a>
+                        </li>
+                    </ol>
+                <li><a href="whatsNew.html">WHAT'S NEW</a></li>
+                <li><a href="bestSellers.html">BEST SELLERS</a></li>
+                <li><a href="gifts.html">GIFTS</a></li>
+                <li>
+                  ABOUT
+                  <ol>  
+                    <li><a href="philosophy.html">PHILOSOPHY</a></li>
+                    <li><a href="careers.html">	CAREERS</a></li>
+                    <li><a href="storeLocations.html">STORES</a></li>
+                  </ol>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <a href="login.html">LOG IN</a>
+            <input type="button" value="search" data-popName="searchArea" class="btn_open">
+            <a href="buy_01.html">shop</a>
+        </div>
+    </div>
+    </header>
+    <!-- header fin -->
+  
+    <section class="theDubaiCollectionContainer">
+      <div class="listHeader">
+        <ol>
+          <li class="poppins"><a href="index.html">HOME</a></li>
+          <li class="poppins"><a href="byGender_01.html">THE DUBAI COLLECTION</a></li>
+        </ol>
+        <h2 class="nanum">THE DUBAI COLLECTION</h2>
+        <p class="poppins">
+          Find items that can be matched daily on BONDNO9. <br> Delicate design, aroma,
+          and characteristics <br> go well with daily look and personality.
+        </p>
+      </div>
+      <div class="sortBar poppins">
+        <div>
+          <form>
+            <fieldset>
+              <label for="filterBy">FILTER BY</label>
+              <input type="button" id="filterBy" value="Neighborhood" data-panelName="firstCondition" class="poppins"/>
+              <input type="button" value="Gender" data-panelName="secondCondition" class="poppins"/>
+              <input type="button" value="Scent Type" data-panelName="thirdCondition" class="poppins"/>
+              <input type="button" value="Price" data-panelName="fourthCondition" class="poppins"/>
+              <input type="submit" value="APPLY" class="poppins btn_small"/>
+            </fieldset>
+            <div id="firstCondition">
+              <ol>
+                <li>
+                  <input type="checkbox" id="neighborhood_op1" />
+                  <label for="neighborhood_op1">Uptown</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="neighborhood_op2" />
+                  <label for="neighborhood_op2">Midtown</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="neighborhood_op3" />
+                  <label for="neighborhood_op3">Downtown</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="neighborhood_op4" />
+                  <label for="neighborhood_op4">Beaches</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="neighborhood_op5" />
+                  <label for="neighborhood_op5">Beach</label>
+                </li>
+                <li>
+                  <input type="button" value="X" class="btn_close" />
+                </li>
+              </ol> 
+            </div>
+            <div id="secondCondition">
+              <ol>
+                <li>
+                  <input type="checkbox" id="Gender_op1" />
+                  <label for="Gender_op1">Womens</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="Gender_op2" />
+                  <label for="Gender_op2">Mens</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="Gender_op3" />
+                  <label for="Gender_op3">Unisex</label>
+                </li>
+                <li>
+                  <input type="button" value="X" />
+                </li>
+              </ol>
+            </div>
+            <div id="thirdCondition">
+              <ol>
+                <li>
+                  <input type="checkbox" id="ScentType_op1" />
+                  <label for="ScentType_op1">Floral</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="ScentType_op2" />
+                  <label for="ScentType_op2">Woody &amp; Earthy</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="ScentType_op3" />
+                  <label for="ScentType_op3">Warm &amp; Spicy</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="ScentType_op4" />
+                  <label for="ScentType_op4">Fresh</label>
+                </li>
+                <li>
+                  <input type="button" value="X" />
+                </li>
+              </ol>      
+            </div>
+            <div id="fourthCondition">
+              <ol>
+                <li>
+                  <input type="checkbox" id="Price_op1" />
+                  <label for="Price_op1">Under $150</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="Price_op2" />
+                  <label for="Price_op2">$150 - $300</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="Price_op3" />
+                  <label for="Price_op3">$300 - $500</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="Price_op4" />
+                  <label for="Price_op4">$500 - $1000</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="Price_op5" />
+                  <label for="Price_op5">$1000+</label>
+                </li>
+                <li>
+                  <input type="button" value="X" />
+                </li>
+              </ol>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="listpage poppins">
+          <span>11 Results</span>
+          <ul>
+            <li>
+                <img src="images/gif_product_12.gif" alt="gif_pro_12" />
+                <h3>DUBAI DIAMOND EMERALD</h3>
+                <div>
+                  <p>Davana Flowers, Saffron, <br> PatchouliRose, Oud, Amber, <br> Leather and Sandalwood</p>
+                  <a href="detail_130.html" class="btn_black">Detail</a>
+                  <dl>
+                    <dt>DUBAI DIAMOND EMERALD</dt>
+                    <dd>$ 950.00</dd>
+                  </dl>
+                </div>
+              </li>
+              <li>
+                <img src="images/gif_product_08.gif" alt="pro_g_08" />
+                <h3>BOND NO.9 DUBAI BLUE DIAMOND</h3>
+                <div>
+                  <p>Fresh Ginger, Tonka Beans, <br> Sandalwood and Patchouli</p>
+                  <a href="detail_123.html" class="btn_black">Detail</a>
+                  <dl>
+                    <dt>BOND NO.9 DUBAI BLUE DIAMOND</dt>
+                    <dd>$ 950.00</dd>
+                  </dl>
+                </div>
+              </li>
+              <li>
+                <img src="images/product_99.png" alt="pro_99" />
+                <h3>BOND NO. 9 DUBAI DIAMOND</h3>
+                <div>
+                  <p>Saffron, Rose, Patchouli, <br> Jasmine, Musk and Amber</p>
+                  <a href="detail_118.html" class="btn_black">Detail</a>
+                  <dl>
+                    <dt>BOND NO. 9 DUBAI DIAMOND</dt>
+                    <dd>$ 950.00</dd>
+                  </dl>
+                </div>
+              </li>
+              <li>
+                <img src="images/product_88.png" alt="pro_88" />
+                <h3>BOND NO. 9 DUBAI PLATINUM</h3>
+                <div>
+                  <p>Incense, Pink Peppercorn, <br> Cardamom, Ginger, Cedarwood Atlas, <br> Cistus, Vanilla, Papyrus, <br> Oud, Cashmere</p>
+                  <a href="detail_90.html" class="btn_black">Detail</a>
+                  <dl>
+                    <dt>BOND NO. 9 DUBAI PLATINUM</dt>
+                    <dd>$ 580.00</dd>
+                  </dl>
+                </div>
+              </li>
+              <li>
+                <img src="images/product_101.png" alt="pro_101" />
+                <h3>BOND NO. 9 DUBAI GOLD</h3>
+                <div>
+                  <p>Brandy, Saffron, Bitter Orange, <br> Ginger, Cedarwood, Guaiac Wood, <br> Amber, Sandalwood, <br> Musk and Patchouli</p>
+                  <a href="detail_100.html" class="btn_black">Detail</a>
+                  <dl>
+                    <dt>BOND NO. 9 DUBAI GOLD</dt>
+                    <dd>$ 580.00</dd>
+                  </dl>
+                </div>
+              </li>
+              <li>
+                <img src="images/product_89.png" alt="pro_89" />
+                <h3>BOND NO. 9 DUBAI RUBY</h3>
+                <div>
+                  <p>Bergamot, Saffron Davana, <br> Rose, Magnolia, Geranium, <br> Amber, Sandalwood, <br> Myrrh, Cypriol, Civet</p>
+                  <a href="detail_97.html" class="btn_black">Detail</a>
+                  <dl>
+                    <dt>BOND NO. 9 DUBAI RUBY</dt>
+                    <dd>$ 580.00</dd>
+                  </dl>
+                </div>
+              </li>
+              <li>
+                <img src="images/product_102.png" alt="pro_102" />
+                <h3>BOND NO. 9 DUBAI INDIGO</h3>
+                <div>
+                  <p>Lychee, Peach, Bergamot, <br> Orange Blossom, Jasmine, Peony, <br> White Musk, Amber, <br> Agarwood, and Oakmoss</p>
+                  <a href="detail_61.html" class="btn_black">Detail</a>
+                  <dl>
+                    <dt>BOND NO. 9 DUBAI INDIGO</dt>
+                    <dd>$ 580.00</dd>
+                  </dl>
+                </div>
+              </li>
+              <li>
+                <img src="images/product_97.png" alt="pro_97" />
+                <h3>BOND NO. 9 DUBAI BLACK SAPPHIRE</h3>
+                <div>
+                  <p>Neroli, Saffron, Beeswax, <br> Turkish Rose, Gurjun, Cedarwood, <br> Pepper, Oud, Sandalwood, <br> Tolu Balm, Benzoin Siam <br> and Vetiver</p>
+                  <a href="detail_43.html" class="btn_black">Detail</a>
+                  <dl>
+                    <dt>BOND NO. 9 DUBAI BLACK SAPPHIRE</dt>
+                    <dd>$ 580.00</dd>
+                  </dl>
+                </div>
+              </li>
+              <li>
+                <img src="images/product_103.png" alt="pro_103" />
+                <h3>BOND NO. 9 DUBAI JADE</h3>
+                <div>
+                  <p>Violet Leaves, Raspberry, <br> Cumin, Rose, Lilly, Jasmine, <br> Cedarwood, Amber, Musk, Incense Oud, <br> Ambrette and Birch Tar</p>
+                  <a href="detail_96.html" class="btn_black">Detail</a>
+                  <dl>
+                    <dt>BOND NO. 9 DUBAI JADE</dt>
+                    <dd>$ 580.00</dd>
+                  </dl>
+                </div>
+              </li>
+              <li>
+                <img src="images/product_111.png" alt="pro_111" />
+                <h3>BOND NO. 9 DUBAI AMBER</h3>
+                <div>
+                  <p>Bergamot, Saffron, Pink Pepper, <br> Raspberry, Bulgarian Rose, Jasmin, <br> Gurjum, Guaiac wood, Incense, <br> Oud, Amber, Cedarwood, <br> Vanilla and Civet</p>
+                  <a href="detail_04.html" class="btn_black">Detail</a>
+                  <dl>
+                    <dt>BOND NO. 9 DUBAI AMBER</dt>
+                    <dd>$ 580.00</dd>
+                  </dl>
+                </div>
+              </li>
+              <li>
+                <img src="images/product_05.png" alt="pro_05" />
+                <h3>BOND NO. 9 DUBAI EMERALD</h3>
+                <div>
+                  <p>Saffron, Hyssop, Rose, <br> Gurjum, Balsam, Patchouli, <br> Sandalwood, Amber, <br> Cypriol and Leather</p>
+                  <a href="detail_37.html" class="btn_black">Detail</a>
+                  <dl>
+                    <dt>BOND NO. 9 DUBAI EMERALD</dt>
+                    <dd>$ 580.00</dd>
+                  </dl>
+                </div>
+              </li>
+                <li>
+                    <img src="images/product_96.png" alt="pro_96" />
+                    <h3>BOND NO. 9 DUBAI AMETHYST</h3>
+                    <div>
+                      <p>Lily, Rose, Tonka, <br> Jasmin, Ambroxan, <br> Tobacco and Patchouli</p>
+                      <a href="detail_34.html" class="btn_black">Detail</a>
+                      <dl>
+                        <dt>BOND NO. 9 DUBAI AMETHYST</dt>
+                        <dd>$ 580.00</dd>
+                      </dl>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="images/product_100.png" alt="pro_100" />
+                    <h3>BOND NO. 9 DUBAI GARNET</h3>
+                    <div>
+                      <p>Bergamot, Blackberry, Seaweed, <br> Pink Pepper, Cardamom, Magnolia, <br> Rose, Jasmine, Lavender, <br> Plum, Cumin, Musk...</p>
+                      <a href="detail_33.html" class="btn_black">Detail</a>
+                      <dl>
+                        <dt>BOND NO. 9 DUBAI GARNET</dt>
+                        <dd>$ 580.00</dd>
+                      </dl>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="images/product_98.png" alt="pro_98" />
+                    <h3>BOND NO. 9 DUBAI CITRINE</h3>
+                    <div>
+                      <p>Bergamot, Red Berries, Fir Balsam, <br> Seaweed, Magnolia, Geranium, <br> Marigold, Lily, Musk, <br> Amber, Oakmoss, <br> Vetiver and Costus</p>
+                      <a href="detail_03.html" class="btn_black">Detail</a>
+                      <dl>
+                        <dt>BOND NO. 9 DUBAI CITRINE</dt>
+                        <dd>$ 580.00</dd>
+                      </dl>
+                    </div>
+                  </li>
+              </ul>
+          <div class="showing poppins">
+            <p>Showing 11 of 11 products</p>
+          </div>
+        </div>
+    </section>
+    <!-- section fin -->
+
+    <footer>
+        <div>
+            <h2>
+                <img src="images/logo.png" alt="footer_logo">
+            </h2>
+            <p>
+                <strong>CONTACT US</strong>
+                Monday-Friday 10am-7pm ET
+                <a href="tel:+6462849009">(646) 284-9009</a>
+                <a href="mailto:contactus@bondno9.com">contactus@bondno9.com</a>
+                Text Us: 
+                <a href="tel:+8565148687">(856) 514-8687</a>      
+            </p>
+        </div>
+        <div>
+            <strong>SIGN UP FOR BOND NO.9 EMAILS</strong>
+            <form>
+                <input type="email" placeholder="Enter email address" title="Enter email address"><input type="submit" title="JOIN">
+            </form>
+        </div>
+        <ul>
+            <li><a href="orderstatus.html">ORDER STATUS</a></li>
+            <li><a href="storeLocations.html">STORE LOCATIONS</a></li>
+            <li><a href="customerService.html">CUSTOMER SERVICE</a></li>
+            <li><a href="privacyPolicy.html">PRIVACY POLICY</a></li>
+            <li><a href="siteMap.html">SITE MAP</a></li>
+        </ul>
+        <div>
+            <p>
+                <span>Copyright ⓒ 2022 Bondno.9. All rights reserved.</span>
+                BONDNO.9 and the SWAN logo are registered and trademarks of Bondno.9 AG.
+            </p>
+            <span>
+                <a href="https://www.facebook.com/BondNo9">facebook</a>
+                <a href="https://instagram.com/bondno9ny">instagram</a>
+                <a href="https://www.youtube.com/user/bond9nyc">youtube</a>
+            </span>
+        </div>
+    </footer>
+    <!-- footer fin -->
+</body>
+</html>

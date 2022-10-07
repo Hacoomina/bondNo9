@@ -1,0 +1,3276 @@
+
+@media screen and (max-width: 767px){
+    .mainContainer > div:nth-of-type(1){
+        position: relative; width: 100%; padding-bottom: 75%; 
+    }
+    .mainContainer > div:nth-of-type(1) iframe{
+        position: absolute; left: 0; width: 100%; height: 100%;
+    }
+    .lineBanner{
+        padding: 130px 0 100px 0; text-align: center;
+    }
+    .lineBanner h2{
+        font-size: 30px; font-weight: 800; margin-bottom: 40px;
+    }
+    .lineBanner p{
+        line-height: 16px; font-size: 12px; font-weight: 400; padding: 0 10px;
+    }
+    .bestSellers{
+        background-color: white; padding: 50px 0 60px;
+    }
+    .bestSellers > div > .bx-wrapper{
+        box-sizing: border-box; width: 48%;
+        margin: 50px auto 100px;
+    }
+    .bestSellers > div > .bx-wrapper .bx-viewport .verticalSlider li a{
+        display: block; text-decoration: none; color: black; text-align: center;
+    }
+    .bestSellers > div > .bx-wrapper .bx-viewport .verticalSlider li a figure img{
+        width: 100%; margin-bottom: 15px;
+    }
+    .bestSellers > div > .bx-wrapper .bx-viewport .verticalSlider li a figure figcaption dl{
+        font-weight: 400;
+    }
+    .bestSellers > div > .bx-wrapper .bx-viewport .verticalSlider li a figure figcaption dl dt{
+        font-size: 12px; margin-bottom: 10px;
+    }
+    .bestSellers > div > .bx-wrapper .bx-viewport .verticalSlider li a figure figcaption dl dd{
+        font-size: 10px; margin-bottom: 10px;
+    }
+    .bestSellers > div > div{
+        text-align: center;
+    }
+    .bestSellers > div > div img{
+        width: 100%; max-width: 515px; display: block; margin: 0 auto;
+    }
+    .bestSellers > div > div h3{
+        font-size: 24px; font-weight: 700; padding-top: 40px;
+    }
+    .bestSellers > div > div p{
+        font-size: 12px; font-weight: 400; padding: 40px 0 50px 0; line-height: 16px;
+    }
+    .mainContainer .byGender{
+        padding-top: 60px;
+    }
+    .mainContainer .byGender > h2{
+        font-size: 40px; font-weight: 800; text-align: center;
+    }
+    .mainContainer .byGender > ul{
+        padding-top: 155px; list-style: none; 
+    }
+    .byGender > ul{
+        text-align: center;
+    }
+    .byGender > ul li:not(:last-of-type){
+        margin-bottom: 120px;
+    }
+    .byGender > ul li dl{
+        padding-top: 130px;
+    }
+    .byGender > ul li dl dt{
+        font-size: 36px; font-weight: 700; margin-bottom: 50px;
+    }
+    .byGender > ul li dl dd{
+        font-size: 14px; font-weight: 400; line-height: 22px; margin-bottom: 100px;
+    }
+    .byGender > ul li figure img{
+        max-width: 250px; height: auto; display: block; margin: 0 auto;
+    }
+    .shopNewArrivals{
+        padding-top: 130px; text-align: center; 
+    }
+    .shopNewArrivals h2{
+        font-size: 20px; font-weight: 700; text-align: center; margin-bottom: 35px;
+    }
+    .shopNewArrivals .bx-wrapper .bx-prev{
+        background-color: black; background: url('../images/icon_bg_arrow_left.png') left top / contain no-repeat; 
+    }
+    .shopNewArrivals .bx-wrapper .bx-next{
+        background-color: black; background: url('../images/icon_bg_arrow_right.png') left top / contain no-repeat; 
+    }
+    .carouselSlider li{
+        background-color: white; min-height: 480px; 
+    }
+    .carouselSlider li figure{
+        margin-top: 40px;
+    }
+    .carouselSlider li figure img{
+        width: 100%; max-width: 225px; display: block; margin: 0 auto; margin-bottom: 50px; 
+    }
+    .carouselSlider li figure figcaption dl dt{
+        margin-bottom: 10px; font-size: 14px;
+    }
+    .carouselSlider li figure figcaption dl dd{
+        font-size: 12px;
+    }
+    .mainContainer .imgContxt img{
+        display: none;
+    }
+    .mainContainer .imgContxt{
+        padding-top: 100px; font-size: 25px; font-weight: 800; 
+    }
+    .mainContainer .imgContxt li{
+        background-color: white;
+    }
+    .mainContainer .imgContxt li > div{
+        padding: 20px; display: block;
+    }
+    .mainContainer .imgContxt li{
+        text-align: center; 
+    }
+    .mainContainer .imgContxt div > h3{
+        margin-bottom: 60px;
+    }
+    .mainContainer .limgRtxt,
+    .mainContainer .ltxtRimg{
+        margin-bottom: 100px;
+    }
+    .ltxtRimg div h3{
+        margin-bottom: 50px;
+    }
+    .ltxtRimg div small{
+        font-size: 17px; font-weight: 400; display: block; margin-top: 25px;
+    }
+    .byScentType{
+        text-align: center;
+    }
+    .byScentType > h2{
+        font-size: 30px; font-weight: 700;
+    }
+    .byScentType ul{
+        padding-top: 40px; list-style: none;
+    }
+    .byScentType ul li:not(:last-of-type){
+        margin-bottom: 25px;
+    }
+    .byScentType ul li img{
+        width: 100%; max-width: 465px;
+    }
+    .byScentType ul li h3{
+        font-size: 12px; font-weight: 400; padding-top: 15px;
+    }
+    .byScentType ul li:not(:first-of-type){
+        margin-left: 0.35%;
+    }
+    .lineBanner > a{
+        margin-top: 50px;
+    }
+    .flashyList{
+        list-style: none; text-align: center;
+    }
+    .flashyList > li:not(:last-of-type){
+        margin-bottom: 100px;
+    }
+    .flashyList > li:not(:first-of-type){
+        margin-left: 3%;
+    }
+    .flashyList > li figure img{
+        width: 100%; max-width: 370px;
+    }
+    .flashyList > li figure figcaption p{
+        line-height: 26px;
+    }
+    .flashyList > li figure figcaption h2{
+        margin-bottom: 35px; font-size: 30px; font-weight: 700; padding-top: 70px; 
+    }
+    .flashyList > li figure figcaption a{
+        margin-top: 120px; 
+    }
+    .mainContainer > .ecoChic{
+        padding-top: 120px;
+    }
+    .eauDeParfumContainer,
+    .byScentTypeContainer{
+        margin-bottom: 100px;
+    }
+    .eauDeParfumContainer > h2,
+    .byScentTypeContainer > h2{
+        padding-top: 100px; text-align: center; font-size: 30px; font-weight: 700; margin-bottom: 35px;
+    }
+    .eauDeParfumContainer > p:first-of-type,
+    .byScentTypeContainer > p:first-of-type{
+        font-size: 12px; font-weight: 400; text-align: center; line-height: 16px;
+    }
+    .eauDeParfumContainer > img:first-of-type,
+    .byScentTypeContainer > img:first-of-type{
+        padding: 100px 0 130px 0; width: 100%; height: 300px; object-fit: cover;
+    }
+    .imgtxt li{
+        position: relative;
+    }
+    .imgtxt li:not([class*="img"]) img{
+        display: block; opacity: 0.7; transition: opacity 0.5s ease; width: 100%; height: 330px; object-fit: cover;
+    }
+    .imgtxt li:not([class*="img"]):hover img{
+        opacity: 1;
+    }
+    .imgtxt li div{
+        position: absolute; top: 50%; left: 50%; transform: translate( -50%, -50% ); text-align: center; width: 100%;
+    }
+    .eauDeParfumContainer .imgtxt .ltxtRimg img,
+    .eauDeParfumContainer .imgtxt .limgRtxt img{
+        width: 100%; width: 100%; height: 530px; object-fit: cover;
+    }
+    .imgtxt h3,
+    .imgtxt p{
+        filter: drop-shadow(1px 3px 2px white); 
+    }
+    .imgtxt .rtxt h3,
+    .imgtxt .ltxt h3{
+        font-size: 30px; font-weight: 800; margin-bottom: 15px;
+    }
+    .imgtxt .rtxt p,
+    .imgtxt .ltxt p{
+        font-size: 14px; font-weight: 400; margin-bottom: 25px;
+    }
+    .eauDeParfumContainer .imgtxt > .ltxtRimg h3,
+    .eauDeParfumContainer .imgtxt > .limgRtxt h3{
+        font-size: 40px; font-weight: 800; margin-bottom: 15px;
+    }
+    .eauDeParfumContainer .imgtxt > .ltxtRimg p,
+    .eauDeParfumContainer .imgtxt > .limgRtxt p{
+        font-size: 14px; font-weight: 400; margin-bottom: 25px; 
+    }
+    /* eauDeParfum fin */
+    .byGenderContainer > .listpage .shopArea a{
+        margin-top: 25px;
+    }
+    .byGenderContainer > .listpage .shopArea h4{
+        margin-top: 15px;
+    }
+    .byGenderContainer > .listpage .shopArea img{
+        width: 100%;
+    }
+    /* list fin */
+    .detailContainer > .howToAssembleArea{
+        padding-top: 70px; text-align: center;
+    }
+    .detailContainer > .howToAssembleArea strong{
+        font-size: 24px; font-weight: 400; margin-bottom: 35px; display: block;
+    }
+    .detailContainer > .howToAssembleArea p{
+        font-size: 14px; font-weight: 400; margin-bottom: 25px; line-height: 26px;
+    }
+    /* ecoChicdetailContainer fin */
+    .philosophyContainer{
+        padding-top: 220px; 
+    }
+    .philosophyContainer h2{
+        width: 100%; display: block; text-align: center;
+    }
+    .philosophyContainer img{
+        width: 100%;
+    }
+    .philosophyContainer h2 img{
+        max-width: 250px;
+    }
+    .philosophyContainer .philosophyArea{
+        padding-top: 155px; text-align: center;
+    }
+    .philosophyContainer .philosophyArea h3{
+        font-size: 40px; font-weight: 600; margin-bottom: 40px;
+    }
+    .philosophyContainer .philosophyArea:not(h3){
+        font-size: 17px; font-weight: 400;
+    }
+    .philosophyContainer .philosophyArea span{
+        margin-bottom: 35px; display: block; font-size: 17px; font-weight: 400;
+    }
+    .philosophyContainer .philosophyArea p{
+        line-height: 16px; font-size: 12px; font-weight: 400;
+    }
+    .philosophyContainer .philosophyArea p:first-of-type{
+        margin-bottom: 25px;
+    }
+    .philosophyContainer .tribecaArea{
+        padding-top: 130px;
+    }
+    .philosophyContainer .tribecaArea h3{
+        font-size: 26px; font-weight: 600; text-align: center; margin-bottom: 35px;
+    }
+    .philosophyContainer .msrahmeArea{
+        padding-top: 130px; text-align: center;
+    }
+    .philosophyContainer .msrahmeArea div{
+        margin-bottom: 35px; 
+    }
+    .philosophyContainer .msrahmeArea div > p{
+        line-height: 16px; padding-top: 70px; font-size: 12px;
+    }
+    .philosophyContainer .msrahmeArea div > p b{
+        font-size: 40px; font-weight: 600; margin-bottom: 35px; display: block; 
+    }
+    .philosophyContainer .msrahmeArea > p:first-of-type,
+    .philosophyContainer .ourScent > p:first-of-type,
+    .philosophyContainer .unique > p:first-of-type{
+        margin-bottom: 25px; font-size: 12px; font-weight: 400; line-height: 16px;
+    }
+    .philosophyContainer .msrahmeArea > p:last-of-type,
+    .philosophyContainer .ourScent > p,
+    .philosophyContainer .unique > p{
+        line-height: 16px; font-size: 12px; font-weight: 400;
+    }
+    .philosophyContainer .msrahmeArea div > img{
+        width: 100%; display: block; margin: 0 auto;
+    }
+    .philosophyContainer .ourScent > img,
+    .philosophyContainer .unique > img{
+        padding-top: 100px; margin-bottom: 50px; height: 270px; object-fit: cover;
+    }
+    /* philosophy fin */
+    .careersContainer{
+        padding-top: 93px; 
+    }
+    .careersContainer div{
+        max-width: 1000px; margin: 0 auto; padding: 0 10px;
+    }
+    .careersContainer div:first-of-type{
+        padding-top: 100px; text-align: center; 
+    }
+    .careersContainer div:first-of-type > h2{
+        font-size: 40px; font-weight: 600; margin-bottom: 35px;
+    }
+    .careersContainer div:first-of-type p{
+        font-size: 12px; font-weight: 400; line-height: 16px;
+    }
+    .careersContainer div:nth-of-type(2){
+        padding-top: 130px;
+    }
+    .careersContainer div:nth-of-type(2) > h3{
+        font-size: 30px; font-weight: 600; margin-bottom: 40px; text-align: center;
+    }
+    .careersContainer div:nth-of-type(2) > ul{
+       background-color: white; list-style: none; padding: 50px 10px; line-height: 20px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li:not(:last-child){
+        margin-bottom: 35px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li{
+        font-size: 12px; font-weight: 400; text-decoration: none; color: black; display: block; line-height: 20px;
+        background: url('../images/icon_arrow.png') right 10px / 20px no-repeat; padding-right: 30px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li:hover{
+        background-image: url('../images/icon_arrow_down.png');
+        margin-bottom: 35px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li p{
+        font-size: 12px; font-weight: 400; color: #6e6e6e; opacity: 0; transition-property: opacity; display: none; line-height: 16px; margin-top: 20px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li:hover p{
+        opacity: 1; display: block;
+    }
+    .careersContainer div:nth-of-type(2) > ul li p:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li p:last-of-type:not(:last-of-type){
+        margin-bottom: 70px;
+    }
+    /* careers fin */
+    .storesContainer{
+        padding-top: 220px;
+    }
+    .storesContainer h2,
+    .storesContainer div h3{
+        font-size: 40px; font-weight: 600; text-align: center; margin-bottom: 155px;
+    }
+    .storesContainer img,
+    .careersContainer img{
+        width: 100%; height: 100%; object-fit: cover;
+    }
+    .storesContainer div h3{
+        padding-top: 130px; margin-bottom: 40px;
+    }
+    .storesContainer div .fitvidsBox{
+        max-width: 92.9%; margin: 0 auto;
+    }
+    .storesContainer div .fitvidsBox iframe{
+        width: 100%; height: 225px; margin: 0 auto; display: block;
+    }
+    .storesContainer div ul{
+        background-color: white; max-width: 92.9%; margin: 0 auto; text-align: center; padding: 50px 0; 
+    }
+    .storesContainer div ul ol{
+        list-style: none; 
+    }
+    .storesContainer div ul ol li{
+        margin-bottom: 25px;
+    }
+    .storesContainer div ul ol:last-of-type li:last-of-type{
+        margin-bottom: 0;
+    }
+    .storesContainer div ul ol li{
+        line-height: 25px; font-size: 12px; font-weight: 400;
+    }
+    /* store fin */
+    [class^='buy']{
+        max-width: 662px; margin: 0 auto; padding-top: 220px;
+    }
+    [class^='buy'] h2{
+        font-size: 40px; font-weight: 800; text-align: center; margin-bottom: 70px;
+    }
+    [class^='buy'] .stepper{
+        list-style: none; margin-bottom: 70px; font-size: 16px; font-weight: 600; display: block; max-width: 203px; margin: 0 auto 70px auto;
+    }
+    [class^='buy'] .stepper li:first-of-type{
+        margin-bottom: 25px;
+    }
+    [class^='buy'] .stepper li span{
+        background-color: black; color: white; border-radius: 50%; display: inline-block; line-height: 35px; width: 35px; height: 35px; text-align: center; margin-right: 7px;
+    }
+    [class^='buy'] .payWith{
+        text-align: center; background-color: white; padding: 35px 10px; margin-bottom: 10px; 
+    }
+    [class^='buy'] .payWith h3{
+        font-size: 14px; font-weight: 400; margin-bottom: 10px;
+    }
+    [class^='buy'] .payWith p{
+        font-size: 12px; font-weight: 300; color: #6e6e6e; margin-bottom: 25px;
+    }
+    [class^='buy'] .payWith div{
+        display: flex; justify-content: center; 
+    }
+    [class^='buy'] .payWith a img{
+        width: 100%;
+    }
+    [class^='buy'] .payWith div a:not(:first-of-type){
+        margin-left: 3.5%; 
+    }
+    [class^='buy'] fieldset legend{
+        font-size: 12px; font-weight: 400; display: block;
+        position: relative; top: 40px; margin-bottom: 20px; text-align: center;
+    }
+    [class^='buy'] fieldset.orderSummary > *:not(legend){
+        background-color: #eee; margin-bottom: 10px;
+    }
+    [class^='buy'] fieldset.orderSummary div:first-of-type{
+       flex: 0 auto; display: flex; justify-content: space-between;
+       padding: 10px;
+    }
+    [class^='buy'] fieldset.orderSummary div:first-of-type *{
+        align-self: center; font-size: 12px; font-weight: 300;
+    }
+    [class^='buy'] fieldset.orderSummary div:first-of-type~*{
+        flex: 0 1 290px;
+    }
+    [class^='buy'] fieldset.orderSummary div:first-of-type span:nth-of-type(3){
+        display: none;
+    }
+    [class^='buy'] fieldset.orderSummary ul,
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(2){
+        padding: 10px; box-sizing: border-box;
+    }
+    [class^='buy'] fieldset.orderSummary ul li{
+        display: flex; justify-content: space-between; font-size: 12px;
+    }
+    [class^='buy'] fieldset.orderSummary ul li input{
+        text-align: right;
+    }
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(2){
+        display: flex; justify-content: space-between;
+        box-sizing: border-box; font-size: 12px; font-weight: 300;
+    }
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(2) *{
+        align-self: center; width: 35%;
+    }
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(2) input{
+        text-align: right;
+    }
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(3) input[type='text'],
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(4) input[type='text']{
+        line-height: 30px; padding-left: 10px; width: 71.5%;
+    }
+    [class^='buy'] fieldset.orderSummary div input[type='submit']{
+        float: right;
+    }
+    [class^='buy'] fieldset.orderSummary > div span:not(:first-of-type),
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        color: #6e6e6e;
+    }
+    [class^='buy'] fieldset.orderSummary div img,
+    .buyContainer_02 .giftWrapping img{
+        display: none;
+    }
+    [class^='buy'] fieldset.orderSummary ul{
+        list-style: none;
+    }
+    .buyContainer p strong{
+        font-size: 15px; font-weight: 600; display: block; margin-bottom: 15px; color: black; text-align: center;
+    }
+    .buyContainer p:not(strong){
+        font-size: 12px; font-weight: 400; color: #6e6e6e; margin-bottom: 10px; text-align: center;
+    }
+    .buyContainer div img{
+        margin-bottom: 10px; width: 100%; object-fit: cover; height: 125px;
+    }
+    .buyContainer div:nth-of-type(2){
+        background-color: white; padding: 35px; margin-bottom: 10px;
+    }
+    .buyContainer div:nth-of-type(2) span{
+        font-size: 12px; font-weight: 400; color: #6e6e6e; display: block; text-align: center;
+    }
+    .buyContainer div:nth-of-type(2) span:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .buyContainer form ul{
+        background-color: white; list-style: none; padding: 30px; margin-bottom: 70px;
+    }
+    .buyContainer form ul li{
+        font-size: 12px; line-height: 16px; display: block;
+    }
+    .buyContainer form ul li{
+        margin-bottom: 30px;
+    }
+    .buyContainer form ul li span{
+        display: block; padding-left: 23px;
+    }
+    .buyContainer form div a{
+        margin-bottom: 15px;
+    }
+    .buyContainer form div input[type='reset'],
+    .buyContainer form div a,
+    .buyContainer_02 .continueArea a{
+        font-size: 16px; display: block; width: 100%; padding: 0;
+    }
+    .buyContainer form div a{
+        margin-bottom: 15px;
+    }
+    /* buy_01 fin */
+    .buyContainer_02 h4{
+        font-size: 14px; font-weight: 400; margin-bottom: 10px;
+    }
+    .buyContainer_02 p:not(ol+p){
+        font-size: 12px; font-weight: 300; color: #6e6e6e; margin-bottom: 10px; line-height: 16px;
+    }
+    .buyContainer_02 input,
+    .buyContainer_03 input,
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        font-size: 12px; font-weight: 300;
+    }
+    .buyContainer_02 #emailAddress,
+    .buyContainer_02 ol+p,
+    .buyContainer_02 .shipping,
+    .buyContainer_02 .selectMethod{
+        margin-bottom: 10px; padding: 35px 10px; background-color: white;
+    }
+    .buyContainer_02 input:not([type='submit'],[type='button']),
+    .buyContainer_03 input:not([type='submit'],[type='button']){
+        background-color: transparent; border: none; 
+    }
+    .buyContainer_02 .shipping input{
+        width: 100%; box-sizing: border-box;
+    } 
+    .buyContainer_02 .shipping form fieldset ul li,
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        background-color: #eeeeee; margin-bottom: 10px;
+    }
+    .buyContainer_02 .stepper li:last-of-type span{
+        background-color: #6e6e6e; 
+    }
+    .buyContainer_02 .stepper li:nth-of-type(2){
+        color: #6e6e6e;
+    }
+    .buyContainer_02 ol+p{
+        font-size: 14px; font-weight: 400; color: black; text-align: center;
+    }
+    .buyContainer_02 .shipping form fieldset ul li input{
+        box-sizing: border-box; line-height: 30px; padding: 0 10px;
+    }
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        padding: 0 10px; box-sizing: border-box;
+    }
+    .buyContainer_02 .shipping form fieldset ul li:nth-child(3),
+    .buyContainer_02 .shipping form fieldset ul li:nth-child(7){
+        line-height: 30px; padding: 0 10px;
+    }
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        display: flex; justify-content: space-between; align-items: center;
+    }
+    .buyContainer_02 .orderSummary{
+        background-color: white; margin-bottom: 10px; padding: 35px 10px;
+        box-sizing: border-box;
+    }
+    .buyContainer_02 #emailAddress div:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .buyContainer_02 #emailAddress div input[type='email']{
+        background-color: #eeeeee; line-height: 30px; padding: 0 10px; width: 100%; box-sizing: border-box;
+    }
+    .buyContainer_02 #emailAddress div label{
+        font-size: 12px; font-weight: 300; color: #6e6e6e;
+    }
+    .buyContainer_02 .shipping form fieldset ul{
+        list-style: none; color: #6e6e6e;
+    }
+    .buyContainer_02 .shipping form fieldset ul li select{
+        border: none; background-color: transparent; color: #6e6e6e; font-size: 12px; font-weight: 300; width: 100%;
+    }
+    .buyContainer_02 .selectMethod p:last-of-type{
+        margin-bottom: 25px;
+    }
+    .buyContainer_02 .selectMethod ul{
+        list-style: none;
+    }
+    .buyContainer_02 .selectMethod ul li{
+        margin-bottom: 15px;
+    }
+    .buyContainer_02 .selectMethod ul li label:checked,
+    .buyContainer_02 .selectMethod ul li input[type="radio"]:checked + label{
+        color: black;
+    }
+    .buyContainer_02 .selectMethod ul li label,
+    .buyContainer_02 .selectMethod ul li span{
+        font-size: 12px; font-weight: 300; color:#6e6e6e; line-height: 15px;
+    }
+    .buyContainer_02 .selectMethod ul li span{
+        display: block; padding-left: 25px;
+    }
+    .buyContainer_02 .giftWrapping{
+        padding: 35px 10px; background-color: white; margin-bottom: 35px;
+    }
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        padding: 10px;
+    }
+    .buyContainer_02 .giftWrapping div:first-of-type span:first-of-type{
+        color: black; display: block;
+    }
+    .buyContainer_02 .giftWrapping div:first-of-type span:last-of-type{
+       font-size: 12px;
+    }
+    .buyContainer_02 .giftWrapping div:last-of-type:after{
+        content: ''; display: block; clear: both;
+    }
+    .buyContainer_02 .giftWrapping div:last-of-type textarea{
+        width: 100%; padding: 10px; float: left; margin-right: 10px; box-sizing: border-box;
+    }
+    .buyContainer_02 .giftWrapping div:last-of-type textarea::placeholder{
+        font-size: 12px; font-weight: 400;
+    }
+    .buyContainer_02 .giftWrapping div:last-of-type input[type='button']{
+        margin-top: 10px;
+    }
+    .buyContainer_02 .giftWrapping div:last-of-type input[type='button']:first-of-type{
+        border: none; background-color: transparent; font-size: 20px; cursor: pointer;
+    }
+    .buyContainer_02 .giftWrapping div:last-of-type input[type='button']:last-of-type{
+        float: right;
+    }
+    .buyContainer_02 .continueArea{
+       text-align: center;
+    }
+    /* buy_02 fin */
+    .buyContainer_03 fieldset{
+        background-color: white; margin-bottom: 10px; padding: 35px 10px;
+        box-sizing: border-box;
+    }
+    .buyContainer_03 .stepper li:first-of-type span{
+        background-color: #6e6e6e; 
+    }
+    .buyContainer_03 .stepper li:nth-of-type(1){
+        color: #6e6e6e;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) legend,
+    .buyContainer_03 form fieldset:last-of-type legend{
+        font-size: 14px; font-weight: 400; margin-bottom: 35px;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul{
+        list-style: none;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:not(:last-of-type) input{
+        width: 100%; box-sizing: border-box; 
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:not(:last-of-type){
+        margin-bottom: 10px; 
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li input:not([type='button']){
+        line-height: 30px; padding: 0 10px; background-color: #eeeeee; 
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li input[type='button']{
+        font-size: 12px; text-align: left; margin-top: 10px;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:nth-of-type(4) div img{
+        display: none; margin: 0 auto; max-width: 240px;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:nth-of-type(4) div:hover img{
+        display: block;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:nth-of-type(4) div input[type='button']{
+        border: none; background-color: transparent; padding: 0; cursor: pointer;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:last-of-type label{
+        font-size: 12px; font-weight: 300;
+    }
+    .buyContainer_03 form fieldset:last-of-type ul{
+        list-style: none; 
+    }
+    .buyContainer_03 form fieldset:last-of-type ul li{
+        background-color: #eeeeee; padding: 10px;
+    }
+    .buyContainer_03 form fieldset:last-of-type ul li:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .buyContainer_03 form fieldset:last-of-type ul li strong{
+        font-size: 12px; font-weight: 400; display: block; margin-bottom: 15px;
+    }
+    .buyContainer_03 form fieldset:last-of-type ul li span,address{
+        font-size: 10px; font-weight: 300; display: block; 
+    }
+    .buyContainer_03 form fieldset:last-of-type ul li span:not(:last-of-type),address:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .buyContainer_03 .placeArea{
+        padding-top: 35px; text-align: center;
+    }
+    .buyContainer_03 .placeArea a{
+        margin-bottom: 15px; display: block; width: 100%; padding: 0;
+    }
+    .buyContainer_03 .placeArea p{
+        font-size: 12px; font-weight: 400; line-height: 16px; max-width: 220px; margin: 0 auto;
+    }
+    /* buy_03 fin */
+    #forgotPW{
+        display: none; position:fixed; z-index: 1; bottom: 0;
+    }
+    #forgotPW.active{
+        display: block; background-color: white; width: 100%; text-align: center; padding: 60px 0px;
+    }
+    #forgotPW.active h3{
+        font-size: 24px; font-weight: 400; margin-bottom: 40px;
+    }
+    #forgotPW.active p{
+        font-size: 17px; font-weight: 400; color:#6e6e6e; margin-bottom: 15px;
+    }
+    #forgotPW.active input[type='email']{
+        width: 100%; max-width: 90%; line-height: 40px; padding: 0 10px; box-sizing: border-box; font-size: 13px; font-weight: 400; color:#6e6e6e; margin-bottom: 70px; 
+    }
+    #forgotPW.active input[type='submit']{
+        display: block; margin: 0 auto;
+    }
+    .loginContainer input:not([type='submit']){
+        font-size: 12px; font-weight: 300; border: none; background-color: #eeeeee; line-height: 30px; padding: 0 10px; box-sizing: border-box;
+    }
+    .loginContainer > div div{
+        background-color: white; padding: 50px 10px; max-width: 90%; width: 100%; margin: 0 auto;
+    }
+    .loginContainer > div div:first-of-type{
+        margin-bottom: 50px;
+    }
+    .loginContainer div .loginArea b,
+    .loginContainer .createArea b{
+        font-size: 15px; font-weight: 600; display: block; margin-bottom: 15px; text-align: center;
+    }
+    .loginContainer div .loginArea p{
+        font-size: 12px; font-weight: 400; margin-bottom: 35px; text-align: center;
+    }
+    .loginContainer div .loginArea form fieldset ul{
+        list-style: none;
+    }
+    .loginContainer div .loginArea form fieldset ul li:nth-child(1){
+        margin-bottom: 15px;
+    }
+    .loginContainer div .loginArea form fieldset ul li:nth-child(2){
+        margin-bottom: 25px;
+    }
+    .loginContainer > div .loginArea form fieldset ul li input[type='email'],
+    .loginContainer > div .loginArea form fieldset ul li input[type='password']{
+        width: 100%; max-width: 100%;
+    }
+    .loginContainer div .loginArea form fieldset ul li:after{
+        content: ''; display: block; clear: both;
+    }
+    .loginContainer div .loginArea form fieldset ul li input[type='submit']{
+        float: right;
+    }
+    .loginContainer div .loginArea form fieldset ul li label{
+        font-size: 12px; font-weight: 300;
+    }
+    .loginContainer div .loginArea form fieldset ul li:nth-child(3){
+        margin-bottom: 25px;
+    }
+    .loginContainer div .loginArea form fieldset ul li:last-child{
+        display: block; text-align: center;
+    }
+    .loginContainer div .loginArea form fieldset ul li:last-child input[type='button']{
+        font-size: 12px; font-weight: 300; background-color: transparent; padding: 0; color: #6e6e6e; text-decoration: underline; cursor: pointer;
+    }
+    .loginContainer .createArea p{
+        font-size: 12px; font-weight: 300; line-height: 20px; max-width: 285px; text-align: center; margin: 0 auto; margin-bottom: 25px;
+    }
+    .loginContainer .createArea a{
+        display: block; margin: 0 auto; padding: 0; max-width: 240px;
+    }
+    /* login fin */
+    .loginMyContainer div{
+        background-color: white; padding: 50px 20px; max-width: 680px; margin: 0 auto;
+    }
+    .loginMyContainer div p:first-child{
+        font-size: 15px; font-weight: 600; margin-bottom: 35px; text-align: center; line-height: 20px;
+    }
+    .loginMyContainer div fieldset{
+        border: 1px solid black; padding: 10px; margin-bottom: 25px; position: relative;
+    }
+    .loginMyContainer div fieldset legend{
+        font-size: 12px; font-weight: 400; margin-bottom: 10px; width: 100%; float: left;
+    }
+    .loginMyContainer div fieldset ul{
+        list-style: none;
+    }
+    .loginMyContainer div fieldset ul li{
+        margin-bottom: 5px;
+    }
+    .loginMyContainer div fieldset ul li label,
+    .loginMyContainer div fieldset p{
+        font-size: 10px; font-weight: 300;
+    }
+    .loginMyContainer div fieldset ul li input{
+        border: none; font-size: 0; font-weight: 300;
+    }
+    .loginMyContainer div fieldset a{
+        text-decoration: none; color: black; font-size: 12px; font-weight: 300; position: absolute; top: 10px; right: 10px;
+    }
+    .loginMyContainer div fieldset:last-of-type{
+        margin-bottom: 70px;
+    }
+    .loginMyContainer div:after{
+        content: ''; display: block; clear: both;
+    }
+    .loginMyContainer div a:last-of-type{
+        float: right;
+    }
+    /* loginMy fin */
+    .loginSignUpContainer > div form,
+    .loginSignUpContainer > div div{
+        padding: 50px 10px; max-width: 90%; width: 100%; margin: 0 auto; background-color: white;
+    }
+    .loginSignUpContainer > div form{
+        margin-bottom: 50px;
+    }
+    .loginSignUpContainer div form fieldset ul{
+        list-style: none;
+    }
+    .loginSignUpContainer div form fieldset legend{
+        font-size: 15px; font-weight: 600; text-align: center; margin-bottom: 35px;
+    }
+    .loginSignUpContainer div form fieldset ul li input{
+        border: none; background-color: #eeeeee; 
+    }
+    .loginSignUpContainer div form fieldset ul li input:not([id='confirmPassword'],[id='signCheck']){
+        margin-bottom: 15px;
+    }
+    .loginSignUpContainer div form fieldset ul li input:not([id='signCheck']){
+        line-height: 30px; padding: 0 10px; width: 100%; box-sizing: border-box;
+    }
+    .loginSignUpContainer div form fieldset ul li input[id='confirmPassword']{
+        margin-bottom: 25px;
+    }
+    .loginSignUpContainer div form fieldset ul li label{
+        margin-bottom: 25px; font-size: 12px; font-weight: 300; color: #6e6e6e;
+    }
+    .loginSignUpContainer div .accountArea{
+        text-align: center;
+    }
+    .loginSignUpContainer div .accountArea h3{
+        margin-bottom: 25px;
+    }
+    .loginSignUpContainer div form fieldset ul li:nth-of-type(6){
+        margin-bottom: 25px;
+    }
+    .loginSignUpContainer div form fieldset ul li:last-of-type a{
+        width: 100%; box-sizing: border-box; padding: 0;
+    }
+    /* loginSignUp fin */
+    .loginMyChangeContainer > div{
+        background-color: white; padding: 50px 10px; text-align: center; max-width: 680px; margin: 0 auto;
+    }
+    .loginMyChangeContainer > div form fieldset legend{
+        font-size: 15px; font-weight: 600; margin-bottom: 35px;
+    }
+    .loginMyChangeContainer > div form fieldset ul{
+        list-style: none;
+    }
+    .loginMyChangeContainer > div form fieldset ul li input{
+        width: 100%; box-sizing: border-box; border: none; background-color: #eeeeee; line-height: 30px; padding: 0 10px; display: block;
+    }
+    .loginMyChangeContainer > div form fieldset ul li:not(:last-of-type) input{
+        margin-bottom: 15px; 
+    }
+    .loginMyChangeContainer > div form fieldset ul li:last-of-type{
+        margin-bottom: 50px; 
+    }
+    .loginMyChangeContainer a{
+        width: 100%; box-sizing: border-box; margin-bottom: 15px;
+    }
+    .loginMyChangeContainer input[type='reset']{
+        border: none; background-color: transparent; font-size: 12px; font-weight: 400; cursor: pointer;
+    }
+    /* loginMyChangeContainer fin */
+    .orderstatusContainer > div div{
+        background-color: white; padding: 50px 10px; max-width: 90%; width: 100%; margin: 0 auto;
+    }
+    .orderstatusContainer > div div:first-of-type{
+        margin-bottom: 50px;
+    }
+    .orderstatusContainer b,
+    .orderstatusContainer p{
+        text-align: center; display: block;
+    }
+    .orderstatusContainer b{
+        font-size: 15px; font-weight: 600; margin-bottom: 15px;
+    }
+    .orderstatusContainer p{
+        font-size: 12px; font-weight: 400; margin-bottom: 35px;
+    }
+    .orderstatusContainer ul{
+        list-style: none;
+    }
+    .orderstatusContainer ul li label{
+        font-size: 12px; font-weight: 300; color: #6e6e6e;
+    }
+    .orderstatusContainer ul li input{
+        border: none; background-color: #eeeeee; padding: 10px; 
+    }
+    .orderstatusContainer ul li input:not([type='checkbox']){
+        width: 100%; box-sizing: border-box;
+    }
+    .orderstatusContainer ul li input[type='email']{
+        margin-bottom: 10px;
+    }
+    .orderstatusContainer ul li input[type='password'],
+    .orderstatusContainer ul li input[type='text']{
+        margin-bottom: 25px;
+    }
+    .orderstatusContainer ul li:after{
+        display: block; content: ''; clear: both;
+    }
+    .orderstatusContainer ul li a{
+        float: right;
+    }
+    .orderstatusContainer .orderAccountArea ul li:nth-of-type(3){
+        margin-bottom: 30px;
+    }
+    .orderstatusContainer .orderAccountArea input[type='button']{
+        background-color: transparent; text-decoration: underline; font-size: 12px; font-weight: 300; color: #6e6e6e; cursor: pointer;
+    }
+    /* orderstatusContainer fin */
+    .orderstatusMyOrdersContainer{
+        max-width: 930px; margin: 0 auto;
+    }
+    .orderstatusMyOrdersContainer table caption{
+        display: none;
+    }
+    /* 보류*/
+    .customerServiceContainer > div{
+        background-color: white; padding: 50px; line-height: 16px;
+    }
+    .customerServiceContainer > div strong{
+        font-size: 15px; font-weight: 600; display: block; margin-bottom: 35px; color: black;
+    }
+    .customerServiceContainer > div:not(strong){
+        font-size: 10px; font-weight: 300; color: #6e6e6e;
+    }
+    .customerServiceContainer > div p:first-of-type{
+        margin-bottom: 25px;
+    }
+    .customerServiceContainer > div ol li:not(:last-of-type){
+        color: black; margin-bottom: 15px;
+    }
+    .customerServiceContainer > div ol{
+        color: black; margin-bottom: 25px;
+    }
+    /* customerServiceContainer fin */
+    .privacyServiceContainer div{
+        background-color: white; padding: 50px;
+    }
+    .privacyServiceContainer div strong{
+        font-size: 15px; font-weight: 600; color: black; margin-bottom: 35px; display: block;
+    }
+    .privacyServiceContainer div p{
+        margin-bottom: 25px; font-size: 10px; font-weight: 300; color: #6e6e6e; line-height: 16px;
+    }
+    .privacyServiceContainer div p:last-of-type{
+        margin: 0;
+    }
+    .privacyServiceContainer div p > b{
+        color: black; display: block; margin-bottom: 15px; font-size: 10px; font-weight: 400;
+    }
+    /* privacyServiceContainer fin */
+    .sitemapContainer div{
+        margin-bottom: 50px;
+    }
+    .sitemapContainer > div strong{
+        display: block; padding-bottom: 25px; font-size: 15px; font-weight: 600;
+    }
+    .sitemapContainer > div ul{
+        list-style: none; 
+    }
+    .sitemapContainer > div strong,
+    .sitemapContainer > div ul{
+        max-width: 160px; width: 100%; margin: 0 auto; display: block;
+    }
+    .sitemapContainer > div ul li a{
+        text-decoration: none; color: black; font-size: 12px; font-weight: 400;
+    }
+    .sitemapContainer > div ul li:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    /* sitemapContainer fin */
+    .wishlistsContainer ul{
+        list-style: none; margin-bottom: 70px;
+    }
+    .wishlistsContainer ul:after,
+    .wishlistsContainer ul li figure:after{
+        content: ''; display: block; clear: both;
+    }
+    .wishlistsContainer ul li > *,
+    .wishlistsContainer ul li figure > *{
+        float: left;
+    }
+    .wishlistsContainer ul li:first-of-type{
+        padding-bottom: 40px; border-bottom: 1px solid black;
+    }
+    .wishlistsContainer ul li > :first-child{
+        width: 51%; margin-right: 7%;
+    }
+    .wishlistsContainer ul li > :not(:first-child){
+        width: 20%;
+    }
+    .wishlistsContainer ul li span:last-of-type{
+        text-align: right;
+    }
+    .wishlistsContainer ul li span{
+        display: block;
+    }
+    .wishlistsContainer ul li figure img{
+        max-width: 55px; width: 100%;
+    }
+    .wishlistsContainer ul li figure figcaption{
+        margin-left: 18%; width: 30%;
+    }
+    .wishlistsContainer ul li:first-of-type{
+        padding-bottom: 50px; border-bottom: 1px solid black; margin-bottom: 25px; 
+    }
+    .wishlistsContainer div{
+        text-align: center;
+    }
+    .wishlistsContainer ul li dl dt{
+        margin-bottom: 15px; font-size: 12px; font-weight: 400;
+    }
+    .wishlistsContainer ul li dl dd{
+        margin-bottom: 15px; font-size: 12px; font-weight: 400; color: #6e6e6e;
+    }
+    .wishlistsContainer ul li input[type='reset']{
+        border: none; background-color: transparent; text-decoration: underline; padding: 0; color:#6e6e6e; font-size: 12px; font-weight: 300;
+    }
+    .wishlistsContainer ul li:last-of-type span{
+        font-size: 12px; font-weight: 300;
+    }
+    /* wishlistContainer fin */
+    .orderstatusMyOrdersContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .orderstatusMyOrdersContainer table{
+        float: left; width: 100%; text-align: left; font-size: 10px; font-weight: 300; 
+    }
+    .orderstatusMyOrdersContainer table thead tr th{
+        font-size: 10px; font-weight: 300; padding-bottom: 30px;
+    }
+    .orderstatusMyOrdersContainer table tbody tr:first-of-type td{
+        padding-bottom: 20px; padding-top: 20px;
+    }
+}
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1279px){
+    .mainContainer > div:nth-of-type(1){
+        position: relative; width: 100%; padding-bottom: 75%; 
+    }
+    .mainContainer > div:nth-of-type(1) iframe{
+        position: absolute; left: 0; width: 100%; height: 100%;
+    }
+    .lineBanner{
+        padding: 150px 0 100px 0; text-align: center;
+    }
+    .lineBanner h2{
+        font-size: 40px; font-weight: 800; margin-bottom: 40px;
+    }
+    .lineBanner p{
+        line-height: 25px; font-size: 14px; font-weight: 400;
+    }
+    .bestSellers{
+        background-color: white; padding: 50px 0 60px;
+    }
+    .bestSellers > div > .bx-wrapper{
+        box-sizing: border-box; width: 48%;
+        margin: 50px auto 100px;
+    }
+    .bestSellers > div > .bx-wrapper .bx-viewport .verticalSlider li a{
+        display: block; text-decoration: none; color: black; text-align: center;
+    }
+    .bestSellers > div > .bx-wrapper .bx-viewport .verticalSlider li a figure img{
+        width: 100%; 
+    }
+    .bestSellers > div > .bx-wrapper .bx-viewport .verticalSlider li a figure figcaption dl{
+        font-weight: 400;
+    }
+    .bestSellers > div > .bx-wrapper .bx-viewport .verticalSlider li a figure figcaption dl dt{
+        font-size: 16px; margin-bottom: 15px;
+    }
+    .bestSellers > div > .bx-wrapper .bx-viewport .verticalSlider li a figure figcaption dl dd{
+        font-size: 14px; margin-bottom: 10px;
+    }
+    .bestSellers > div > div{
+        text-align: center;
+    }
+    .bestSellers > div > div img{
+        width: 100%; max-width: 515px; display: block; margin: 0 auto;
+    }
+    .bestSellers > div > div h3{
+        font-size: 34px; font-weight: 700; padding-top: 40px;
+    }
+    .bestSellers > div > div p{
+        font-size: 16px; font-weight: 400; padding: 40px 0 50px 0; 
+    }
+    .mainContainer .byGender{
+        padding-top: 60px;
+    }
+    .mainContainer .byGender > h2{
+        font-size: 48px; font-weight: 800; text-align: center;
+    }
+    .mainContainer .byGender > ul{
+        padding-top: 155px; list-style: none; 
+    }
+    .byGender > ul{
+        text-align: center;
+    }
+    .byGender > ul li:not(:last-of-type){
+        margin-bottom: 120px;
+    }
+    .byGender > ul li dl{
+        padding-top: 130px;
+    }
+    .byGender > ul li dl dt{
+        font-size: 40px; font-weight: 700; margin-bottom: 50px;
+    }
+    .byGender > ul li dl dd{
+        font-size: 17px; font-weight: 400; line-height: 26px; margin-bottom: 100px;
+    }
+    .byGender > ul li figure img{
+        max-width: 295px; height: auto; display: block; margin: 0 auto;
+    }
+    .shopNewArrivals{
+        padding-top: 130px; text-align: center; 
+    }
+    .shopNewArrivals h2{
+        font-size: 30px; font-weight: 700; text-align: center; margin-bottom: 35px;
+    }
+    .shopNewArrivals .bx-wrapper .bx-prev{
+        background-color: black; background: url('../images/icon_bg_arrow_left.png') left top / contain no-repeat; 
+    }
+    .shopNewArrivals .bx-wrapper .bx-next{
+        background-color: black; background: url('../images/icon_bg_arrow_right.png') left top / contain no-repeat; 
+    }
+    .carouselSlider li{
+        background-color: white; min-height: 480px; 
+    }
+    .carouselSlider li figure{
+        margin-top: 40px;
+    }
+    .carouselSlider li figure img{
+        width: 100%; max-width: 225px; display: block; margin: 0 auto; margin-bottom: 50px; 
+    }
+    .carouselSlider li figure figcaption dl dt{
+        margin-bottom: 10px; 
+    }
+    .mainContainer .imgContxt img{
+        display: none;
+    }
+    .mainContainer .imgContxt{
+        padding-top: 100px; font-size: 40px; font-weight: 800; 
+    }
+    .mainContainer .imgContxt li{
+        background-color: white;
+    }
+    .mainContainer .imgContxt li > div{
+        padding: 40px; display: block;
+    }
+    .mainContainer .imgContxt li:first-of-type{
+        text-align: left;
+    }
+    .mainContainer .imgContxt li:nth-of-type(2){
+        text-align: right;
+    }
+    .mainContainer .imgContxt li:last-of-type{
+        text-align: center;
+    }
+    .mainContainer .imgContxt div > h3{
+        margin-bottom: 60px;
+    }
+    .mainContainer .limgRtxt,
+    .mainContainer .ltxtRimg{
+        margin-bottom: 100px;
+    }
+    .ltxtRimg div h3{
+        margin-bottom: 50px;
+    }
+    .ltxtRimg div small{
+        font-size: 17px; font-weight: 400; display: block; margin-top: 25px;
+    }
+    .byScentType{
+        text-align: center;
+    }
+    .byScentType > h2{
+        font-size: 30px; font-weight: 700;
+    }
+    .byScentType ul{
+        padding-top: 40px; list-style: none;
+    }
+    .byScentType ul li:not(:last-of-type){
+        margin-bottom: 25px;
+    }
+    .byScentType ul li img{
+        width: 100%; max-width: 465px;
+    }
+    .byScentType ul li h3{
+        font-size: 20px; font-weight: 400; padding-top: 15px;
+    }
+    .byScentType ul li:not(:first-of-type){
+        margin-left: 0.35%;
+    }
+    .lineBanner > a{
+        margin-top: 50px;
+    }
+    .flashyList{
+        list-style: none; text-align: center;
+    }
+    .flashyList > li:not(:last-of-type){
+        margin-bottom: 100px;
+    }
+    .flashyList > li:not(:first-of-type){
+        margin-left: 3%;
+    }
+    .flashyList > li figure img{
+        width: 100%; max-width: 370px;
+    }
+    .flashyList > li figure figcaption p{
+        line-height: 26px;
+    }
+    .flashyList > li figure figcaption h2{
+        margin-bottom: 35px; font-size: 40px; font-weight: 700; padding-top: 70px; 
+    }
+    .flashyList > li figure figcaption a{
+        margin-top: 120px; 
+    }
+    .mainContainer > .ecoChic{
+        padding-top: 120px;
+    }
+    /* index fin */
+    .eauDeParfumContainer,
+    .byScentTypeContainer{
+        margin-bottom: 100px;
+    }
+    .eauDeParfumContainer > h2,
+    .byScentTypeContainer > h2{
+        padding-top: 130px; text-align: center; font-size: 40px; font-weight: 700; margin-bottom: 35px;
+    }
+    .eauDeParfumContainer > p:first-of-type,
+    .byScentTypeContainer > p:first-of-type{
+        font-size: 14px; font-weight: 400; text-align: center;
+    }
+    .eauDeParfumContainer > img:first-of-type,
+    .byScentTypeContainer > img:first-of-type{
+        padding: 130px 0 130px 0; width: 100%;
+    }
+    .imgtxt li{
+        position: relative;
+    }
+    .imgtxt li:not([class*="img"]) img{
+        display: block; opacity: 0.7; transition: opacity 0.5s ease; width: 100%; height: 150px; object-fit: cover;
+    }
+    .imgtxt li:not([class*="img"]):hover img{
+        opacity: 1;
+    }
+    .imgtxt li div{
+        position: absolute; top: 50%; left: 50%; transform: translate( -50%, -50% ); text-align: center;
+    }
+    .eauDeParfumContainer .imgtxt .ltxtRimg img,
+    .eauDeParfumContainer .imgtxt .limgRtxt img{
+        width: 100%;
+    }
+    .imgtxt h3,
+    .imgtxt p{
+        filter: drop-shadow(1px 3px 2px white); 
+    }
+    .imgtxt .rtxt h3,
+    .imgtxt .ltxt h3{
+        font-size: 30px; font-weight: 800; margin-bottom: 15px;
+    }
+    .imgtxt .rtxt p,
+    .imgtxt .ltxt p{
+        font-size: 14px; font-weight: 400; margin-bottom: 25px;
+    }
+    .eauDeParfumContainer .imgtxt > .ltxtRimg h3,
+    .eauDeParfumContainer .imgtxt > .limgRtxt h3{
+        font-size: 40px; font-weight: 800; margin-bottom: 15px;
+    }
+    .eauDeParfumContainer .imgtxt > .ltxtRimg p,
+    .eauDeParfumContainer .imgtxt > .limgRtxt p{
+        font-size: 17px; font-weight: 400; margin-bottom: 25px; 
+    }
+    /* eauDeParfum fin */
+    .byGenderContainer > .listpage .shopArea a{
+        margin-top: 25px;
+    }
+    .byGenderContainer > .listpage .shopArea h4{
+        margin-top: 15px;
+    }
+    .byGenderContainer > .listpage .shopArea img{
+        width: 100%;
+    }
+    /* list fin */
+    .detailContainer > .howToAssembleArea{
+        padding-top: 70px; text-align: center;
+    }
+    .detailContainer > .howToAssembleArea strong{
+        font-size: 24px; font-weight: 400; margin-bottom: 35px; display: block;
+    }
+    .detailContainer > .howToAssembleArea p{
+        font-size: 17px; font-weight: 400; margin-bottom: 25px; line-height: 26px;
+    }
+    /* ecoChicdetailContainer fin */
+    .philosophyContainer{
+        padding-top: 220px; 
+    }
+    .philosophyContainer h2{
+        width: 100%; display: block; text-align: center;
+    }
+    .philosophyContainer img{
+        width: 100%;
+    }
+    .philosophyContainer h2 img{
+        max-width: 250px;
+    }
+    .philosophyContainer .philosophyArea{
+        padding-top: 155px; text-align: center;
+    }
+    .philosophyContainer .philosophyArea h3{
+        font-size: 40px; font-weight: 600; margin-bottom: 40px;
+    }
+    .philosophyContainer .philosophyArea:not(h3){
+        font-size: 17px; font-weight: 400;
+    }
+    .philosophyContainer .philosophyArea span{
+        margin-bottom: 35px; display: block;
+    }
+    .philosophyContainer .philosophyArea p{
+        line-height: 26px;
+    }
+    .philosophyContainer .philosophyArea p:first-of-type{
+        margin-bottom: 25px;
+    }
+    .philosophyContainer .tribecaArea{
+        padding-top: 130px;
+    }
+    .philosophyContainer .tribecaArea h3{
+        font-size: 40px; font-weight: 600; text-align: center; margin-bottom: 35px;
+    }
+    .philosophyContainer .msrahmeArea{
+        padding-top: 130px; text-align: center;
+    }
+    .philosophyContainer .msrahmeArea div{
+        margin-bottom: 70px; 
+    }
+    .philosophyContainer .msrahmeArea div > p{
+        line-height: 26px; padding-top: 70px; 
+    }
+    .philosophyContainer .msrahmeArea div > p b{
+        font-size: 40px; font-weight: 600; margin-bottom: 35px; display: block; 
+    }
+    .philosophyContainer .msrahmeArea > p:first-of-type,
+    .philosophyContainer .ourScent > p:first-of-type,
+    .philosophyContainer .unique > p:first-of-type{
+        margin-bottom: 25px; font-size: 17px; font-weight: 400; line-height: 24px;
+    }
+    .philosophyContainer .msrahmeArea > p:last-of-type,
+    .philosophyContainer .ourScent > p,
+    .philosophyContainer .unique > p{
+        line-height: 25px;
+    }
+    .philosophyContainer .msrahmeArea div > img{
+        max-width: 670px; width: 100%; display: block; margin: 0 auto;
+    }
+    .philosophyContainer .ourScent > img{
+        padding-top: 130px; margin-bottom: 70px;
+    }
+    .philosophyContainer .unique > img{
+        padding-top: 100px; margin-bottom: 70px;
+    }
+    /* philosophy fin */
+    .careersContainer{
+        padding-top: 93px; 
+    }
+    .careersContainer div{
+        max-width: 1000px; margin: 0 auto; padding: 0 24px;
+    }
+    .careersContainer div:first-of-type{
+        padding-top: 155px; text-align: center; 
+    }
+    .careersContainer div:first-of-type > h2{
+        font-size: 40px; font-weight: 600; margin-bottom: 35px;
+    }
+    .careersContainer div:first-of-type p{
+        font-size: 17px; font-weight: 400; line-height: 25px;
+    }
+    .careersContainer div:nth-of-type(2){
+        padding-top: 130px;
+    }
+    .careersContainer div:nth-of-type(2) > h3{
+        font-size: 30px; font-weight: 600; margin-bottom: 40px; text-align: center;
+    }
+    .careersContainer div:nth-of-type(2) > ul{
+        max-width: 1440px; margin: 0 auto; background-color: white; list-style: none; padding: 50px 35px; line-height: 20px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li:not(:last-child){
+        margin-bottom: 35px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li a{
+        font-size: 12px; font-weight: 400; text-decoration: none; color: black; display: inline-block; line-height: 12px;
+        background: url('../images/icon_arrow.png') right top / contain no-repeat; padding-right: 40px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li:hover a{
+        background-image: url('../images/icon_arrow_down.png');
+        margin-bottom: 35px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li p{
+        font-size: 14px; font-weight: 400; color: #6e6e6e; opacity: 0; transition-property: opacity; display: none; 
+    }
+    .careersContainer div:nth-of-type(2) > ul li:hover p{
+        opacity: 1; display: block;
+    }
+    .careersContainer div:nth-of-type(2) > ul li p:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li p:last-of-type:not(:last-of-type){
+        margin-bottom: 70px;
+    }
+    /* careers fin */
+    .storesContainer{
+        padding-top: 220px;
+    }
+    .storesContainer h2,
+    .storesContainer div h3{
+        font-size: 40px; font-weight: 600; text-align: center; margin-bottom: 155px;
+    }
+    .storesContainer img,
+    .careersContainer img{
+        width: 100%;
+    }
+    .storesContainer div h3{
+        padding-top: 155px; margin-bottom: 40px;
+    }
+    .storesContainer div .fitvidsBox{
+        max-width: 720px; margin: 0 auto;
+    }
+    .storesContainer div .fitvidsBox iframe{
+        width: 100%; height: 750px;
+    }
+    .storesContainer div ul{
+        background-color: white; max-width: 720px; margin: 0 auto; text-align: center; padding: 50px 0; 
+    }
+    .storesContainer div ul ol{
+        list-style: none; 
+    }
+    .storesContainer div ul ol li:not(:last-of-type){
+        margin-bottom: 35px;
+    }
+    .storesContainer div ul ol li{
+        line-height: 25px; 
+    }
+    /* store fin */
+    [class^='buy']{
+        max-width: 662px; margin: 0 auto; padding-top: 220px;
+    }
+    [class^='buy'] h2{
+        font-size: 40px; font-weight: 800; text-align: center; margin-bottom: 70px;
+    }
+    [class^='buy'] .stepper{
+        list-style: none; display: flex; justify-content: space-around; margin-bottom: 70px; font-size: 16px; font-weight: 600;
+    }
+    [class^='buy'] .stepper li span{
+        background-color: black; color: white; border-radius: 50%; display: inline-block; line-height: 35px; width: 35px; height: 35px; text-align: center; margin-right: 7px;
+    }
+    [class^='buy'] .payWith{
+        text-align: center; background-color: white; padding: 35px; margin-bottom: 10px;
+    }
+    [class^='buy'] .payWith h3{
+        font-size: 14px; font-weight: 400; margin-bottom: 10px;
+    }
+    [class^='buy'] .payWith p{
+        font-size: 12px; font-weight: 300; color: #6e6e6e; margin-bottom: 25px;
+    }
+    [class^='buy'] .payWith div{
+        display: flex; justify-content: center;
+    }
+    [class^='buy'] .payWith div a:not(:first-of-type){
+        margin-left: 3.5%;
+    }
+    [class^='buy'] fieldset legend{
+        font-size: 12px; font-weight: 400; display: block;
+        position: relative; top: 42px; margin-bottom: 20px;
+    }
+    [class^='buy'] fieldset.orderSummary{
+        display: flex; flex-flow: row wrap; justify-content: space-between;
+    }
+    [class^='buy'] fieldset.orderSummary > *:not(legend){
+        background-color: #eee; margin-bottom: 10px;
+    }
+    [class^='buy'] fieldset.orderSummary div:first-of-type{
+       flex: 1 auto; display: flex; justify-content: space-between;
+       padding: 10px;
+    }
+    [class^='buy'] fieldset.orderSummary div:first-of-type *{
+        align-self: center; font-size: 12px; font-weight: 300;
+    }
+    [class^='buy'] fieldset.orderSummary div:first-of-type~*{
+        flex: 0 1 290px;
+    }
+    [class^='buy'] fieldset.orderSummary ul,
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(2){
+        padding: 10px; box-sizing: border-box;
+    }
+    [class^='buy'] fieldset.orderSummary ul li{
+        display: flex; justify-content: space-between; font-size: 12px;
+    }
+    [class^='buy'] fieldset.orderSummary ul li input{
+        text-align: right;
+    }
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(2){
+        display: flex; justify-content: space-between; line-height: 40px;
+        box-sizing: border-box; font-size: 12px; font-weight: 300;
+    }
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(2) *{
+        align-self: center;
+    }
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(2) input{
+        text-align: right;
+    }
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(3) input[type='text'],
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(4) input[type='text']{
+        line-height: 30px; padding-left: 10px; width: 76.5%;
+    }
+    [class^='buy'] fieldset.orderSummary div input[type='submit']{
+        float: right;
+    }
+    [class^='buy'] fieldset.orderSummary > div span:not(:first-of-type),
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        color: #6e6e6e;
+    }
+    [class^='buy'] fieldset.orderSummary div img,
+    .buyContainer_02 .giftWrapping img{
+        width: 10%;
+    }
+    [class^='buy'] fieldset.orderSummary ul{
+        list-style: none;
+    }
+    .buyContainer p strong{
+        font-size: 15px; font-weight: 600; display: block; margin-bottom: 15px; color: black;
+    }
+    .buyContainer p:not(strong){
+        font-size: 12px; font-weight: 400; color: #6e6e6e; margin-bottom: 10px;
+    }
+    .buyContainer div img{
+        margin-bottom: 10px;
+    }
+    .buyContainer div:nth-of-type(2){
+        background-color: white; padding: 35px; margin-bottom: 10px;
+    }
+    .buyContainer div:nth-of-type(2) span{
+        font-size: 12px; font-weight: 400; color: #6e6e6e; 
+    }
+    .buyContainer div:nth-of-type(2) span:last-of-type{
+        margin-left: 8.5%;
+    }
+    .buyContainer div:nth-of-type(2) span:not(:last-of-type, :first-of-type){
+        margin-left: 4.1%;
+    }
+    .buyContainer form ul{
+        background-color: white; list-style: none; padding: 30px; margin-bottom: 70px;
+    }
+    .buyContainer form ul:after{
+        content: ''; display: block; clear: both;
+    }
+    .buyContainer form ul li{
+        font-size: 12px; line-height: 16px; display: block; float: left; width: 33.33%;
+    }
+    .buyContainer form ul li:not(:nth-child(22), :nth-child(23), :last-child){
+        margin-bottom: 30px;
+    }
+    .buyContainer form ul li span{
+        display: block; padding-left: 23px;
+    }
+    .buyContainer form div:after{
+        content: ''; display: block; clear: both;
+    }
+    .buyContainer form div input[type='reset'],
+    .buyContainer form div a{
+        font-size: 16px; float: right;
+    }
+    .buyContainer form div a{
+        margin-left: 30px; 
+    }
+    /* buy_01 fin */
+    .buyContainer_02 h4{
+        font-size: 14px; font-weight: 400; margin-bottom: 10px;
+    }
+    .buyContainer_02 p:not(ol+p){
+        font-size: 12px; font-weight: 300; color: #6e6e6e; margin-bottom: 10px; line-height: 16px;
+    }
+    .buyContainer_02 input,
+    .buyContainer_03 input,
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        font-size: 12px; font-weight: 300;
+    }
+    .buyContainer_02 #emailAddress,
+    .buyContainer_02 ol+p,
+    .buyContainer_02 .shipping,
+    .buyContainer_02 .selectMethod{
+        margin-bottom: 10px; padding: 35px; background-color: white;
+    }
+    .buyContainer_02 input:not([type='submit'],[type='button']),
+    .buyContainer_03 input:not([type='submit'],[type='button']){
+        background-color: transparent; border: none; 
+    }
+    .buyContainer_02 .shipping input{
+        width: 100%; box-sizing: border-box;
+    } 
+    .buyContainer_02 .shipping form fieldset ul li,
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        background-color: #eeeeee; margin-bottom: 10px;
+    }
+    .buyContainer_02 .stepper li:last-of-type span{
+        background-color: #6e6e6e; 
+    }
+    .buyContainer_02 .stepper li:nth-of-type(2){
+        color: #6e6e6e;
+    }
+    .buyContainer_02 ol+p{
+        font-size: 14px; font-weight: 400; color: black; text-align: center;
+    }
+    .buyContainer_02 .shipping form fieldset ul li input{
+        box-sizing: border-box; line-height: 30px; padding: 0 10px;
+    }
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        padding: 0 10px; box-sizing: border-box;
+    }
+    .buyContainer_02 .shipping form fieldset ul li:nth-child(3),
+    .buyContainer_02 .shipping form fieldset ul li:nth-child(7){
+        line-height: 30px; padding: 0 10px;
+    }
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        display: flex; justify-content: space-between; align-items: center;
+    }
+    .buyContainer_02 .orderSummary{
+        background-color: white; margin-bottom: 10px; padding: 35px;
+        box-sizing: border-box;
+    }
+    .buyContainer_02 #emailAddress div:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .buyContainer_02 #emailAddress div input[type='email']{
+        background-color: #eeeeee; line-height: 30px; padding: 0 10px; width: 100%; box-sizing: border-box;
+    }
+    .buyContainer_02 #emailAddress div label{
+        font-size: 12px; font-weight: 300; color: #6e6e6e;
+    }
+    .buyContainer_02 .shipping form fieldset ul{
+        list-style: none; color: #6e6e6e;
+    }
+    .buyContainer_02 .shipping form fieldset ul li select{
+        border: none; background-color: transparent; color: #6e6e6e; font-size: 12px; font-weight: 300; width: 100%;
+    }
+    .buyContainer_02 .selectMethod p:last-of-type{
+        margin-bottom: 25px;
+    }
+    .buyContainer_02 .selectMethod ul{
+        list-style: none;
+    }
+    .buyContainer_02 .selectMethod ul li{
+        margin-bottom: 15px;
+    }
+    .buyContainer_02 .selectMethod ul li label:checked,
+    .buyContainer_02 .selectMethod ul li input[type="radio"]:checked + label{
+        color: black;
+    }
+    .buyContainer_02 .selectMethod ul li label,
+    .buyContainer_02 .selectMethod ul li span{
+        font-size: 12px; font-weight: 300; color:#6e6e6e; line-height: 15px;
+    }
+    .buyContainer_02 .selectMethod ul li span{
+        display: block; padding-left: 25px;
+    }
+    .buyContainer_02 .giftWrapping{
+        padding: 35px; background-color: white; margin-bottom: 35px;
+    }
+    .buyContainer_02 .giftWrapping div:first-of-type span:first-of-type{
+        color: black;
+    }
+    .buyContainer_02 .giftWrapping div:last-of-type:after{
+        content: ''; display: block; clear: both;
+    }
+    .buyContainer_02 .giftWrapping div:last-of-type textarea{
+        width: 89.75%; padding: 10px; float: left; margin-right: 10px; box-sizing: border-box;
+    }
+    .buyContainer_02 .giftWrapping div:last-of-type textarea::placeholder{
+        font-size: 12px; font-weight: 400;
+    }
+    .buyContainer_02 .giftWrapping div:last-of-type input[type='button']:first-of-type{
+        border: none; background-color: transparent; font-size: 20px; margin-bottom: 51.5px; cursor: pointer;
+    }
+    .buyContainer_02 .continueArea{
+       text-align: center;
+    }
+    /* buy_02 fin */
+    .buyContainer_03 fieldset{
+        background-color: white; margin-bottom: 10px; padding: 35px;
+        box-sizing: border-box;
+    }
+    .buyContainer_03 .stepper li:first-of-type span{
+        background-color: #6e6e6e; 
+    }
+    .buyContainer_03 .stepper li:nth-of-type(1){
+        color: #6e6e6e;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) legend,
+    .buyContainer_03 form fieldset:last-of-type legend{
+        font-size: 14px; font-weight: 400; margin-bottom: 35px;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul{
+        list-style: none;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li input{
+        line-height: 30px; padding: 0 10px; background-color: #eeeeee; 
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:first-child input[type='text']{
+        width: 100%; box-sizing: border-box; margin-bottom: 10px;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul:after{
+        content: ''; display: block; clear: both;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:not(:first-of-type) input[type='text']{
+        width: 23.85%; float: left; 
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:not(:first-of-type) input[type='text']:not([id='expDateMonth']){
+        margin-left: 1.7%;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:nth-of-type(4){
+        margin-bottom: 25px;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:nth-of-type(4) div img{
+        display: none; margin: 0 auto;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:nth-of-type(4) div:hover img{
+        display: block;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:nth-of-type(4) div input[type='button']{
+        border: none; background-color: transparent; padding: 0; width: 14.9%; text-align: right; cursor: pointer;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:last-of-type label{
+        font-size: 12px; font-weight: 300;
+    }
+    .buyContainer_03 form fieldset:last-of-type ul{
+        list-style: none; 
+    }
+    .buyContainer_03 form fieldset:last-of-type ul li{
+        background-color: #eeeeee; padding: 10px;
+    }
+    .buyContainer_03 form fieldset:last-of-type ul li:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .buyContainer_03 form fieldset:last-of-type ul li strong{
+        font-size: 12px; font-weight: 400; display: block; margin-bottom: 15px;
+    }
+    .buyContainer_03 form fieldset:last-of-type ul li span,address{
+        font-size: 10px; font-weight: 300; display: block; 
+    }
+    .buyContainer_03 form fieldset:last-of-type ul li span:not(:last-of-type),address:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .buyContainer_03 .placeArea{
+        padding-top: 35px; text-align: center;
+    }
+    .buyContainer_03 .placeArea a{
+        margin-bottom: 15px;
+    }
+    .buyContainer_03 .placeArea p{
+        font-size: 12px; font-weight: 400;
+    }
+    /* buy_03 fin */
+    #forgotPW{
+        display: none; position:fixed; z-index: 1; bottom: 0;
+    }
+    #forgotPW.active{
+        display: block; background-color: white; width: 100%; text-align: center; padding: 60px 0;
+    }
+    #forgotPW.active h3{
+        font-size: 24px; font-weight: 400; margin-bottom: 40px;
+    }
+    #forgotPW.active p{
+        font-size: 17px; font-weight: 400; color:#6e6e6e; margin-bottom: 15px;
+    }
+    #forgotPW.active input[type='email']{
+        width: 100%; max-width: 650px; line-height: 40px; padding: 0 10px; box-sizing: border-box; font-size: 17px; font-weight: 400; color:#6e6e6e; margin-bottom: 70px; 
+    }
+    #forgotPW.active input[type='submit']{
+        display: block; margin: 0 auto;
+    }
+    .loginContainer input:not([type='submit']){
+        font-size: 12px; font-weight: 300; border: none; background-color: #eeeeee; line-height: 30px; padding: 0 10px; box-sizing: border-box;
+    }
+    .loginContainer > div div{
+        background-color: white; padding: 50px 25.7%; max-width: 350px; width: 100%; margin: 0 auto;
+    }
+    .loginContainer > div div:first-of-type{
+        margin-bottom: 50px;
+    }
+    .loginContainer div .loginArea b,
+    .loginContainer .createArea b{
+        font-size: 15px; font-weight: 600; display: block; margin-bottom: 15px; text-align: center;
+    }
+    .loginContainer div .loginArea p{
+        font-size: 12px; font-weight: 400; margin-bottom: 35px; text-align: center;
+    }
+    .loginContainer div .loginArea form fieldset ul{
+        list-style: none;
+    }
+    .loginContainer div .loginArea form fieldset ul li:nth-child(1){
+        margin-bottom: 15px;
+    }
+    .loginContainer div .loginArea form fieldset ul li:nth-child(2){
+        margin-bottom: 25px;
+    }
+    .loginContainer > div .loginArea form fieldset ul li input[type='email'],
+    .loginContainer > div .loginArea form fieldset ul li input[type='password']{
+        width: 100%; max-width: 350px;
+    }
+    .loginContainer div .loginArea form fieldset ul li:after{
+        content: ''; display: block; clear: both;
+    }
+    .loginContainer div .loginArea form fieldset ul li input[type='submit']{
+        float: right;
+    }
+    .loginContainer div .loginArea form fieldset ul li label{
+        font-size: 12px; font-weight: 300;
+    }
+    .loginContainer div .loginArea form fieldset ul li:nth-child(3){
+        margin-bottom: 25px;
+    }
+    .loginContainer div .loginArea form fieldset ul li:last-child{
+        display: block; text-align: center;
+    }
+    .loginContainer div .loginArea form fieldset ul li:last-child input[type='button']{
+        font-size: 12px; font-weight: 300; background-color: transparent; padding: 0; color: #6e6e6e; text-decoration: underline; cursor: pointer;
+    }
+    .loginContainer .createArea p{
+        font-size: 12px; font-weight: 300; line-height: 20px; max-width: 285px; text-align: center; margin: 0 auto; margin-bottom: 25px;
+    }
+    .loginContainer .createArea a{
+        display: block; margin: 0 auto;
+    }
+    /* login fin */
+    .loginMyContainer div{
+        background-color: white; padding: 50px 20px; max-width: 680px; margin: 0 auto;
+    }
+    .loginMyContainer div p:first-child{
+        font-size: 15px; font-weight: 600; margin-bottom: 35px; text-align: center; line-height: 20px;
+    }
+    .loginMyContainer div fieldset{
+        border: 1px solid black; padding: 10px; margin-bottom: 25px; position: relative;
+    }
+    .loginMyContainer div fieldset legend{
+        font-size: 12px; font-weight: 400; margin-bottom: 10px; width: 100%; float: left;
+    }
+    .loginMyContainer div fieldset ul{
+        list-style: none;
+    }
+    .loginMyContainer div fieldset ul li{
+        margin-bottom: 5px;
+    }
+    .loginMyContainer div fieldset ul li label,
+    .loginMyContainer div fieldset p{
+        font-size: 10px; font-weight: 300;
+    }
+    .loginMyContainer div fieldset ul li input{
+        border: none; font-size: 10px; font-weight: 300;
+    }
+    .loginMyContainer div fieldset a{
+        text-decoration: none; color: black; font-size: 12px; font-weight: 300; position: absolute; top: 10px; right: 10px;
+    }
+    .loginMyContainer div fieldset:last-of-type{
+        margin-bottom: 70px;
+    }
+    .loginMyContainer div:after{
+        content: ''; display: block; clear: both;
+    }
+    .loginMyContainer div a:last-of-type{
+        float: right;
+    }
+    /* loginMy fin */
+    .loginSignUpContainer > div form,
+    .loginSignUpContainer > div div{
+        padding: 50px 25.7%; max-width: 350px; width: 100%; margin: 0 auto; background-color: white;
+    }
+    .loginSignUpContainer > div form{
+        margin-bottom: 50px;
+    }
+    .loginSignUpContainer div form fieldset ul{
+        list-style: none;
+    }
+    .loginSignUpContainer div form fieldset legend{
+        font-size: 15px; font-weight: 600; text-align: center; margin-bottom: 35px;
+    }
+    .loginSignUpContainer div form fieldset ul li input{
+        border: none; background-color: #eeeeee; 
+    }
+    .loginSignUpContainer div form fieldset ul li input:not([id='confirmPassword'],[id='signCheck']){
+        margin-bottom: 15px;
+    }
+    .loginSignUpContainer div form fieldset ul li input:not([id='signCheck']){
+        line-height: 30px; padding: 0 10px; width: 100%; box-sizing: border-box;
+    }
+    .loginSignUpContainer div form fieldset ul li input[id='confirmPassword']{
+        margin-bottom: 25px;
+    }
+    .loginSignUpContainer div form fieldset ul li label{
+        margin-bottom: 25px; font-size: 12px; font-weight: 300; color: #6e6e6e;
+    }
+    .loginSignUpContainer div .accountArea{
+        text-align: center;
+    }
+    .loginSignUpContainer div .accountArea h3{
+        margin-bottom: 25px;
+    }
+    .loginSignUpContainer div form fieldset ul li:nth-of-type(6){
+        margin-bottom: 25px;
+    }
+    .loginSignUpContainer div form fieldset ul li:last-of-type a{
+        width: 100%; box-sizing: border-box;
+    }
+    /* loginSignUp fin */
+    .loginMyChangeContainer > div{
+        background-color: white; padding: 50px 20px; text-align: center; max-width: 680px; margin: 0 auto;
+    }
+    .loginMyChangeContainer > div form fieldset legend{
+        font-size: 15px; font-weight: 600; margin-bottom: 35px;
+    }
+    .loginMyChangeContainer > div form fieldset ul{
+        list-style: none;
+    }
+    .loginMyChangeContainer > div form fieldset ul li input{
+        width: 100%; box-sizing: border-box; border: none; background-color: #eeeeee; line-height: 30px; padding: 0 10px; display: block;
+    }
+    .loginMyChangeContainer > div form fieldset ul li:not(:last-of-type) input{
+        margin-bottom: 15px; 
+    }
+    .loginMyChangeContainer > div form fieldset ul li:last-of-type{
+        margin-bottom: 50px; 
+    }
+    .loginMyChangeContainer a{
+        width: 100%; box-sizing: border-box; margin-bottom: 15px;
+    }
+    .loginMyChangeContainer input[type='reset']{
+        border: none; background-color: transparent; font-size: 12px; font-weight: 400; cursor: pointer;
+    }
+    /* loginMyChangeContainer fin */
+    .orderstatusContainer > div div{
+        background-color: white; padding: 50px 25.7%; max-width: 350px; width: 100%; margin: 0 auto;
+    }
+    .orderstatusContainer > div div:first-of-type{
+        margin-bottom: 50px;
+    }
+    .orderstatusContainer b,
+    .orderstatusContainer p{
+        text-align: center; display: block;
+    }
+    .orderstatusContainer b{
+        font-size: 15px; font-weight: 600; margin-bottom: 15px;
+    }
+    .orderstatusContainer p{
+        font-size: 12px; font-weight: 400; margin-bottom: 35px;
+    }
+    .orderstatusContainer ul{
+        list-style: none;
+    }
+    .orderstatusContainer ul li label{
+        font-size: 12px; font-weight: 300; color: #6e6e6e;
+    }
+    .orderstatusContainer ul li input{
+        border: none; background-color: #eeeeee; padding: 10px; 
+    }
+    .orderstatusContainer ul li input:not([type='checkbox']){
+        width: 100%; box-sizing: border-box;
+    }
+    .orderstatusContainer ul li input[type='email']{
+        margin-bottom: 10px;
+    }
+    .orderstatusContainer ul li input[type='password'],
+    .orderstatusContainer ul li input[type='text']{
+        margin-bottom: 25px;
+    }
+    .orderstatusContainer ul li:after{
+        display: block; content: ''; clear: both;
+    }
+    .orderstatusContainer ul li a{
+        float: right;
+    }
+    .orderstatusContainer .orderAccountArea ul li:nth-of-type(3){
+        margin-bottom: 30px;
+    }
+    .orderstatusContainer .orderAccountArea input[type='button']{
+        background-color: transparent; text-decoration: underline; font-size: 12px; font-weight: 300; color: #6e6e6e; cursor: pointer;
+    }
+    /* orderstatusContainer fin */
+    .orderstatusMyOrdersContainer{
+        max-width: 930px; margin: 0 auto;
+    }
+    .orderstatusMyOrdersContainer table caption{
+        display: none;
+    }
+    /* 보류*/
+    .customerServiceContainer > div{
+        background-color: white; padding: 50px; line-height: 16px;
+    }
+    .customerServiceContainer > div strong{
+        font-size: 15px; font-weight: 600; display: block; margin-bottom: 35px; color: black;
+    }
+    .customerServiceContainer > div:not(strong){
+        font-size: 10px; font-weight: 300; color: #6e6e6e;
+    }
+    .customerServiceContainer > div p:first-of-type{
+        margin-bottom: 25px;
+    }
+    .customerServiceContainer > div ol li:not(:last-of-type){
+        color: black; margin-bottom: 15px;
+    }
+    .customerServiceContainer > div ol{
+        color: black; margin-bottom: 25px;
+    }
+    /* customerServiceContainer fin */
+    .privacyServiceContainer div{
+        background-color: white; padding: 50px;
+    }
+    .privacyServiceContainer div strong{
+        font-size: 15px; font-weight: 600; color: black; margin-bottom: 35px; display: block;
+    }
+    .privacyServiceContainer div p{
+        margin-bottom: 25px; font-size: 10px; font-weight: 300; color: #6e6e6e; line-height: 16px;
+    }
+    .privacyServiceContainer div p:last-of-type{
+        margin: 0;
+    }
+    .privacyServiceContainer div p > b{
+        color: black; display: block; margin-bottom: 15px; font-size: 10px; font-weight: 400;
+    }
+    /* privacyServiceContainer fin */
+    .sitemapContainer div{
+        margin-bottom: 50px;
+    }
+    .sitemapContainer > div strong{
+        display: block; padding-bottom: 25px; font-size: 15px; font-weight: 600;
+    }
+    .sitemapContainer > div ul{
+        list-style: none; 
+    }
+    .sitemapContainer > div strong,
+    .sitemapContainer > div ul{
+        max-width: 160px; width: 100%; margin: 0 auto; display: block;
+    }
+    .sitemapContainer > div ul li a{
+        text-decoration: none; color: black; font-size: 12px; font-weight: 400;
+    }
+    .sitemapContainer > div ul li:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    /* sitemapContainer fin */
+    .wishlistsContainer ul{
+        list-style: none; margin-bottom: 70px;
+    }
+    .wishlistsContainer ul:after,
+    .wishlistsContainer ul li figure:after{
+        content: ''; display: block; clear: both;
+    }
+    .wishlistsContainer ul li > *,
+    .wishlistsContainer ul li figure > *{
+        float: left;
+    }
+    .wishlistsContainer ul li:first-of-type{
+        padding-bottom: 40px; border-bottom: 1px solid black;
+    }
+    .wishlistsContainer ul li > :first-child{
+        width: 51%; margin-right: 23%;
+    }
+    .wishlistsContainer ul li > :not(:first-child){
+        width: 13%;
+    }
+    .wishlistsContainer ul li span{
+        display: block;
+    }
+    .wishlistsContainer ul li figure img{
+        max-width: 130px; width: 28%;
+    }
+    .wishlistsContainer ul li figure figcaption{
+        margin-left: 32%; width: 40%;
+    }
+    .wishlistsContainer ul li:first-of-type{
+        padding-bottom: 50px; border-bottom: 1px solid black; margin-bottom: 25px; 
+    }
+    .wishlistsContainer div{
+        text-align: center;
+    }
+    .wishlistsContainer ul li dl dt{
+        margin-bottom: 25px; font-size: 14px; font-weight: 400;
+    }
+    .wishlistsContainer ul li dl dd{
+        margin-bottom: 25px; font-size: 14px; font-weight: 400; color: #6e6e6e;
+    }
+    .wishlistsContainer ul li input[type='reset']{
+        border: none; background-color: transparent; text-decoration: underline; padding: 0; color:#6e6e6e;
+    }
+    .wishlistsContainer ul li:last-of-type span{
+        font-size: 14px; font-weight: 300;
+    }
+    /* wishlistContainer fin */
+    .orderstatusMyOrdersContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .orderstatusMyOrdersContainer table{
+        float: left; width: 100%; text-align: left; font-size: 14px; font-weight: 300; 
+    }
+    .orderstatusMyOrdersContainer table thead tr th{
+        font-size: 14px; font-weight: 300; padding-bottom: 30px;
+    }
+    .orderstatusMyOrdersContainer table tbody tr:first-of-type td{
+        padding-bottom: 20px; padding-top: 20px;
+    }
+}
+/* tablet */
+
+@media screen and (min-width: 1280px){
+    .mainContainer > div:nth-of-type(1){
+        position: relative; width: 100%; padding-bottom: 75%; 
+    }
+    .mainContainer > div:nth-of-type(1) iframe{
+        position: absolute; left: 0; width: 100%; height: 100%;
+    }
+    .lineBanner{
+        padding: 150px 0 100px 0; text-align: center;
+    }
+    .lineBanner h2{
+        font-size: 48px; font-weight: 800; margin-bottom: 40px;
+    }
+    .lineBanner p{
+        line-height: 25px; font-size: 17px; font-weight: 400;
+    }
+    .bestSellers{
+        background-color: white; padding: 50px 0 60px;
+    }
+    .bestSellers > div:after{
+        content: ''; display: block; clear: both;
+    }
+    .bestSellers > div > .bx-wrapper{
+        padding: 0 12%; box-sizing: border-box; margin-top: 50px;
+    }
+    .bestSellers > div > .bx-wrapper,
+    .bestSellers > div > .bx-wrapper+div{
+        float: left; width: 50%; 
+    }
+    .bestSellers > div > .bx-wrapper .bx-viewport .verticalSlider li a{
+        display: block; text-decoration: none; color: black; text-align: center;
+    }
+    .bestSellers > div > .bx-wrapper .bx-viewport .verticalSlider li a figure img{
+        width: 100%;
+    }
+    .bestSellers > div > .bx-wrapper .bx-viewport .verticalSlider li a figure figcaption dl{
+        font-weight: 400;
+    }
+    .bestSellers > div > .bx-wrapper .bx-viewport .verticalSlider li a figure figcaption dl dt{
+        font-size: 16px; margin-bottom: 15px;
+    }
+    .bestSellers > div > .bx-wrapper .bx-viewport .verticalSlider li a figure figcaption dl dd{
+        font-size: 14px; margin-bottom: 10px;
+    }
+    .bestSellers > div > div img{
+        width: 100%;
+    }
+    .bestSellers > div > div h3{
+        font-size: 34px; font-weight: 700; padding-top: 40px;
+    }
+    .bestSellers > div > div p{
+        font-size: 16px; font-weight: 400; padding: 40px 0 50px 0;
+    }
+    .mainContainer .byGender{
+        padding-top: 60px;
+    }
+    .mainContainer .byGender > h2{
+        font-size: 48px; font-weight: 800; text-align: center;
+    }
+    .mainContainer .byGender > ul{
+        padding-top: 155px; list-style: none; 
+    }
+    .byGender > ul:after{
+        content: ''; display: block; clear: both;
+    }
+    .byGender > ul li{
+        float: left; width: 22%; padding-bottom: 35px; display: block;
+    }
+    .byGender > ul li:not(:first-of-type){
+        margin-left: 16.6%;
+    }
+    .byGender > ul li dl{
+        padding-top: 130px;
+    }
+    .byGender > ul li dl dt{
+        font-size: 40px; font-weight: 700; margin-bottom: 50px;
+    }
+    .byGender > ul li dl dd{
+        font-size: 17px; font-weight: 400; line-height: 26px; margin-bottom: 100px;
+    }
+    .byGender > ul li figure img{
+        max-width: 100%; height: auto;
+    }
+    .shopNewArrivals{
+        padding-top: 130px; text-align: center; 
+    }
+    .shopNewArrivals h2{
+        font-size: 30px; font-weight: 700; text-align: center; margin-bottom: 35px;
+    }
+    .shopNewArrivals .bx-wrapper .bx-prev{
+        background-color: black; background: url('../images/icon_bg_arrow_left.png') left top / contain no-repeat; 
+    }
+    .shopNewArrivals .bx-wrapper .bx-next{
+        background-color: black; background: url('../images/icon_bg_arrow_right.png') left top / contain no-repeat; 
+    }
+    .carouselSlider li{
+        background-color: white; min-height: 480px; 
+    }
+    .carouselSlider li figure{
+        margin-top: 40px;
+    }
+    .carouselSlider li figure img{
+        width: 100%; max-width: 225px; display: block; margin: 0 auto; margin-bottom: 50px; 
+    }
+    .carouselSlider li figure figcaption dl dt{
+        margin-bottom: 10px; 
+    }
+    .mainContainer .imgContxt{
+        padding-top: 100px; font-size: 54px; font-weight: 800; 
+    }
+    .mainContainer .imgContxt li{
+        display: flex; justify-content: space-evenly;
+        background-color: white;
+    }
+    .mainContainer .imgContxt li > *{
+        flex: 1 auto;
+    }
+    .mainContainer .imgContxt li > img,
+    .mainContainer .ltxtRimg > img{
+        width: 100%; max-width: 50%;
+    }
+    .mainContainer .imgContxt li > div{
+        align-self: center; margin-left: 180px;
+    }
+    .mainContainer .imgContxt div > h3{
+        margin-bottom: 60px;
+    }
+    .mainContainer .limgRtxt,
+    .mainContainer .ltxtRimg{
+        margin-bottom: 100px;
+    }
+    .ltxtRimg div h3{
+        margin-bottom: 50px;
+    }
+    .ltxtRimg div small{
+        font-size: 17px; font-weight: 400; display: block; margin-top: 25px;
+    }
+    .byScentType{
+        padding-top: 100px; text-align: center;
+    }
+    .byScentType > h2{
+        font-size: 30px; font-weight: 700;
+    }
+    .byScentType ul{
+        padding-top: 40px; list-style: none;
+    }
+    .byScentType ul:after{
+        content: ''; clear: both; display: block;
+    }
+    .byScentType ul li img{
+        width: 100%;
+    }
+    .byScentType ul li{
+        float: left; width: 24.65%;
+    }
+    .byScentType ul li h3{
+        font-size: 15px; font-weight: 400; padding-top: 15px;
+    }
+    .byScentType ul li:not(:first-of-type){
+        margin-left: 0.35%;
+    }
+    .lineBanner > a{
+        margin-top: 50px;
+    }
+    .flashyList{
+        list-style: none; text-align: center;
+    }
+    .flashyList:after{
+        content: ''; clear: both; display: block;
+    }
+    .flashyList > li{
+        float: left; width: 31%; 
+    }
+    .flashyList > li:not(:first-of-type){
+        margin-left: 3%;
+    }
+    .flashyList > li figure img{
+        width: 100%;
+    }
+    .flashyList > li figure figcaption p{
+        line-height: 26px;
+    }
+    .flashyList > li figure figcaption h2{
+        margin-bottom: 35px; font-size: 40px; font-weight: 700; padding-top: 70px; 
+    }
+    .flashyList > li figure figcaption a{
+        margin-top: 120px;
+    }
+    /* index fin */
+    .eauDeParfumContainer,
+    .byScentTypeContainer{
+        margin-bottom: 100px;
+    }
+    .eauDeParfumContainer > h2,
+    .byScentTypeContainer > h2{
+        padding-top: 130px; text-align: center; font-size: 40px; font-weight: 700; margin-bottom: 35px;
+    }
+    .eauDeParfumContainer > p:first-of-type,
+    .byScentTypeContainer > p:first-of-type{
+        font-size: 17px; font-weight: 400; text-align: center;
+    }
+    .eauDeParfumContainer > img:first-of-type,
+    .byScentTypeContainer > img:first-of-type{
+        padding: 130px 0 130px 0; width: 100%;
+    }
+    .imgtxt > div:after{
+        content: ''; clear: both; display: block;
+    }
+    .imgtxt li:not([class*="img"]){
+        position: relative;
+    }
+    .imgtxt li:not([class*="img"]) img{
+        width: 100%; display: block; opacity: 0.7; transition: opacity 0.5s ease;
+    }
+    .imgtxt li:not([class*="img"]):hover img{
+        opacity: 1;
+    }
+    .imgtxt li:not([class*="img"]) div{
+        position: absolute; top: 5.2vw;
+    }
+    .imgtxt li.ltxt div{
+        left: 10vw;
+    }
+    .imgtxt li.rtxt div{
+        right: 10vw;
+    }
+    .eauDeParfumContainer .imgtxt .ltxtRimg img,
+    .eauDeParfumContainer .imgtxt .limgRtxt img{
+        width: 100%; max-width: 50%;
+    }
+    .eauDeParfumContainer .imgtxt li[class*="img"]{
+        display: flex; justify-content: space-between;
+    }
+    .eauDeParfumContainer .imgtxt li[class*="img"] *{
+        flex: 1 auto;
+    }
+    .eauDeParfumContainer .imgtxt li[class*="img"] div{
+        align-self: center; width: 50%;
+    }
+    .imgtxt .rtxt h3,
+    .imgtxt .ltxt h3{
+        font-size: 40px; font-weight: 800;  filter: drop-shadow(1px 3px 2px white); margin-bottom: 15px;
+    }
+    .imgtxt .rtxt p,
+    .imgtxt .ltxt p{
+        font-size: 16px; font-weight: 400; margin-bottom: 25px;
+    }
+    .eauDeParfumContainer .imgtxt > .ltxtRimg,
+    .eauDeParfumContainer .imgtxt > .limgRtxt{
+        background-color: white; 
+    }
+    .eauDeParfumContainer .imgtxt > .ltxtRimg h3,
+    .eauDeParfumContainer .imgtxt > .limgRtxt h3{
+        font-size: 40px; font-weight: 800; margin-bottom: 25px;
+    }
+    .eauDeParfumContainer .imgtxt > .ltxtRimg p,
+    .eauDeParfumContainer .imgtxt > .limgRtxt p{
+        font-size: 17px; font-weight: 400; margin-bottom: 25px; 
+    }
+    .eauDeParfumContainer .imgtxt > .ltxtRimg div,
+    .eauDeParfumContainer .imgtxt > .limgRtxt div{
+        margin-left: 150px;
+    }
+    /* eauDeParfum fin */
+    .byGenderContainer > .listpage .shopArea a{
+        margin-top: 25px;
+    }
+    .byGenderContainer > .listpage .shopArea h4{
+        margin-top: 15px;
+    }
+    .byGenderContainer > .listpage .shopArea img{
+        width: 100%; max-width: 358px;
+    }
+    /* list fin */
+    .detailContainer > .howToAssembleArea{
+        padding-top: 70px; text-align: center;
+    }
+    .detailContainer > .howToAssembleArea strong{
+        font-size: 24px; font-weight: 400; margin-bottom: 35px; display: block;
+    }
+    .detailContainer > .howToAssembleArea p{
+        font-size: 17px; font-weight: 400; margin-bottom: 25px; line-height: 26px;
+    }
+    /* ecoChicdetailContainer fin */
+    .philosophyContainer{
+        padding-top: 220px; 
+    }
+    .philosophyContainer h2{
+        width: 100%; display: block; text-align: center;
+    }
+    .philosophyContainer img{
+        width: 100%;
+    }
+    .philosophyContainer h2 img{
+        max-width: 250px;
+    }
+    .philosophyContainer .philosophyArea{
+        padding-top: 155px; text-align: center;
+    }
+    .philosophyContainer .philosophyArea h3{
+        font-size: 40px; font-weight: 600; margin-bottom: 40px;
+    }
+    .philosophyContainer .philosophyArea:not(h3){
+        font-size: 17px; font-weight: 400;
+    }
+    .philosophyContainer .philosophyArea span{
+        margin-bottom: 35px; display: block;
+    }
+    .philosophyContainer .philosophyArea p{
+        line-height: 26px;
+    }
+    .philosophyContainer .philosophyArea p:first-of-type{
+        margin-bottom: 25px;
+    }
+    .philosophyContainer .tribecaArea{
+        padding-top: 130px;
+    }
+    .philosophyContainer .tribecaArea h3{
+        font-size: 40px; font-weight: 600; text-align: center; margin-bottom: 35px;
+    }
+    .philosophyContainer .msrahmeArea{
+        padding-top: 130px; 
+    }
+    .philosophyContainer .msrahmeArea div{
+        display: flex; justify-content: space-evenly; margin-bottom: 70px;
+    }
+    .philosophyContainer .msrahmeArea div > p{
+        line-height: 26px; align-self: center; margin-left: 150px; flex: 1 auto;
+    }
+    .philosophyContainer .msrahmeArea div > p b{
+        font-size: 40px; font-weight: 600; display: block; margin-bottom: 35px;
+    }
+    .philosophyContainer .msrahmeArea > p:first-of-type,
+    .philosophyContainer .ourScent > p:first-of-type,
+    .philosophyContainer .unique > p:first-of-type{
+        margin-bottom: 25px; font-size: 17px; font-weight: 400;
+    }
+    .philosophyContainer .msrahmeArea > p:last-of-type,
+    .philosophyContainer .ourScent > p,
+    .philosophyContainer .unique > p{
+        line-height: 25px;
+    }
+    .philosophyContainer .msrahmeArea div > img{
+        max-width: 670px; width: 100%;
+    }
+    .philosophyContainer .ourScent > img{
+        padding-top: 130px; margin-bottom: 70px;
+    }
+    .philosophyContainer .unique > img{
+        padding-top: 100px; margin-bottom: 70px;
+    }
+    /* philosophy fin */
+    .careersContainer{
+        padding-top: 93px;
+    }
+    .careersContainer div:first-of-type{
+        padding-top: 155px; text-align: center; 
+    }
+    .careersContainer div:first-of-type > h2{
+        font-size: 40px; font-weight: 600; margin-bottom: 35px;
+    }
+    .careersContainer div:first-of-type p{
+        font-size: 17px; font-weight: 400; line-height: 25px;
+    }
+    .careersContainer div:nth-of-type(2){
+        padding-top: 130px;
+    }
+    .careersContainer div:nth-of-type(2) > h3{
+        font-size: 30px; font-weight: 600; margin-bottom: 40px; text-align: center;
+    }
+    .careersContainer div:nth-of-type(2) > ul{
+        max-width: 1440px; margin: 0 auto; background-color: white; list-style: none; padding: 50px 150px; line-height: 20px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li:not(:last-child){
+        margin-bottom: 35px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li a{
+        font-size: 17px; font-weight: 400; text-decoration: none; color: black; display: inline-block; line-height: 12px;
+        background: url('../images/icon_arrow.png') right top / contain no-repeat; padding-right: 45px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li:hover a{
+        background-image: url('../images/icon_arrow_down.png');
+        margin-bottom: 35px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li p{
+        font-size: 14px; font-weight: 400; color: #6e6e6e; opacity: 0; transition-property: opacity; display: none; 
+    }
+    .careersContainer div:nth-of-type(2) > ul li:hover p{
+        opacity: 1; display: block;
+    }
+    .careersContainer div:nth-of-type(2) > ul li p:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .careersContainer div:nth-of-type(2) > ul li p:last-of-type:not(:last-of-type){
+        margin-bottom: 70px;
+    }
+    /* careers fin */
+    .storesContainer{
+        padding-top: 220px;
+    }
+    .storesContainer h2,
+    .storesContainer div h3{
+        font-size: 40px; font-weight: 600; text-align: center; margin-bottom: 155px;
+    }
+    .storesContainer img,
+    .careersContainer img{
+        width: 100%;
+    }
+    .storesContainer div h3{
+        padding-top: 155px; margin-bottom: 40px;
+    }
+    .storesContainer div .fitvidsBox{
+        max-width: 1440px; margin: 0 auto;
+    }
+    .storesContainer div .fitvidsBox iframe{
+        width: 100%; height: 750px;
+    }
+    .storesContainer div ul:after{
+        display: block; content: ''; clear: both;
+    }
+    .storesContainer div ul{
+        background-color: white; max-width: 1440px; margin: 0 auto; 
+    }
+    .storesContainer div ul ol{
+        list-style: none; padding: 50px 150px; float: left;
+    }
+    .storesContainer div ul ol li:not(:nth-of-type(3)){
+        margin-bottom: 35px;
+    }
+    .storesContainer div ul ol li{
+        line-height: 25px; 
+    }
+    /* store fin */
+    [class^='buy']{
+        max-width: 662px; margin: 0 auto; padding-top: 220px;
+    }
+    [class^='buy'] h2{
+        font-size: 40px; font-weight: 800; text-align: center; margin-bottom: 70px;
+    }
+    [class^='buy'] .stepper{
+        list-style: none; display: flex; justify-content: space-around; margin-bottom: 70px; font-size: 16px; font-weight: 600;
+    }
+    [class^='buy'] .stepper li span{
+        background-color: black; color: white; border-radius: 50%; display: inline-block; line-height: 35px; width: 35px; height: 35px; text-align: center; margin-right: 7px;
+    }
+    [class^='buy'] .payWith{
+        text-align: center; background-color: white; padding: 35px; margin-bottom: 10px;
+    }
+    [class^='buy'] .payWith h3{
+        font-size: 14px; font-weight: 400; margin-bottom: 10px;
+    }
+    [class^='buy'] .payWith p{
+        font-size: 12px; font-weight: 300; color: #6e6e6e; margin-bottom: 25px;
+    }
+    [class^='buy'] .payWith div{
+        display: flex; justify-content: center;
+    }
+    [class^='buy'] .payWith div a:not(:first-of-type){
+        margin-left: 3.5%;
+    }
+    [class^='buy'] fieldset legend{
+        font-size: 12px; font-weight: 400; display: block;
+        position: relative; top: 42px; margin-bottom: 20px;
+    }
+    [class^='buy'] fieldset.orderSummary{
+        display: flex; flex-flow: row wrap; justify-content: space-between;
+    }
+    [class^='buy'] fieldset.orderSummary > *:not(legend){
+        background-color: #eee; margin-bottom: 10px;
+    }
+    [class^='buy'] fieldset.orderSummary div:first-of-type{
+       flex: 1 auto; display: flex; justify-content: space-between;
+       padding: 10px;
+    }
+    [class^='buy'] fieldset.orderSummary div:first-of-type *{
+        align-self: center; font-size: 12px; font-weight: 300;
+    }
+    [class^='buy'] fieldset.orderSummary div:first-of-type~*{
+        flex: 0 1 290px;
+    }
+    [class^='buy'] fieldset.orderSummary ul,
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(2){
+        padding: 10px; box-sizing: border-box;
+    }
+    [class^='buy'] fieldset.orderSummary ul li{
+        display: flex; justify-content: space-between; font-size: 12px;
+    }
+    [class^='buy'] fieldset.orderSummary ul li input{
+        text-align: right;
+    }
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(2){
+        display: flex; justify-content: space-between; line-height: 40px;
+        box-sizing: border-box; font-size: 12px; font-weight: 300;
+    }
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(2) *{
+        align-self: center;
+    }
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(2) input{
+        text-align: right;
+    }
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(3) input[type='text'],
+    [class^='buy'] fieldset.orderSummary div:nth-of-type(4) input[type='text']{
+        line-height: 30px; padding-left: 10px; width: 76.5%;
+    }
+    [class^='buy'] fieldset.orderSummary div input[type='submit']{
+        float: right;
+    }
+    [class^='buy'] fieldset.orderSummary > div span:not(:first-of-type),
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        color: #6e6e6e;
+    }
+    [class^='buy'] fieldset.orderSummary div img,
+    .buyContainer_02 .giftWrapping img{
+        width: 10%;
+    }
+    [class^='buy'] fieldset.orderSummary ul{
+        list-style: none;
+    }
+    .buyContainer p strong{
+        font-size: 15px; font-weight: 600; display: block; margin-bottom: 15px; color: black;
+    }
+    .buyContainer p:not(strong){
+        font-size: 12px; font-weight: 400; color: #6e6e6e; margin-bottom: 10px;
+    }
+    .buyContainer div img{
+        margin-bottom: 10px;
+    }
+    .buyContainer div:nth-of-type(2){
+        background-color: white; padding: 35px; margin-bottom: 10px;
+    }
+    .buyContainer div:nth-of-type(2) span{
+        font-size: 12px; font-weight: 400; color: #6e6e6e; 
+    }
+    .buyContainer div:nth-of-type(2) span:last-of-type{
+        margin-left: 8.5%;
+    }
+    .buyContainer div:nth-of-type(2) span:not(:last-of-type, :first-of-type){
+        margin-left: 4.1%;
+    }
+    .buyContainer form ul{
+        background-color: white; list-style: none; padding: 30px; margin-bottom: 70px;
+    }
+    .buyContainer form ul:after{
+        content: ''; display: block; clear: both;
+    }
+    .buyContainer form ul li{
+        font-size: 12px; line-height: 16px; display: block; float: left; width: 33.33%;
+    }
+    .buyContainer form ul li:not(:nth-child(22), :nth-child(23), :last-child){
+        margin-bottom: 30px;
+    }
+    .buyContainer form ul li span{
+        display: block; padding-left: 23px;
+    }
+    .buyContainer form div:after{
+        content: ''; display: block; clear: both;
+    }
+    .buyContainer form div input[type='reset'],
+    .buyContainer form div a{
+        font-size: 16px; float: right;
+    }
+    .buyContainer form div a{
+        margin-left: 30px; 
+    }
+    /* buy_01 fin */
+    .buyContainer_02 h4{
+        font-size: 14px; font-weight: 400; margin-bottom: 10px;
+    }
+    .buyContainer_02 p:not(ol+p){
+        font-size: 12px; font-weight: 300; color: #6e6e6e; margin-bottom: 10px; line-height: 16px;
+    }
+    .buyContainer_02 input,
+    .buyContainer_03 input,
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        font-size: 12px; font-weight: 300;
+    }
+    .buyContainer_02 #emailAddress,
+    .buyContainer_02 ol+p,
+    .buyContainer_02 .shipping,
+    .buyContainer_02 .selectMethod{
+        margin-bottom: 10px; padding: 35px; background-color: white;
+    }
+    .buyContainer_02 input:not([type='submit'],[type='button']),
+    .buyContainer_03 input:not([type='submit'],[type='button']){
+        background-color: transparent; border: none; 
+    }
+    .buyContainer_02 .shipping input{
+        width: 100%; box-sizing: border-box;
+    } 
+    .buyContainer_02 .shipping form fieldset ul li,
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        background-color: #eeeeee; margin-bottom: 10px;
+    }
+    .buyContainer_02 .stepper li:last-of-type span{
+        background-color: #6e6e6e; 
+    }
+    .buyContainer_02 .stepper li:nth-of-type(2){
+        color: #6e6e6e;
+    }
+    .buyContainer_02 ol+p{
+        font-size: 14px; font-weight: 400; color: black; text-align: center;
+    }
+    .buyContainer_02 .shipping form fieldset ul li input{
+        box-sizing: border-box; line-height: 30px; padding: 0 10px;
+    }
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        padding: 0 10px; box-sizing: border-box;
+    }
+    .buyContainer_02 .shipping form fieldset ul li:nth-child(3),
+    .buyContainer_02 .shipping form fieldset ul li:nth-child(7){
+        line-height: 30px; padding: 0 10px;
+    }
+    .buyContainer_02 .giftWrapping div:first-of-type{
+        display: flex; justify-content: space-between; align-items: center;
+    }
+    .buyContainer_02 .orderSummary{
+        background-color: white; margin-bottom: 10px; padding: 35px;
+        box-sizing: border-box;
+    }
+    .buyContainer_02 #emailAddress div:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .buyContainer_02 #emailAddress div input[type='email']{
+        background-color: #eeeeee; line-height: 30px; padding: 0 10px; width: 100%; box-sizing: border-box;
+    }
+    .buyContainer_02 #emailAddress div label{
+        font-size: 12px; font-weight: 300; color: #6e6e6e;
+    }
+    .buyContainer_02 .shipping form fieldset ul{
+        list-style: none; color: #6e6e6e;
+    }
+    .buyContainer_02 .shipping form fieldset ul li select{
+        border: none; background-color: transparent; color: #6e6e6e; font-size: 12px; font-weight: 300; width: 100%;
+    }
+    .buyContainer_02 .selectMethod p:last-of-type{
+        margin-bottom: 25px;
+    }
+    .buyContainer_02 .selectMethod ul{
+        list-style: none;
+    }
+    .buyContainer_02 .selectMethod ul li{
+        margin-bottom: 15px;
+    }
+    .buyContainer_02 .selectMethod ul li label:checked,
+    .buyContainer_02 .selectMethod ul li input[type="radio"]:checked + label{
+        color: black;
+    }
+    .buyContainer_02 .selectMethod ul li label,
+    .buyContainer_02 .selectMethod ul li span{
+        font-size: 12px; font-weight: 300; color:#6e6e6e; line-height: 15px;
+    }
+    .buyContainer_02 .selectMethod ul li span{
+        display: block; padding-left: 25px;
+    }
+    .buyContainer_02 .giftWrapping{
+        padding: 35px; background-color: white; margin-bottom: 35px;
+    }
+    .buyContainer_02 .giftWrapping div:first-of-type span:first-of-type{
+        color: black;
+    }
+    .buyContainer_02 .giftWrapping div:last-of-type:after{
+        content: ''; display: block; clear: both;
+    }
+    .buyContainer_02 .giftWrapping div:last-of-type textarea{
+        width: 89.75%; padding: 10px; float: left; margin-right: 10px; box-sizing: border-box;
+    }
+    .buyContainer_02 .giftWrapping div:last-of-type textarea::placeholder{
+        font-size: 12px; font-weight: 400;
+    }
+    .buyContainer_02 .giftWrapping div:last-of-type input[type='button']:first-of-type{
+        border: none; background-color: transparent; font-size: 20px; margin-bottom: 51.5px; cursor: pointer;
+    }
+    .buyContainer_02 .continueArea{
+       text-align: center;
+    }
+    /* buy_02 fin */
+    .buyContainer_03 fieldset{
+        background-color: white; margin-bottom: 10px; padding: 35px;
+        box-sizing: border-box;
+    }
+    .buyContainer_03 .stepper li:first-of-type span{
+        background-color: #6e6e6e; 
+    }
+    .buyContainer_03 .stepper li:nth-of-type(1){
+        color: #6e6e6e;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) legend,
+    .buyContainer_03 form fieldset:last-of-type legend{
+        font-size: 14px; font-weight: 400; margin-bottom: 35px;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul{
+        list-style: none;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li input{
+        line-height: 30px; padding: 0 10px; background-color: #eeeeee; 
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:first-child input[type='text']{
+        width: 100%; box-sizing: border-box; margin-bottom: 10px;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul:after{
+        content: ''; display: block; clear: both;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:not(:first-of-type) input[type='text']{
+        width: 23.85%; float: left; 
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:not(:first-of-type) input[type='text']:not([id='expDateMonth']){
+        margin-left: 1.7%;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:nth-of-type(4){
+        margin-bottom: 25px; min-height: 39px; 
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:nth-of-type(4) div img{
+        display: none; margin: 0 auto;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:nth-of-type(4) div:hover img{
+        display: block;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:nth-of-type(4) div input[type='button']{
+        border: none; background-color: transparent; padding: 0; width: 14.9%; text-align: right; cursor: pointer;
+    }
+    .buyContainer_03 form fieldset:nth-of-type(2) ul li:last-of-type label{
+        font-size: 12px; font-weight: 300;
+    }
+    .buyContainer_03 form fieldset:last-of-type ul{
+        list-style: none; 
+    }
+    .buyContainer_03 form fieldset:last-of-type ul li{
+        background-color: #eeeeee; padding: 10px;
+    }
+    .buyContainer_03 form fieldset:last-of-type ul li:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .buyContainer_03 form fieldset:last-of-type ul li strong{
+        font-size: 12px; font-weight: 400; display: block; margin-bottom: 15px;
+    }
+    .buyContainer_03 form fieldset:last-of-type ul li span,address{
+        font-size: 10px; font-weight: 300; display: block; 
+    }
+    .buyContainer_03 form fieldset:last-of-type ul li span:not(:last-of-type),address:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    .buyContainer_03 .placeArea{
+        padding-top: 35px; text-align: center;
+    }
+    .buyContainer_03 .placeArea a{
+        margin-bottom: 15px;
+    }
+    .buyContainer_03 .placeArea p{
+        font-size: 12px; font-weight: 400;
+    }
+    /* buy_03 fin */
+    #forgotPW{
+        display: none; position:fixed; z-index: 1; bottom: 0;
+    }
+    #forgotPW.active{
+        display: block; background-color: white; width: 100%; text-align: center; padding: 60px 0;
+    }
+    #forgotPW.active h3{
+        font-size: 24px; font-weight: 400; margin-bottom: 40px;
+    }
+    #forgotPW.active p{
+        font-size: 17px; font-weight: 400; color:#6e6e6e; margin-bottom: 15px;
+    }
+    #forgotPW.active input[type='email']{
+        width: 100%; max-width: 650px; line-height: 40px; padding: 0 10px; box-sizing: border-box; font-size: 17px; font-weight: 400; color:#6e6e6e; margin-bottom: 70px; 
+    }
+    #forgotPW.active input[type='submit']{
+        display: block; margin: 0 auto;
+    }
+    .loginContainer input:not([type='submit']){
+        font-size: 12px; font-weight: 300; border: none; background-color: #eeeeee; line-height: 30px; padding: 0 10px; box-sizing: border-box;
+    }
+    .loginContainer > div{
+        background-color: white; padding: 50px; display: flex; justify-content: space-between;
+    }
+    .loginContainer div div{
+        width: 50%;
+    }
+    .loginContainer div .loginArea{
+        border-right: 1px solid #eeeeee; padding-right: 5.6%;
+    }
+    .loginContainer div .loginArea b,
+    .loginContainer .createArea b{
+        font-size: 15px; font-weight: 600; display: block; margin-bottom: 15px; text-align: center;
+    }
+    .loginContainer div .loginArea p{
+        font-size: 12px; font-weight: 400; margin-bottom: 35px; text-align: center;
+    }
+    .loginContainer div .loginArea form fieldset ul{
+        list-style: none;
+    }
+    .loginContainer div .loginArea form fieldset ul li:nth-child(1){
+        margin-bottom: 15px;
+    }
+    .loginContainer div .loginArea form fieldset ul li:nth-child(2){
+        margin-bottom: 25px;
+    }
+    .loginContainer div .loginArea form fieldset ul li input[type='email'], [type='password']{
+        width: 100%;
+    }
+    .loginContainer div .loginArea form fieldset ul li:after{
+        content: ''; display: block; clear: both;
+    }
+    .loginContainer div .loginArea form fieldset ul li input[type='submit']{
+        float: right;
+    }
+    .loginContainer div .loginArea form fieldset ul li label{
+        font-size: 12px; font-weight: 300;
+    }
+    .loginContainer div .loginArea form fieldset ul li:nth-child(3){
+        margin-bottom: 25px;
+    }
+    .loginContainer div .loginArea form fieldset ul li:last-child{
+        display: block; text-align: center;
+    }
+    .loginContainer div .loginArea form fieldset ul li:last-child input[type='button']{
+        font-size: 12px; font-weight: 300; background-color: transparent; padding: 0; color: #6e6e6e; text-decoration: underline; cursor: pointer;
+    }
+    .loginContainer .createArea{
+        padding-left: 5.6%;
+    }
+    .loginContainer .createArea p{
+        font-size: 12px; font-weight: 300; line-height: 20px; max-width: 285px; text-align: center; margin: 0 auto; margin-bottom: 25px;
+    }
+    .loginContainer .createArea a{
+        display: block; margin: 0 auto;
+    }
+    /* login fin */
+    .loginMyContainer div{
+        background-color: white; padding: 50px; 
+    }
+    .loginMyContainer div p:first-child{
+        font-size: 15px; font-weight: 600; margin-bottom: 35px; text-align: center; line-height: 20px;
+    }
+    .loginMyContainer div fieldset{
+        border: 1px solid black; padding: 10px; margin-bottom: 25px; position: relative;
+    }
+    .loginMyContainer div fieldset legend{
+        font-size: 12px; font-weight: 400; margin-bottom: 10px; width: 100%; float: left;
+    }
+    .loginMyContainer div fieldset ul{
+        list-style: none;
+    }
+    .loginMyContainer div fieldset ul li{
+        margin-bottom: 5px;
+    }
+    .loginMyContainer div fieldset ul li label,
+    .loginMyContainer div fieldset p{
+        font-size: 10px; font-weight: 300;
+    }
+    .loginMyContainer div fieldset ul li input{
+        border: none; font-size: 10px; font-weight: 300;
+    }
+    .loginMyContainer div fieldset a{
+        text-decoration: none; color: black; font-size: 12px; font-weight: 300; position: absolute; top: 10px; right: 10px;
+    }
+    .loginMyContainer div fieldset:last-of-type{
+        margin-bottom: 70px;
+    }
+    .loginMyContainer div:after{
+        content: ''; display: block; clear: both;
+    }
+    .loginMyContainer div a:last-of-type{
+        float: right;
+    }
+    /* loginMy fin */
+    .loginSignUpContainer > div{
+        background-color: white; padding: 50px; display: flex; justify-content: space-between;
+    }
+    .loginSignUpContainer div form, .accountArea{
+        width: 50%;
+    }
+    .loginSignUpContainer div form{
+        border-right: 1px solid #eeeeee; padding-right: 5.6%;
+    }
+    .loginSignUpContainer div div{
+        padding-left: 5.6%;
+    }
+    .loginSignUpContainer div form fieldset ul{
+        list-style: none;
+    }
+    .loginSignUpContainer div form fieldset legend{
+        font-size: 15px; font-weight: 600; text-align: center; margin-bottom: 35px;
+    }
+    .loginSignUpContainer div form fieldset ul li input{
+        border: none; background-color: #eeeeee; 
+    }
+    .loginSignUpContainer div form fieldset ul li input:not([id='confirmPassword'],[id='signCheck']){
+        margin-bottom: 15px;
+    }
+    .loginSignUpContainer div form fieldset ul li input:not([id='signCheck']){
+        line-height: 30px; padding: 0 10px; width: 100%; box-sizing: border-box;
+    }
+    .loginSignUpContainer div form fieldset ul li input[id='confirmPassword']{
+        margin-bottom: 25px;
+    }
+    .loginSignUpContainer div form fieldset ul li label{
+        margin-bottom: 25px; font-size: 12px; font-weight: 300; color: #6e6e6e;
+    }
+    .loginSignUpContainer div .accountArea{
+        text-align: center; display: flex; justify-content: center; align-items: center; flex-direction: column;
+    }
+    .loginSignUpContainer div .accountArea h3{
+        margin-bottom: 25px;
+    }
+    .loginSignUpContainer div form fieldset ul li:nth-of-type(6){
+        margin-bottom: 25px;
+    }
+    .loginSignUpContainer div form fieldset ul li:last-of-type a{
+        width: 100%; box-sizing: border-box;
+    }
+    /* loginSignUp fin */
+    .loginMyChangeContainer > div{
+        background-color: white; padding: 50px; text-align: center;
+    }
+    .loginMyChangeContainer > div form fieldset legend{
+        font-size: 15px; font-weight: 600; margin-bottom: 35px;
+    }
+    .loginMyChangeContainer > div form fieldset ul{
+        list-style: none;
+    }
+    .loginMyChangeContainer > div form fieldset ul li input{
+        width: 100%; box-sizing: border-box; border: none; background-color: #eeeeee; line-height: 30px; padding: 0 10px;
+    }
+    .loginMyChangeContainer > div form fieldset ul li:not(:last-of-type) input{
+        margin-bottom: 15px;
+    }
+    .loginMyChangeContainer > div form fieldset ul li:last-of-type{
+        margin-bottom: 50px;
+    }
+    .loginMyChangeContainer a{
+        width: 100%; box-sizing: border-box; margin-bottom: 15px;
+    }
+    .loginMyChangeContainer input[type='reset']{
+        border: none; background-color: transparent; font-size: 12px; font-weight: 400; cursor: pointer;
+    }
+    /* loginMyChangeContainer fin */
+    .orderstatusContainer > div{
+        background-color: white; display: flex; justify-content: space-between; padding: 35px;
+    }
+    .orderstatusContainer > div div{
+        width: 50%;
+    }
+    .orderstatusContainer div .orderAccountArea{
+        border-right: 1px solid #eeeeee; padding-right: 5.6%;
+    }
+    .orderstatusContainer div .orderEmailArea{
+        padding-left: 5.6%;
+    }
+    .orderstatusContainer b,
+    .orderstatusContainer p{
+        text-align: center; display: block;
+    }
+    .orderstatusContainer b{
+        font-size: 15px; font-weight: 600; margin-bottom: 15px;
+    }
+    .orderstatusContainer p{
+        font-size: 12px; font-weight: 400; margin-bottom: 35px;
+    }
+    .orderstatusContainer ul{
+        list-style: none;
+    }
+    .orderstatusContainer ul li label{
+        font-size: 12px; font-weight: 300; color: #6e6e6e;
+    }
+    .orderstatusContainer ul li input{
+        border: none; background-color: #eeeeee; padding: 10px; 
+    }
+    .orderstatusContainer ul li input:not([type='checkbox']){
+        width: 100%; box-sizing: border-box;
+    }
+    .orderstatusContainer ul li input[type='email']{
+        margin-bottom: 10px;
+    }
+    .orderstatusContainer ul li input[type='password'],
+    .orderstatusContainer ul li input[type='text']{
+        margin-bottom: 25px;
+    }
+    .orderstatusContainer ul li:after{
+        display: block; content: ''; clear: both;
+    }
+    .orderstatusContainer ul li a{
+        float: right;
+    }
+    .orderstatusContainer .orderAccountArea ul li:nth-of-type(3){
+        margin-bottom: 30px;
+    }
+    .orderstatusContainer .orderAccountArea input[type='button']{
+        background-color: transparent; text-decoration: underline; font-size: 12px; font-weight: 300; color: #6e6e6e; cursor: pointer;
+    }
+    /* orderstatusContainer fin */
+    .orderstatusMyOrdersContainer{
+        max-width: 930px; margin: 0 auto;
+    }
+    .orderstatusMyOrdersContainer table caption{
+        display: none;
+    }
+    /* 보류*/
+    .customerServiceContainer > div{
+        background-color: white; padding: 50px; line-height: 16px;
+    }
+    .customerServiceContainer > div strong{
+        font-size: 15px; font-weight: 600; display: block; margin-bottom: 35px; color: black;
+    }
+    .customerServiceContainer > div:not(strong){
+        font-size: 10px; font-weight: 300; color: #6e6e6e;
+    }
+    .customerServiceContainer > div p:first-of-type{
+        margin-bottom: 25px;
+    }
+    .customerServiceContainer > div ol li:not(:last-of-type){
+        color: black; margin-bottom: 15px;
+    }
+    .customerServiceContainer > div ol{
+        color: black; margin-bottom: 25px;
+    }
+    /* customerServiceContainer fin */
+    .privacyServiceContainer div{
+        background-color: white; padding: 50px;
+    }
+    .privacyServiceContainer div strong{
+        font-size: 15px; font-weight: 600; color: black; margin-bottom: 35px; display: block;
+    }
+    .privacyServiceContainer div p{
+        margin-bottom: 25px; font-size: 10px; font-weight: 300; color: #6e6e6e; line-height: 16px;
+    }
+    .privacyServiceContainer div p:last-of-type{
+        margin: 0;
+    }
+    .privacyServiceContainer div p > b{
+        color: black; display: block; margin-bottom: 15px; font-size: 10px; font-weight: 400;
+    }
+    /* privacyServiceContainer fin */
+    .sitemapContainer{
+        max-width: 760px; margin: 0 auto;
+    }
+    .sitemapContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .sitemapContainer > div{
+        width: 25%; float: left; 
+    }
+    .sitemapContainer > div strong{
+        display: block; margin-bottom: 25px; font-size: 15px; font-weight: 600;
+    }
+    .sitemapContainer > div ul{
+        list-style: none; 
+    }
+    .sitemapContainer > div ul li a{
+        text-decoration: none; color: black; font-size: 12px; font-weight: 400;
+    }
+    .sitemapContainer > div ul li:not(:last-of-type){
+        margin-bottom: 10px;
+    }
+    /* sitemapContainer fin */
+    .wishlistsContainer{
+        max-width: 930px; margin: 0 auto;
+    }
+    .wishlistsContainer ul{
+        list-style: none; margin-bottom: 70px;
+    }
+    .wishlistsContainer ul:after,
+    .wishlistsContainer ul li figure:after{
+        content: ''; display: block; clear: both;
+    }
+    .wishlistsContainer ul li > *,
+    .wishlistsContainer ul li figure > *{
+        float: left;
+    }
+    .wishlistsContainer ul li:first-of-type{
+        padding-bottom: 40px; border-bottom: 1px solid black;
+    }
+    .wishlistsContainer ul li > :first-child{
+        width: 51%; margin-right: 23%;
+    }
+    .wishlistsContainer ul li > :not(:first-child){
+        width: 13%;
+    }
+    .wishlistsContainer ul li span{
+        display: block;
+    }
+    .wishlistsContainer ul li figure img{
+        max-width: 130px; width: 28%;
+    }
+    .wishlistsContainer ul li figure figcaption{
+        margin-left: 32%; width: 40%;
+    }
+    .wishlistsContainer ul li:first-of-type{
+        padding-bottom: 50px; border-bottom: 1px solid black; margin-bottom: 25px; 
+    }
+    .wishlistsContainer div{
+        text-align: center;
+    }
+    .wishlistsContainer ul li dl dt{
+        margin-bottom: 25px; font-size: 14px; font-weight: 400;
+    }
+    .wishlistsContainer ul li dl dd{
+        margin-bottom: 25px; font-size: 14px; font-weight: 400; color: #6e6e6e;
+    }
+    .wishlistsContainer ul li input[type='reset']{
+        border: none; background-color: transparent; text-decoration: underline; padding: 0; color:#6e6e6e;
+    }
+    .wishlistsContainer ul li:last-of-type span{
+        font-size: 14px; font-weight: 300;
+    }
+    /* wishlistContainer fin */
+    .orderstatusMyOrdersContainer{
+        max-width: 930px; margin: 0 auto;
+    }
+    .orderstatusMyOrdersContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .orderstatusMyOrdersContainer table{
+        float: left; width: 100%; text-align: left; font-size: 14px; font-weight: 300; 
+    }
+    .orderstatusMyOrdersContainer table thead tr th{
+        font-size: 14px; font-weight: 300; padding-bottom: 30px;
+    }
+    .orderstatusMyOrdersContainer table tbody tr:first-of-type td{
+        padding-bottom: 20px; padding-top: 20px;
+    }
+}
+/* desktop */

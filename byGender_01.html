@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bond No.9</title>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/core.js"></script>
+    <link rel="stylesheet" href="css/import.css" />
+  </head>
+  <body>
+    <div id="searchArea">
+       <input type="search" placeholder="search">
+       <input type="button" value="X" class="btn_close"/>
+    </div>
+    <header>
+      <div class="poppins">
+        <input type="button" value="mui" class="muiArea" data-popName="muiArea">
+        <h1>
+            <a href="index.html">
+                <img src="images/logo.png" alt="welcome to bondno9">
+            </a>
+        </h1>
+        <nav id="muiArea">
+            <ul >
+                <li>
+                  SHOP
+                    <ol>
+                        <li>
+                            <a href="eauDeParfum.html">EAU DE PARFUM</a>
+                            <a href="byGender_01.html">BY GENDER</a>
+                            <a href="byScentType.html">BY SCENT TYPE</a>
+                        </li>
+                        <li>
+                            <a href="theDubaiCollection.html">THE DUBAI COLLECTION</a>
+                            <a href="ecoChic.html">ECO CHIC</a>
+                        </li>
+                        <li>
+                            <a href="harrods.html">HARRODS</a>
+                            <a href="saksFifthAve.html">SAKS FIFTH AVE</a>
+                        </li>
+                    </ol>
+                <li><a href="whatsNew.html">WHAT'S NEW</a></li>
+                <li><a href="bestSellers.html">BEST SELLERS</a></li>
+                <li><a href="gifts.html">GIFTS</a></li>
+                <li>
+                  ABOUT
+                  <ol>  
+                    <li><a href="philosophy.html">PHILOSOPHY</a></li>
+                    <li><a href="careers.html">	CAREERS</a></li>
+                    <li><a href="storeLocations.html">STORES</a></li>
+                  </ol>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <a href="login.html">LOG IN</a>
+            <input type="button" value="search" data-popName="searchArea" class="btn_open">
+            <a href="buy_01.html">shop</a>
+        </div>
+    </div>
+    </header>
+    <!-- header fin -->
+
+    <section class="byGenderContainer">
+      <div class="listHeader">
+        <ol>
+          <li class="poppins"><a href="index.html">HOME</a></li>
+          <li class="poppins"><a href="byGender_01.html">BY GENDER</a></li>
+        </ol>
+        <h2 class="nanum">BY GENDER</h2>
+        <p class="poppins">
+          Find items that can be matched daily on BONDNO9. <br> Delicate design, aroma,
+          and characteristics <br> go well with daily look and personality.
+        </p>
+      </div>
+      <div class="sortBar poppins">
+        <div>
+          <form>
+            <fieldset>
+              <label for="filterBy">FILTER BY</label>
+              <input type="button" id="filterBy" value="Neighborhood" data-panelName="firstCondition" class="poppins"/>
+              <input type="button" value="Gender" data-panelName="secondCondition" class="poppins"/>
+              <input type="button" value="Scent Type" data-panelName="thirdCondition" class="poppins"/>
+              <input type="button" value="Price" data-panelName="fourthCondition" class="poppins"/>
+              <input type="submit" value="APPLY" class="poppins btn_small"/>
+            </fieldset>
+            <div id="firstCondition">
+              <ol>
+                <li>
+                  <input type="checkbox" id="neighborhood_op1" />
+                  <label for="neighborhood_op1">Uptown</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="neighborhood_op2" />
+                  <label for="neighborhood_op2">Midtown</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="neighborhood_op3" />
+                  <label for="neighborhood_op3">Downtown</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="neighborhood_op4" />
+                  <label for="neighborhood_op4">Beaches</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="neighborhood_op5" />
+                  <label for="neighborhood_op5">Beach</label>
+                </li>
+                <li>
+                  <input type="button" value="X" class="btn_close" />
+                </li>
+              </ol> 
+            </div>
+            <div id="secondCondition">
+              <ol>
+                <li>
+                  <input type="checkbox" id="Gender_op1" />
+                  <label for="Gender_op1">Womens</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="Gender_op2" />
+                  <label for="Gender_op2">Mens</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="Gender_op3" />
+                  <label for="Gender_op3">Unisex</label>
+                </li>
+                <li>
+                  <input type="button" value="X" />
+                </li>
+              </ol>
+            </div>
+            <div id="thirdCondition">
+              <ol>
+                <li>
+                  <input type="checkbox" id="ScentType_op1" />
+                  <label for="ScentType_op1">Floral</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="ScentType_op2" />
+                  <label for="ScentType_op2">Woody &amp; Earthy</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="ScentType_op3" />
+                  <label for="ScentType_op3">Warm &amp; Spicy</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="ScentType_op4" />
+                  <label for="ScentType_op4">Fresh</label>
+                </li>
+                <li>
+                  <input type="button" value="X" />
+                </li>
+              </ol>      
+            </div>
+            <div id="fourthCondition">
+              <ol>
+                <li>
+                  <input type="checkbox" id="Price_op1" />
+                  <label for="Price_op1">Under $150</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="Price_op2" />
+                  <label for="Price_op2">$150 - $300</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="Price_op3" />
+                  <label for="Price_op3">$300 - $500</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="Price_op4" />
+                  <label for="Price_op4">$500 - $1000</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="Price_op5" />
+                  <label for="Price_op5">$1000+</label>
+                </li>
+                <li>
+                  <input type="button" value="X" />
+                </li>
+              </ol>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="listpage poppins">
+        <span>131 Results</span>
+        <ul>
+          <li>
+            <img src="images/product_10.png" alt="pro_10" />
+            <h3>THE SCENT OF PEACE NATURAL</h3>
+            <div>
+              <p>Lemon Essential Oil, <br> Blackcurrant Bud Absolute, <br> Raspberry, <br> Rose Damascena Essential, <br> Oil Cedarwood Essential Oil <br> &amp; Musk</p>
+              <a href="detail_131.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>THE SCENT OF PEACE NATURAL</dt>
+                <dd>$ 480.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <img src="images/gif_product_12.gif" alt="gif_pro_12" />
+            <h3>DUBAI DIAMOND EMERALD</h3>
+            <div>
+              <p>Davana Flowers, <br> Saffron, PatchouliRose, <br> Oud, Amber, <br> Leather and Sandalwood</p>
+              <a href="detail_130.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>DUBAI DIAMOND EMERALD</dt>
+                <dd>$ 950.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <img src="images/gif_product_11.gif" alt="gif_pro_11" />
+            <h3>GREENWICH VILLAGE BEJEWELED WITH SWAROVSKI® CRYSTALS</h3>
+            <div>
+              <p>Jasmine, Saffron, <br> Lychee, Apricot, Red Apple, <br> Rose Essence, Watermelon</p>
+              <a href="detail_129.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>GREENWICH VILLAGE BEJEWELED <br> WITH SWAROVSKI® CRYSTALS</dt>
+                <dd>$ 1000.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <img src="images/gif_product_10.gif" alt="pro_g_10" />
+            <h3>NoMad LIMITED EDITION WITH SWAROVSKI® CRYSTALS</h3>
+            <div>
+              <p>Pear, quince, black currant, <br> violet leaves, oud accord, <br> rose, amber, vanilla</p>
+              <a href="detail_128.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>NoMad LIMITED EDITION <br> WITH SWAROVSKI® CRYSTALS</dt>
+                <dd>$ 550.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <img src="images/product_46.png" alt="pro_46" />
+            <h3>NoMad</h3>
+            <div>
+              <p>Pear, quince, black currant, <br> violet leaves, oud accord, <br> rose, amber, vanilla</p>
+              <a href="detail_127.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>NoMad</dt>
+                <dd>$ 440.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <img src="images/gif_product_09.gif" alt="pro_g_09" />
+            <h3>GREENWICH VILLAGE LIMITED EDITION WITH SWAROVSKI® CRYSTALS</h3>
+            <div>
+              <p>Cassis, Lychee, Mandarin, <br> Peony, Waterlily, Patchouli, <br> Jasmine Petals, Ambrox, <br> Peach Musk, Vanilla, <br> Oak Moss, and Praline</p>
+              <a href="detail_126.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>
+                  GREENWICH VILLAGE LIMITED EDITION <br> WITH SWAROVSKI® CRYSTALS
+                </dt>
+                <dd>$ 485.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li class="shopArea">
+            <img src="images/bg_17.png" alt="bg_17" />
+            <h4>BY GENDER</h4>
+            <a href="byGender_01.html" class="btn_small">Shop now</a>
+          </li>
+          <li>
+            <img src="images/product_34.png" alt="pro_34" />
+            <h3>OFF-BROADWAY LIMITED EDITION WITH LIPSTICK</h3>
+            <div>
+              <p>Grapefruit blossom, <br> black currant, lily, <br> osmanthus, nutmeg, musk, patchouli, <br> sandalwood, and vetiver</p>
+              <a href="detail_125.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>OFF-BROADWAY LIMITED EDITION <br> WITH LIPSTICK</dt>
+                <dd>$ 440.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <img src="images/product_33.png" alt="pro_33" />
+            <h3>OFF-BROADWAY</h3>
+            <div>
+              <p>Grapefruit blossom, <br> black currant, lily, <br> osmanthus, nutmeg, musk, patchouli, <br> sandalwood, and vetiver</p>
+              <a href="detail_124.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>OFF-BROADWAY</dt>
+                <dd>$ 440.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <img src="images/gif_product_08.gif" alt="pro_g_08" />
+            <h3>BOND NO.9 DUBAI BLUE DIAMOND</h3>
+            <div>
+              <p>Fresh Ginger, <br> Tonka Beans, Sandalwood <br> and Patchouli</p>
+              <a href="detail_123.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>BOND NO.9 DUBAI BLUE DIAMOND</dt>
+                <dd>$ 950.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <img src="images/gif_product_07.gif" alt="pro_g_07" />
+            <h3>MY NEW YORK LIMITED EDITION WITH SWAROVSKI® CRYSTALS</h3>
+            <div>
+              <p>Ginger Essence, <br> Pink Pepper Essence, <br> Elemi Essence, <br> Rose Absolute, Rose Essence</p>
+              <a href="detail_122.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>MY NEW YORK LIMITED EDITION <br> WITH SWAROVSKI® CRYSTALS</dt>
+                <dd>$ 480.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <img src="images/product_60.png" alt="pro_60" />
+            <h3>MY NEW YORK</h3>
+            <div>
+              <p>Ginger Essence, <br> Pink Pepper Essence, <br> Elemi Essence, <br> Rose Absolute, Rose Essence</p>
+              <a href="detail_121.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>MY NEW YORK</dt>
+                <dd>$ 440.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <img src="images/gif_product_06.gif" alt="pro_g_06" />
+            <h3>TRIBECA WITH SWAROVSKI® CRYSTALS</h3>
+            <div>
+              <p>Cacao Absolute, <br> Green Hazelnut, <br> Jasmine Sambac Absolute, <br> Cedarwood, Ambroxan, <br> Moss, Caramel</p>
+              <a href="detail_120.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>TRIBECA WITH SWAROVSKI® CRYSTALS</dt>
+                <dd>$ 485.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <img src="images/product_12.png" alt="pro_12" />
+            <h3>TRIBECA</h3>
+            <div>
+              <p>Cacao Absolute, <br> Green Hazelnut, <br> Jasmine Sambac Absolute, <br> Cedarwood, Ambroxan, <br> Moss, Caramel</p>
+              <a href="detail_119.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>TRIBECA</dt>
+                <dd>$ 440.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <img src="images/product_99.png" alt="pro_99" />
+            <h3>BOND NO. 9 DUBAI DIAMOND</h3>
+            <div>
+              <p>Saffron, Rose, <br> Patchouli, Jasmine, <br> Musk and Amber</p>
+              <a href="detail_118.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>BOND NO. 9 DUBAI DIAMOND</dt>
+                <dd>$ 950.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <img src="images/product_22.png" alt="pro_22" />
+            <h3>COUTURE WITH SWAROVSKI® CRYSTALS</h3>
+            <div>
+              <p>Rose, Patchouli, <br> JasmineGinger Essence, <br> Pink Pepper Essence, <br> Elemi Essence</p>
+              <a href="detail_117.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>COUTURE WITH SWAROVSKI® CRYSTALS</dt>
+                <dd>$ 850.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li>
+            <img src="images/product_94.png" alt="pro_94" />
+            <h3>FIDI</h3>
+            <div>
+              <p>Madagascar Black Pepper, <br> Bergamot, Mandarin, <br> Nutmeg, Lotus Flower, <br> Cedarwood Essence, <br> Vanilla and Musk</p>
+              <a href="detail_112.html" class="btn_black">Detail</a>
+              <dl>
+                <dt>FIDI</dt>
+                <dd>$ 420.00</dd>
+              </dl>
+            </div>
+          </li>
+          <li class="shopArea">
+            <img src="images/bg_18.png" alt="bg_18" />
+            <h4>Women’s Luxetrio</h4>
+            <a href="bestSellers.html" class="btn_small">Shop now</a>
+          </li>
+        </ul>
+        <!-- list fin -->
+        <div class="showing poppins">
+          <p>Showing 16 of 131 products</p>
+        </div>
+        <div class="paging poppins">
+          <a href="#">&lt;</a>
+          <a href="#">&gt;</a>
+          <ol>
+            <li><a href="byGender_01.html">1</a></li>
+            <li><a href="byGender_02.html">2</a></li>
+            <li><a href="byGender_03.html">3</a></li>
+            <li><a href="byGender_04.html">4</a></li>
+            <li><a href="byGender_05.html">5</a></li>
+            <li><a href="byGender_06.html">6</a></li>
+            <li><a href="byGender_07.html">7</a></li>
+            <li><a href="byGender_08.html">8</a></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <!-- section fin -->
+
+    <footer>
+      <div>
+        <h2>
+          <img src="images/logo.png" alt="footer_logo" />
+        </h2>
+        <p>
+          <strong>CONTACT US</strong>
+          Monday-Friday 10am-7pm ET
+          <a href="tel:+6462849009">(646) 284-9009</a>
+          <a href="mailto:contactus@bondno9.com">contactus@bondno9.com</a>
+          Text Us:
+          <a href="tel:+8565148687">(856) 514-8687</a>
+        </p>
+      </div>
+      <div>
+        <strong>SIGN UP FOR BOND NO.9 EMAILS</strong>
+        <form>
+          <input
+            type="email"
+            placeholder="Enter email address"
+            title="Enter email address"
+          /><input type="submit" title="JOIN" />
+        </form>
+      </div>
+      <ul>
+        <li><a href="orderstatus.html">ORDER STATUS</a></li>
+        <li><a href="storeLocations.html">STORE LOCATIONS</a></li>
+        <li><a href="customerService.html">CUSTOMER SERVICE</a></li>
+        <li><a href="privacyPolicy.html">PRIVACY POLICY</a></li>
+        <li><a href="siteMap.html">SITE MAP</a></li>
+      </ul>
+      <div>
+        <p>
+          <span>Copyright ⓒ 2022 Bondno.9. All rights reserved.</span>
+          BONDNO.9 and the SWAN logo are registered and trademarks of Bondno.9
+          AG.
+        </p>
+        <span>
+          <a href="https://www.facebook.com/BondNo9">facebook</a>
+          <a href="https://instagram.com/bondno9ny">instagram</a>
+          <a href="https://www.youtube.com/user/bond9nyc">youtube</a>
+        </span>
+      </div>
+    </footer>
+    <!-- footer fin -->
+  </body>
+</html>
